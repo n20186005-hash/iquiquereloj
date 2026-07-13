@@ -1,0 +1,410 @@
+{
+  "meta": {
+    "title": "Clock Tower | Iquique, Chile",
+    "description": "The complete guide to the Iquique Clock Tower: nitrate-boom history, Oregon-pine architecture, photos, visitor reviews and how to get there in Chile's Tarapacá Region."
+  },
+  "header": {
+    "siteName": "Clock Tower",
+    "home": "Home",
+    "visit": "Visit",
+    "transport": "Getting Here",
+    "history": "History",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "faq": "FAQ",
+    "map": "Map",
+    "backToHome": "Back to Home"
+  },
+  "common": {
+    "changeLanguage": "Switch language",
+    "toggleTheme": "Toggle theme"
+  },
+  "hero": {
+    "title": "Clock Tower",
+    "subtitle": "An 1877 urban landmark at the heart of Plaza Arturo Prat: the Clock Tower, a wooden symbol of Iquique's nitrate-boom glory.",
+    "rating": "4.5 (11,533)",
+    "reviewCount": "11,533 reviews",
+    "hours": "Open 24 hours",
+    "openMaps": "View on Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
+    "tags": ["Open 24 hours", "Free entry", "Iquique historic centre"],
+    "routeCta": {
+      "label": "Plan Your Route",
+      "href": "#transport"
+    },
+    "historyCta": {
+      "label": "Explore The History",
+      "href": "#history"
+    }
+  },
+  "intro": {
+    "title": "Discover the Clock Tower",
+    "description": "The Iquique Clock Tower is one of the city's most recognisable images. Raised in 1877 at the height of the nitrate boom, when Iquique was among the richest saltpetre ports in the world, the tower stands in Plaza Arturo Prat, facing the Baquedano pedestrian promenade. It is not built of stone or brick: it was made with Oregon pine shipped in from the north, a precious timber on the desert coast. With its Moorish style and a clock that still keeps the hours, it is a living witness to the golden age of saltpetre and a must for anyone walking the historic centre of Iquique.",
+    "visitGuide": {
+      "title": "Visitor Guide",
+      "eyebrow": "Practical Planning",
+      "description": "As a public square open 24 hours, the Clock Tower can be visited at any time; the best light and fewest crowds are usually early in the morning.",
+      "items": [
+        "The visit is quick: 15 to 30 minutes is enough to photograph the tower, walk the plaza and read the historical signage.",
+        "It stands in Plaza Arturo Prat, on Baquedano street, a few steps from the Baquedano Promenade and the Municipal Theatre.",
+        "The square is flat and walkable, but has no shade: in Iquique the sun is fierce, so bring a hat and sunscreen.",
+        "Pair it with a walk through the historic district and the seafront toward Playa Cavancha."
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Highlights",
+      "items": [
+        "1877 landmark built with imported Oregon pine",
+        "A symbol of Iquique's nitrate boom in Moorish style",
+        "Public square open 24 hours, free entry",
+        "In the heart of the historic centre, beside the Municipal Theatre"
+      ]
+    }
+  },
+  "transportSection": {
+    "title": "How to Reach the Clock Tower",
+    "subtitle": "Iquique has no train or rail service; the real decision is how to reach the city and then move around the centre on foot, by taxi or by city bus.",
+    "overviewTitle": "Start with your arrival point",
+    "overviewText": "Apart from the overland border crossing, Iquique is reached by plane or long-distance bus. Diego Aracena Airport (IQQ) is about 45 km south of the centre; the Iquique Bus Terminal is in the city. Once here, the tower is in the flat, compact centre, so on foot, by colectivo, taxi or city bus you arrive in just a few minutes.",
+    "arrivalTitle": "Know this before you set out",
+    "arrivalItems": [
+      "The tower is in Plaza Arturo Prat, on Baquedano: the whole historic centre is walkable.",
+      "Diego Aracena Airport is about 45 km south; the bus terminal lies within the urban area.",
+      "In January, February and on holidays the city fills up with the free port (Zofri) and summer visitors: book flights and lodging well ahead."
+    ],
+    "modes": [
+      {
+        "label": "Arrival by plane",
+        "icon": "✈️",
+        "title": "Plane to Diego Aracena Airport (IQQ)",
+        "description": "For those coming from far away, flying is the most comfortable way to reach Iquique.",
+        "details": [
+          "Diego Aracena Airport (IQQ) is about 45 km south of the city centre.",
+          "There are daily flights from Santiago, Antofagasta and Arica; in season other cities also connect.",
+          "From the airport, a taxi or transfer to the centre and Plaza Prat takes between 40 and 50 minutes."
+        ]
+      },
+      {
+        "label": "Long-distance bus",
+        "icon": "🚌",
+        "title": "Long-distance Bus",
+        "description": "The bus is the budget option to reach Iquique from the rest of Chile.",
+        "details": [
+          "The Iquique Bus Terminal receives services from Pullman, Condor, Tur Bus and other lines.",
+          "From Santiago the trip is long (over 24 h); many combine via Antofagasta or Arica.",
+          "From the terminal, a colectivo or taxi drops you at Plaza Arturo Prat in a few minutes."
+        ]
+      },
+      {
+        "label": "Within the city",
+        "icon": "🚕",
+        "title": "Taxi, colectivo and city bus",
+        "description": "For the last stretch, Iquique's urban transport is fast and cheap.",
+        "details": [
+          "The colectivo (shared taxi) is the cheapest way to move around the centre.",
+          "Taxis and the city bus connect the airport, the terminal and Plaza Arturo Prat.",
+          "Baquedano Promenade is pedestrian, so get off a block from the tower and walk."
+        ]
+      },
+      {
+        "label": "Walking or cycling",
+        "icon": "🚶",
+        "title": "Walking or cycling",
+        "description": "Central Iquique is flat and compact, ideal to explore on foot or by bike.",
+        "details": [
+          "From the seafront you can walk or pedal along the Baquedano Promenade to the plaza.",
+          "The coastal bike path reaches Playa Cavancha, linking the historic and the beach sides.",
+          "The square is accessible and level, perfect for wheelchairs and strollers."
+        ]
+      }
+    ],
+    "localTipsTitle": "Tips for your visit",
+    "localTips": [
+      "The square has no shade: wear a hat, sunglasses and high-factor sunscreen.",
+      "As the tower is always open, the best light for photos is before 10:00 or at sunset.",
+      "In January and February the centre fills with visitors and free-port shoppers: go early."
+    ],
+    "mapsCta": "View Map & Route",
+    "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A"
+  },
+  "officialManagement": {
+    "title": "About the Tower",
+    "text": "The Clock Tower is a heritage landmark of Iquique's historic centre, tied to the nitrate boom of the 19th century. Built in 1877 with Oregon pine brought by sea, it is part of the historic ensemble surrounding Plaza Arturo Prat. Today it is a publicly accessible space of free entry, maintained within the framework of the city's identity and memory, together with the Municipality of Iquique and the regional agencies of Tarapacá."
+  },
+  "knowledge": {
+    "title": "History, Meaning & Legend of the Tower",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Origins (1877)",
+        "content": "The Clock Tower was erected in 1877, at the highest point of what was then Plaza Prat, during the nitrate fever, when Iquique was the main nitrate-export port of Chile and one of the wealthiest cities of the South Pacific. In the desert, timber was scarce; that is why Oregon pine was imported on the ships that left loaded with saltpetre. The tower was conceived as a public clock and ornament of the civic promenade, and its Moorish style reflected the exotic, elegant taste of the nitrate elite."
+      },
+      {
+        "id": "meaning",
+        "title": "Why Here?",
+        "content": "It was placed in the centre of Plaza Arturo Prat because the historic centre was the social and commercial heart of Iquique. From the tower, people set their day by the public clock and the plaza became the stage of city life: strolls, meetings and celebrations. Symbolically, the wooden tower is the perfect contrast between the Atacama desert and the cosmopolitan ambition of the saltpetre port."
+      },
+      {
+        "id": "legend",
+        "title": "Local Stories",
+        "content": "Those who grew up in Iquique say that, on windy desert nights, the tower's pendulum seems to keep a different beat, as if the time of the saltpetre still pulsed in the wood. Another popular story says nitrate families used to meet under the tower on the hour, and that whoever kissed beside it at noon would always return to Iquique. Legend or custom, the tower remains the city's meeting point."
+      },
+      {
+        "id": "significance",
+        "title": "A Symbol of Iquique",
+        "content": "Today the Clock Tower is one of the symbols of Iquique and the backdrop of Plaza Arturo Prat. Alongside the Baquedano Promenade, the Municipal Theatre and the Oregon-pine mansions of the nitrate era, it forms part of the heritage route of the centre. It is also the gateway to understanding the urban history of Tarapacá and the legacy of the nitrate boom in northern Chile."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Explore the Clock Tower and Plaza Arturo Prat through concrete scenes, from the Oregon pine to the Moorish charm.",
+    "photoAlt": "Iquique Clock Tower and Plaza Arturo Prat",
+    "photoAlts": [
+      "Wide view of the Clock Tower in the centre of Plaza Arturo Prat",
+      "Detail of the tower's Oregon pine timber structure",
+      "The clock and upper dial against Iquique's blue sky",
+      "Plaza Arturo Prat with the tower in the background and the promenade",
+      "Baquedano Promenade with its wooden boardwalk facing the plaza",
+      "Iquique Municipal Theatre framed by the plaza's architecture",
+      "Moorish detail of the tower in midday light",
+      "Plaza benches and palms with the tower behind",
+      "Warm sunset over the plaza and the lit tower",
+      "Night view of the tower with yellow lighting",
+      "Close-up of the tower showing the imported wood texture",
+      "The plaza seen from a corner of the Baquedano Promenade",
+      "Oregon-pine mansions of the nitrate district around the plaza",
+      "Visitors photographing the tower during the day",
+      "Contrast of the white tower against the desert sky",
+      "Statues and monuments of Plaza Arturo Prat",
+      "Wide perspective of Iquique's historic centre",
+      "Detail of the tower's cupola and upper finial"
+    ],
+    "viewAll": "View Location on Google Maps",
+    "showMore": "Show More Photos",
+    "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A"
+  },
+  "reviews": {
+    "title": "Visitor Reviews",
+    "declaration": "Visitor feedback is available on Google Maps (external link).",
+    "featuredTitle": "Selected Impressions",
+    "featuredSubtitle": "Two short visitor quotes break up the long read and reinforce the plaza's mix of history and experience.",
+    "moreReviews": "View on Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
+    "featured": [
+      {
+        "text": "A small landmark but full of history. Right on the plaza, ideal for a quick photo and to learn about nitrate-era Iquique.",
+        "source": "Camila R., March 2026"
+      },
+      {
+        "text": "Beautiful at night with the lighting. The Baquedano Promenade next to it is the best for walking without a car.",
+        "source": "Diego M., February 2026"
+      }
+    ],
+    "items": [
+      {
+        "name": "Camila R.",
+        "date": "March 2026",
+        "rating": 5,
+        "text": "A small landmark but full of history. Right on the plaza, ideal for a quick photo and to learn about nitrate-era Iquique. Free entry and always open."
+      },
+      {
+        "name": "Diego M.",
+        "date": "February 2026",
+        "rating": 5,
+        "text": "Beautiful at night with the warm lighting. The Baquedano Promenade next to it is the best for walking without a car and feeling the historic centre."
+      },
+      {
+        "name": "Francisca L.",
+        "date": "January 2026",
+        "rating": 4,
+        "text": "A great starting point to walk the centre. Bring water and a hat: there is no shade in the plaza and the sun is strong."
+      },
+      {
+        "name": "Tomás V.",
+        "date": "December 2025",
+        "rating": 5,
+        "text": "The wooden tower is curious; you can tell it is from another era. Combined with the Municipal Theatre it makes a very complete heritage walk."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "How to Get Here",
+    "subtitle": "Plaza Arturo Prat, Baquedano street, Iquique, Tarapacá Region, Chile",
+    "openMaps": "Open in Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A"
+  },
+  "footer": {
+    "siteName": "Clock Tower",
+    "rights": "© 2026 Clock Tower — Independent non-profit heritage guide. All rights reserved.",
+    "legalLinksTitle": "Privacy & Terms",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings",
+    "officialResourcesTitle": "Official & Reference Resources",
+    "mapsLabel": "Google Maps →",
+    "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
+    "officialLinksList": [
+      { "name": "Municipality of Iquique", "url": "https://www.iqique.cl" },
+      { "name": "SERNATUR Chile Travel", "url": "https://www.chile.travel" },
+      { "name": "Regional Government of Tarapacá", "url": "https://www.goretarapaca.cl" },
+      { "name": "Undersecretary of Tourism of Chile", "url": "https://www.subturismo.gob.cl" }
+    ],
+    "disclaimer": "This is an independent, non-profit visitor information project. We are not affiliated with any government body or official institution."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: March 2026",
+    "sections": [
+      {
+        "heading": "1. Information Collection",
+        "content": "We generally do not actively collect personally identifiable information from users. Any information provided by you through contact forms or emails will be kept strictly confidential."
+      },
+      {
+        "heading": "2. Use of Information",
+        "content": "The information we collect is used solely to provide, maintain, and improve our services, and to communicate with you. We do not sell or share your personal information with third parties for marketing purposes."
+      },
+      {
+        "heading": "3. Cookies and Tracking",
+        "content": "We use cookies and similar tracking technologies to track the activity on our website and hold certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent."
+      },
+      {
+        "heading": "4. Data Security",
+        "content": "The security of your data is important to us. We use commercially acceptable means to protect your Personal Data, though no method of transmission over the Internet is 100% secure."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: March 2026",
+    "sections": [
+      {
+        "heading": "1. Acceptance of Terms",
+        "content": "By accessing and using this website, you agree to be bound by these terms of service. If you disagree with any part of the terms, you may not access the service."
+      },
+      {
+        "heading": "2. Use of Service",
+        "content": "This website is an independent, non-profit visitor information project. The information provided is for general informational purposes only. You agree to use the site responsibly and lawfully."
+      },
+      {
+        "heading": "3. Intellectual Property",
+        "content": "All content on this website, including texts, images, and logos, is the property of the website owner unless otherwise stated. Unauthorized use, reproduction, or distribution is strictly prohibited."
+      },
+      {
+        "heading": "4. Limitation of Liability",
+        "content": "We shall not be held liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use this website or the information contained herein."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "description": "Manage your cookie preferences.",
+    "essential": {
+      "title": "Strictly Necessary Cookies",
+      "description": "Required for basic website functionality.",
+      "badge": "Always active"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "Help us understand how visitors interact with the site."
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "description": "Used to track visitors across websites."
+    },
+    "save": "Save Preferences",
+    "saved": "Preferences saved!"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Practical information on facilities, history and planning your visit to the Iquique Clock Tower.",
+    "amenities": {
+      "title": "Facilities nearby",
+      "items": [
+        { "icon": "🅿️", "label": "Parking", "value": "Side streets and downtown car parks" },
+        { "icon": "🚻", "label": "Restrooms", "value": "Shops, cafés and public facilities nearby" },
+        { "icon": "🔌", "label": "Fuel / EV", "value": "Fuel stations and EV charging in Iquique" },
+        { "icon": "♿", "label": "Accessibility", "value": "Level square and step-free promenade" }
+      ]
+    },
+    "categories": [
+      {
+        "id": "infra",
+        "title": "Transport & Facilities",
+        "items": [
+          {
+            "q": "Is there parking nearby? How much does it cost?",
+            "a": "Plaza Arturo Prat is in the centre, so the tower has no dedicated parking. Around it there are metered streets and public car parks a few blocks away. In January and February they fill early, so a colectivo, taxi or walking from your lodging is usually the best choice."
+          },
+          {
+            "q": "Can wheelchairs or strollers get close?",
+            "a": "Yes. The square is completely level and the Baquedano Promenade is pedestrian, with no steps or vehicles, so it is very friendly for wheelchairs and strollers. Careful: the promenade's wooden boardwalk sometimes has gaps or slight unevenness, so push gently."
+          },
+          {
+            "q": "Are there restrooms or food nearby?",
+            "a": "The tower is an open plaza, with no toilets or café of its own. On the surrounding streets there are cafés, restaurants, food spots and public facilities a few steps away, especially along the Baquedano Promenade and the seafront."
+          }
+        ]
+      },
+      {
+        "id": "geo",
+        "title": "History & Trivia",
+        "items": [
+          {
+            "q": "What is the tower made of and why is it special?",
+            "a": "It is built with Oregon pine shipped by sea during the nitrate boom. Timber was scarce in the desert and was a precious material, which is why the 1877 tower is wooden rather than stone. Its Moorish style and clock make it unique in the plaza."
+          },
+          {
+            "q": "Why was it built in the middle of the plaza?",
+            "a": "Because Plaza Arturo Prat was the social and commercial heart of Iquique in the nitrate era. The tower worked as a public clock that set the city's rhythm, and the plaza was the stage of civic life. That is why it remains the city's meeting point today."
+          }
+        ]
+      },
+      {
+        "id": "plan",
+        "title": "Planning & Tickets",
+        "items": [
+          {
+            "q": "Is there an entrance fee?",
+            "a": "No. The Clock Tower stands in a public square and entry is free at all times, since the site is open 24 hours. There is no ticket office or access control."
+          },
+          {
+            "q": "How long does a visit take?",
+            "a": "A typical visit lasts 15 to 30 minutes: photograph the tower, walk the plaza, read the historical signage and, if you wish, continue along the Baquedano Promenade or to Playa Cavancha. Add the historic centre and the Municipal Theatre and it easily fills a morning."
+          },
+          {
+            "q": "Can I go in bad weather?",
+            "a": "The plaza is open air and always open, so it can be visited any day. That said, in Iquique the sun is extremely strong and there is no shade: bring a hat, sunglasses and sunscreen. Rain is rare, but the Atacama wind can blow hard."
+          }
+        ]
+      },
+      {
+        "id": "nearby",
+        "title": "What to see nearby",
+        "items": [
+          {
+            "q": "After visiting, what else do you recommend nearby?",
+            "a": "A few steps away are the Baquedano Promenade, the Iquique Municipal Theatre and the Oregon-pine mansions of the nitrate era. A short walk or bike ride takes you to Playa Cavancha; and if you want tax-free shopping, the Free Zone (Zofri) is a classic Iquique stop."
+          }
+        ]
+      }
+    ]
+  },
+  "recommendations": {
+    "title": "Discover More in Iquique & Tarapacá",
+    "attractionsTitle": "Nearby Attractions",
+    "toursTitle": "Recommended Tours & Activities",
+    "attractions": [
+      { "name": "Baquedano Promenade", "url": "https://www.iqique.cl" },
+      { "name": "Iquique Municipal Theatre", "url": "https://www.chile.travel" },
+      { "name": "Plaza Arturo Prat", "url": "https://www.iqique.cl" },
+      { "name": "Playa Cavancha", "url": "https://www.chile.travel" },
+      { "name": "Iquique Free Zone (Zofri)", "url": "https://www.goretarapaca.cl" }
+    ],
+    "tours": [
+      { "name": "Historic-centre heritage tour", "url": "https://www.chile.travel" },
+      { "name": "Seafront walk to Playa Cavancha", "url": "https://www.iqique.cl" },
+      { "name": "Visit to the Free Zone (Zofri)", "url": "https://www.goretarapaca.cl" }
+    ]
+  }
+}

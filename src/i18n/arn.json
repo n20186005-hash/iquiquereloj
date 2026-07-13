@@ -1,0 +1,410 @@
+{
+  "meta": {
+    "title": "Torre del Reloj | Iquique, Chile",
+    "description": "Torre del Reloj (Iquique) nütram: salitre kuyfi, Oregon pine ruka, ta'anga, chewü nütram, chumküpa Tarapacá Región, Chile."
+  },
+  "header": {
+    "siteName": "Torre del Reloj",
+    "home": "Ruka",
+    "visit": "Küpa",
+    "transport": "Chumküpa",
+    "history": "Kuyfi dungu",
+    "gallery": "Ta'anga aty",
+    "reviews": "Chewü nütram",
+    "faq": "Porandu",
+    "map": "Mapa",
+    "backToHome": "Küpa ruka"
+  },
+  "common": {
+    "changeLanguage": "Dungu müno",
+    "toggleTheme": "Küyen müno"
+  },
+  "hero": {
+    "title": "Torre del Reloj",
+    "subtitle": "1877 ruka, Plaza Arturo Prat nag, Iquique salitre kuyfi newen.",
+    "rating": "4.5 (11.533)",
+    "reviewCount": "Chewü nütram 11.533",
+    "hours": "Kom antü 24 hora",
+    "openMaps": "Google Maps tenda echë",
+    "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
+    "tags": ["24 hora", "Entrada küme", "Iquique kuyfi ruka"],
+    "routeCta": {
+      "label": "Ruta küme",
+      "href": "#transport"
+    },
+    "historyCta": {
+      "label": "Kuyfi dungu echë",
+      "href": "#history"
+    }
+  },
+  "intro": {
+    "title": "Torre del Reloj echë",
+    "description": "Torre del Reloj Iquique ta'anga füta. 1877 salitre kütral mew, Iquique nag küyen ruka. Plaza Arturo Prat mew müle, Baquedano peme. Kura ül, Oregon pine ruka (pino de Oregón) wigka barco mew. Moorish estilo ka reloj, salitre kuyfi newen. Iquique kuyfi ruka küpa.",
+    "visitGuide": {
+      "title": "Küpa reko",
+      "eyebrow": "Küme plan",
+      "description": "Plaza 24 hora, Torre del Reloj kom antü küpa. Petüvün antü nag küme tenda ka chewü ül.",
+      "items": [
+        "Küpa 15 ka 30 minuto: ta'anga, plaza, kuyfi dungu.",
+        "Plaza Arturo Prat mew, Baquedano rüpü, Teatro Municipal cercano.",
+        "Plaza plano, antü füta; chumpiru ka llanka.",
+        "Baquedano peme ka Playa Cavancha küpa."
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Küme",
+      "items": [
+        "1877 ruka, Oregon pine",
+        "Salitre kuyfi newen, Moorish estilo",
+        "Plaza 24 hora, entrada küme",
+        "Kuyfi ruka, Teatro Municipal cercano"
+      ]
+    }
+  },
+  "transportSection": {
+    "title": "Chumküpa Torre del Reloj",
+    "subtitle": "Iquique ül tren. Chumküpa ruka ka peme, colectivo, taxi, bus urbano.",
+    "overviewTitle": "Echë moñma tripaye",
+    "overviewText": "Iquique avión ka bus. Diego Aracena Aeropuerto (IQQ) 45 km sur. Bus Terminal Iquique ruka mew. Plaza Arturo Prat plano, peme, colectivo, taxi, bus urbano.",
+    "arrivalTitle": "Tripaye mboyve",
+    "arrivalItems": [
+      "Torre del Reloj Plaza Arturo Prat mew, Baquedano; ruka peme.",
+      "Diego Aracena Aeropuerto 45 km sur; bus terminal ruka mew.",
+      "Enero, Febrero, antü küme Zofri chewü füta; avión ka ruka ül."
+    ],
+    "modes": [
+      {
+        "label": "Avión",
+        "icon": "✈️",
+        "title": "Avión Diego Aracena (IQQ)",
+        "description": "Avión Iquique küpa kom.",
+        "details": [
+          "Diego Aracena Aeropuerto (IQQ) 45 km sur.",
+          "Vuelo Santiago, Antofagasta, Arica; verano kütral.",
+          "Taxi aeropuerto Plaza Prat 40 ka 50 minuto."
+        ]
+      },
+      {
+        "label": "Bus füta",
+        "icon": "🚌",
+        "title": "Bus füta",
+        "description": "Bus Iquique küpa pichi costo.",
+        "details": [
+          "Bus Terminal Iquique Pullman, Condor, Tur Bus.",
+          "Santiago 24 hora rume; Antofagasta, Arica transbordo.",
+          "Terminal colectivo taxi Plaza Arturo Prat."
+        ]
+      },
+      {
+        "label": "Ruka mew",
+        "icon": "🚕",
+        "title": "Taxi, colectivo, bus urbano",
+        "description": "Ül tramo Iquique transporte füta ka ekonomi.",
+        "details": [
+          "Colectivo ekonomi peme.",
+          "Taxi ka bus urbano aeropuerto, terminal, Plaza Arturo Prat.",
+          "Baquedano peme; ruka pichi korü."
+        ]
+      },
+      {
+        "label": "Pié / bicicleta",
+        "icon": "🚶",
+        "title": "Pié ka bicicleta",
+        "description": "Iquique ruka plano, pié ka bicicleta küme.",
+        "details": [
+          "Costanera Baquedano peme plaza mew.",
+          "Bicicleta Playa Cavancha mew.",
+          "Plaza accesible, silla de ruedas ka coche bebé."
+        ]
+      }
+    ],
+    "localTipsTitle": "Küpa reko",
+    "localTips": [
+      "Plaza antü füta; chumpiru, llanka, filtro.",
+      "Torre 24 hora; tenda petüvün 10:00 ül ka küyen.",
+      "Enero Febrero chewü füta; petüvün tripaye."
+    ],
+    "mapsCta": "Mapa ka ruta echë",
+    "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A"
+  },
+  "officialManagement": {
+    "title": "Torre nütram",
+    "text": "Torre del Reloj Iquique kuyfi ruka, salitre kuyfi 1877. Oregon pine ruka, Plaza Arturo Prat. Akün plaza 24 hora, entrada küme, Iquique Municipalidad ka Tarapacá región rume."
+  },
+  "knowledge": {
+    "title": "Torre kuyfi, newen ka nütram",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Kuyfi (1877)",
+        "content": "Torre del Reloj 1877 mew, Plaza Prat nag, salitre kütral. Iquique salitre puerto füta. Desert peme kura ül; Oregon pine barco mew. Torre reloj püblico ka Moorish estilo, salitre elite."
+      },
+      {
+        "id": "meaning",
+        "title": "¿Chum?",
+        "content": "Plaza Arturo Prat mew, Iquique kuyfi ruka nag. Torre reloj püblico antü rüpü; plaza chewü mongen. Torre pino Atacama desert ka salitre puerto newen."
+      },
+      {
+        "id": "legend",
+        "title": "Nütram",
+        "content": "Iquique chewü nütram: viento antü, torre péndulo salitre kuyfi. Salitre familia torre püle; pillo nag Iquique kütral. Nütram ka ruka, torre Iquique peme."
+      },
+      {
+        "id": "significance",
+        "title": "Iquique ta'anga",
+        "content": "Akün Torre del Reloj Iquique ta'anga, Plaza Arturo Prat. Baquedano peme, Teatro Municipal, Oregon pine ruka rume, Iquique kuyfi ruka. Tarapacá kuyfi ka salitre newen."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Ta'anga aty",
+    "subtitle": "Torre del Reloj ka Plaza Arturo Prat ta'anga, Oregon pine ka Moorish estilo.",
+    "photoAlt": "Iquique Torre del Reloj ka Plaza Arturo Prat",
+    "photoAlts": [
+      "Torre del Reloj Plaza Arturo Prat nag",
+      "Torre Oregon pine ruka detalle",
+      "Reloj ka küyen Iquique llanka",
+      "Plaza Arturo Prat torre ka peme",
+      "Baquedano peme pino tabla",
+      "Teatro Municipal plaza",
+      "Torre Moorish detalle antü",
+      "Plaza palma torre",
+      "Küyen plaza torre",
+      "Tüfachi torre llanka",
+      "Torre pino detalle",
+      "Plaza Baquedano esquina",
+      "Oregon pine ruka salitre",
+      "Chewü torre ta'anga",
+      "Torre pino desert llanka",
+      "Plaza Arturo Prat dungu",
+      "Iquique kuyfi ruka",
+      "Torre cupula detalle"
+    ],
+    "viewAll": "Tenda echë Google Maps",
+    "showMore": "Ta'anga füta echë",
+    "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A"
+  },
+  "reviews": {
+    "title": "Chewü nütram",
+    "declaration": "Chewü nütram Google Maps (enlace externo).",
+    "featuredTitle": "Pichi nütram küme",
+    "featuredSubtitle": "Epu chewü nütram: tenda, kuyfi dungu ka küpa mongen müley.",
+    "moreReviews": "Google Maps echë",
+    "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
+    "featured": [
+      {
+        "text": "Ruka pichi ka kuyfi füta. Plaza nag, ta'anga ka salitre Iquique.",
+        "source": "Camila R., Marzo 2026"
+      },
+      {
+        "text": "Küyen torre llanka. Baquedano peme pié küme, auto ül.",
+        "source": "Diego M., Febrero 2026"
+      }
+    ],
+    "items": [
+      {
+        "name": "Camila R.",
+        "date": "Marzo 2026",
+        "rating": 5,
+        "text": "Ruka pichi ka kuyfi füta. Plaza nag, ta'anga ka salitre Iquique. Entrada küme 24 hora."
+      },
+      {
+        "name": "Diego M.",
+        "date": "Febrero 2026",
+        "rating": 5,
+        "text": "Küyen torre llanka. Baquedano peme pié küme, kuyfi ruka."
+      },
+      {
+        "name": "Francisca L.",
+        "date": "Enero 2026",
+        "rating": 4,
+        "text": "Ruka küpa kom. Ko ka chumpiru; plaza antü füta."
+      },
+      {
+        "name": "Tomás V.",
+        "date": "Diciembre 2025",
+        "rating": 5,
+        "text": "Torre pino kuyfi. Teatro Municipal rume kuyfi ruka küme."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Chumküpa",
+    "subtitle": "Plaza Arturo Prat, Baquedano, Iquique, Tarapacá Región, Chile",
+    "openMaps": "Google Maps echë",
+    "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A"
+  },
+  "footer": {
+    "siteName": "Torre del Reloj",
+    "rights": "© 2026 Torre del Reloj — Proyecto independiente ka non-profit. Kom derecho.",
+    "legalLinksTitle": "Privacidad ka dungu reko",
+    "privacy": "Privacidad",
+    "terms": "Dungu reko",
+    "cookies": "Cookie",
+    "officialResourcesTitle": "Oficial ka referencia",
+    "mapsLabel": "Google Maps →",
+    "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
+    "officialLinksList": [
+      { "name": "Municipalidad de Iquique", "url": "https://www.iqique.cl" },
+      { "name": "SERNATUR Chile Travel", "url": "https://www.chile.travel" },
+      { "name": "Gobierno Regional de Tarapacá", "url": "https://www.goretarapaca.cl" },
+      { "name": "Subsecretaría de Turismo", "url": "https://www.subturismo.gob.cl" }
+    ],
+    "disclaimer": "Ko web küme mongen nütram, institución oficial ül."
+  },
+  "privacy": {
+    "title": "Privacidad",
+    "lastUpdated": "Ül püle: Marzo 2026",
+    "sections": [
+      {
+        "heading": "1. Dungu müle",
+        "content": "Ngün möle chewü dungu. Elu dungu formulario ka e-mail, küme kütral."
+      },
+      {
+        "heading": "2. Dungu wel",
+        "content": "Dungu wel küme servicio, mongen ka nütram. Ngün ül chewü dungu winka marketing."
+      },
+      {
+        "heading": "3. Cookie ka seguimiento",
+        "content": "Wel cookie ka tecnología seguimiento. Nde navegador cookie ül."
+      },
+      {
+        "heading": "4. Datos seguridad",
+        "content": "Nde datos seguridad küme. Internet rupi 100% seguro ül."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Dungu reko",
+    "lastUpdated": "Ül püle: Marzo 2026",
+    "sections": [
+      {
+        "heading": "1. Dungu reko wel",
+        "content": "Web echë ka wel, dungu reko. Dungu reko ül, web ül."
+      },
+      {
+        "heading": "2. Web wel",
+        "content": "Web küme mongen dungu. Dungu información general. Nde web küme wel."
+      },
+      {
+        "heading": "3. Propiedad intelectual",
+        "content": "Kom contenido texto, ta'anga, logo dueño web. Uso autorizado ül."
+      },
+      {
+        "heading": "4. Responsabilidad límite",
+        "content": "Ngün ül daño directo, indirecto web rupi información."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie",
+    "description": "Nde cookie küme.",
+    "essential": {
+      "title": "Cookie necesario",
+      "description": "Web funcionamiento necesario.",
+      "badge": "Siempre activo"
+    },
+    "analytics": {
+      "title": "Cookie analítica",
+      "description": "Küpa chewü web nütram."
+    },
+    "marketing": {
+      "title": "Cookie marketing",
+      "description": "Welu chewü web seguimiento."
+    },
+    "save": "Guardar",
+    "saved": "¡Guardado!"
+  },
+  "faq": {
+    "title": "Porandu",
+    "subtitle": "Torre del Reloj infrastructure, kuyfi ka küpa marandu.",
+    "amenities": {
+      "title": "Tenda rupi",
+      "items": [
+        { "icon": "🅿️", "label": "Estacionamiento", "value": "Ruka rüpü ka estacionamiento" },
+        { "icon": "🚻", "label": "Baños", "value": "Café, tienda, público" },
+        { "icon": "🔌", "label": "Bencina / Carga", "value": "Iquique bencina ka EV" },
+        { "icon": "♿", "label": "Accesibilidad", "value": "Plaza plano, peme ül escalón" }
+      ]
+    },
+    "categories": [
+      {
+        "id": "infra",
+        "title": "Transporte ka infrastructure",
+        "items": [
+          {
+            "q": "¿Müle estacionamiento? ¿Chum precio?",
+            "a": "Plaza Arturo Prat ruka nag; torre estacionamiento ül. Rüpü bencina ka estacionamiento público. Enero Febrero chewü, colectivo taxi peme küme."
+          },
+          {
+            "q": "¿Müle silla de ruedas ka coche de bebé?",
+            "a": "Müle. Plaza plano, Baquedano peme ül escalón ka auto, silla de ruedas ka coche bebé küme. Pino tabla pichi gap, cuidado."
+          },
+          {
+            "q": "¿Müle baño ka comida?",
+            "a": "Torre plaza aire libre, baño café ül. Rüpü café, restaurante, comida peme."
+          }
+        ]
+      },
+      {
+        "id": "geo",
+        "title": "Kuyfi ka newen",
+        "items": [
+          {
+            "q": "¿Iney torre pino? ¿Chum küme?",
+            "a": "Torre Oregon pine barco salitre kütral. Desert peme kura ül; 1877 pino ül kura. Moorish estilo ka reloj plaza küme."
+          },
+          {
+            "q": "¿Chum plaza nag torre?",
+            "a": "Plaza Arturo Prat Iquique kuyfi ruka nag. Torre reloj püblico antü rüpü; plaza chewü mongen. Akün Iquique peme."
+          }
+        ]
+      },
+      {
+        "id": "plan",
+        "title": "Küpa ka entrada",
+        "items": [
+          {
+            "q": "¿Müle entrada pago?",
+            "a": "Ül. Torre plaza püblico, entrada küme 24 hora. Ticket ül."
+          },
+          {
+            "q": "¿Chum aravo küpa?",
+            "a": "Küpa 15 ka 30 minuto: ta'anga, plaza, kuyfi dungu, Baquedano peme ka Playa Cavancha. Kuyfi ruka ka Teatro Municipal mañana."
+          },
+          {
+            "q": "¿Müle ára vai?",
+            "a": "Plaza aire libre 24 hora. Iquique antü füta, chumpiru llanka. Lluvia rai, viento Atacama füta."
+          }
+        ]
+      },
+      {
+        "id": "nearby",
+        "title": "Tenda cercano",
+        "items": [
+          {
+            "q": "Küpa rire, ¿iney tenda oĩva?",
+            "a": "Baquedano peme, Teatro Municipal, Oregon pine ruka. Pié Playa Cavancha. Zofri (libre) Iquique küpa."
+          }
+        ]
+      }
+    ]
+  },
+  "recommendations": {
+    "title": "Iquique ka Tarapacá",
+    "attractionsTitle": "Tenda cercano",
+    "toursTitle": "Tour ka actividad",
+    "attractions": [
+      { "name": "Baquedano peme", "url": "https://www.iqique.cl" },
+      { "name": "Teatro Municipal Iquique", "url": "https://www.chile.travel" },
+      { "name": "Plaza Arturo Prat", "url": "https://www.iqique.cl" },
+      { "name": "Playa Cavancha", "url": "https://www.chile.travel" },
+      { "name": "Zona Franca Iquique (Zofri)", "url": "https://www.goretarapaca.cl" }
+    ],
+    "tours": [
+      { "name": "Kuyfi ruka tour", "url": "https://www.chile.travel" },
+      { "name": "Costanera Playa Cavancha", "url": "https://www.iqique.cl" },
+      { "name": "Zofri tour", "url": "https://www.goretarapaca.cl" }
+    ]
+  }
+}

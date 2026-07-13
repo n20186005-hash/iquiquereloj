@@ -1,0 +1,410 @@
+{
+  "meta": {
+    "title": "Torre del Reloj | Iquique, Chile",
+    "description": "Guía completa de la Torre del Reloj de Iquique: historia del auge del salitre, arquitectura de pino de Oregón, fotos, opiniones de visitantes y cómo llegar en la Región de Tarapacá, Chile."
+  },
+  "header": {
+    "siteName": "Torre del Reloj",
+    "home": "Inicio",
+    "visit": "Visita",
+    "transport": "Cómo llegar",
+    "history": "Historia",
+    "gallery": "Galería",
+    "reviews": "Opiniones",
+    "faq": "Preguntas",
+    "map": "Mapa",
+    "backToHome": "Volver al inicio"
+  },
+  "common": {
+    "changeLanguage": "Cambiar idioma",
+    "toggleTheme": "Cambiar tema"
+  },
+  "hero": {
+    "title": "Torre del Reloj",
+    "subtitle": "Un hito urbano de 1877 en el corazón de la Plaza Arturo Prat: la Torre del Reloj, símbolo de madera del auge salitrero de Iquique.",
+    "rating": "4.5 (11.533)",
+    "reviewCount": "11.533 opiniones",
+    "hours": "Abierto las 24 horas",
+    "openMaps": "Ver ubicación en Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
+    "tags": ["Abierto 24 horas", "Entrada libre", "Centro histórico de Iquique"],
+    "routeCta": {
+      "label": "Planificar la ruta",
+      "href": "#transport"
+    },
+    "historyCta": {
+      "label": "Explorar la historia",
+      "href": "#history"
+    }
+  },
+  "intro": {
+    "title": "Descubre la Torre del Reloj",
+    "description": "La Torre del Reloj de Iquique es una de las imágenes más reconocibles de la ciudad. Levantada en 1877 en plena fiebre del salitre, cuando Iquique era uno de los puertos salitreros más ricos del mundo, la torre se alza en la Plaza Arturo Prat, frente al paseo peatonal de Baquedano. No está hecha de piedra ni ladrillo: fue construida con pino de Oregón traído en barco desde el norte, una madera preciada en la costa desértica. Con su estilo morisco y su reloj que sigue marcando las horas, es un testimonio vivo de la época dorada del salitre y el paseo obligado de quienes recorren el casco histórico de Iquique.",
+    "visitGuide": {
+      "title": "Guía de visita",
+      "eyebrow": "Planificación útil",
+      "description": "Al ser una plaza pública abierta las 24 horas, la Torre del Reloj se puede visitar en cualquier momento; la mejor luz y menos gente suelen estar por la mañana temprano.",
+      "items": [
+        "La visita es rápida: basta con 15 a 30 minutos para fotografiar la torre, recorrer la plaza y leer la señalética histórica.",
+        "Está en la Plaza Arturo Prat, sobre la calle Baquedano, a pocos pasos del Paseo Baquedano y del Teatro Municipal.",
+        "La plaza es plana y transitable, pero no tiene sombra: en Iquique el sol es intensísimo, lleva sombrero y protector solar.",
+        "Combínala con una caminata por el barrio histórico y la costanera hacia Playa Cavancha."
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Destacados",
+      "items": [
+        "Hito urbano de 1877 construido en pino de Oregón importado",
+        "Símbolo del auge salitrero de Iquique en estilo morisco",
+        "Plaza pública abierta las 24 horas, entrada libre",
+        "En el corazón del casco histórico, junto al Teatro Municipal"
+      ]
+    }
+  },
+  "transportSection": {
+    "title": "Cómo llegar a la Torre del Reloj",
+    "subtitle": "Iquique no tiene tren ni servicio ferroviario; la decisión real es cómo llegar a la ciudad y luego moverse por el centro a pie, en taxi o en bus urbano.",
+    "overviewTitle": "Primero define tu punto de llegada",
+    "overviewText": "Salvo el cruce fronterizo terrestre, Iquique se alcanza en avión o en bus de larga distancia. El Aeropuerto Diego Aracena (IQQ) queda unos 45 km al sur del centro; la Terminal de Buses de Iquique está en la ciudad. Una vez aquí, la torre está en el centro, plano y compacto, así que a pie, en colectivo, taxi o bus urbano se llega en pocos minutos.",
+    "arrivalTitle": "Antes de salir",
+    "arrivalItems": [
+      "La torre está en la Plaza Arturo Prat, sobre Baquedano: todo el casco histórico es caminable.",
+      "El Aeropuerto Diego Aracena está a unos 45 km al sur; la terminal de buses queda en la zona urbana.",
+      "En enero, febrero y festivos la ciudad se llena por el puerto libre (Zofri) y el verano: reserva vuelo y alojamiento con antelación."
+    ],
+    "modes": [
+      {
+        "label": "Llegada en avión",
+        "icon": "✈️",
+        "title": "Avión al Aeropuerto Diego Aracena (IQQ)",
+        "description": "Para quien viene de lejos, el avión es la forma más cómoda de llegar a Iquique.",
+        "details": [
+          "El Aeropuerto Diego Aracena (IQQ) está a unos 45 km al sur del centro de la ciudad.",
+          "Hay vuelos diarios desde Santiago, Antofagasta y Arica; en temporada también conectan otras ciudades.",
+          "Desde el aeropuerto, un taxi o transfer al centro y a la Plaza Prat toma entre 40 y 50 minutos."
+        ]
+      },
+      {
+        "label": "Bus interurbano",
+        "icon": "🚌",
+        "title": "Bus de larga distancia",
+        "description": "El bus es la opción económica para llegar a Iquique desde el resto de Chile.",
+        "details": [
+          "La Terminal de Buses de Iquique recibe servicios de Pullman, Condor, Tur Bus y otras líneas.",
+          "Desde Santiago el viaje es largo (más de 24 h); muchos combinan vía Antofagasta o Arica.",
+          "Desde la terminal, un colectivo o taxi te deja en la Plaza Arturo Prat en pocos minutos."
+        ]
+      },
+      {
+        "label": "Dentro de la ciudad",
+        "icon": "🚕",
+        "title": "Taxi, colectivo y bus urbano",
+        "description": "Para el último tramo, el transporte urbano de Iquique es rápido y barato.",
+        "details": [
+          "El colectivo (taxi compartido) es la opción más económica para moverse por el centro.",
+          "Los taxis y el bus urbano conectan el aeropuerto, la terminal y la Plaza Arturo Prat.",
+          "El Paseo Baquedano es peatonal, así que baja a una cuadra de la torre y camina."
+        ]
+      },
+      {
+        "label": "A pie o en bici",
+        "icon": "🚶",
+        "title": "Caminando o en bicicleta",
+        "description": "El centro de Iquique es plano y compacto, ideal para recorrerlo a pie o en bici.",
+        "details": [
+          "Desde la costanera puedes caminar o pedalear por el Paseo Baquedano hasta la plaza.",
+          "La ciclovía costera llega hasta Playa Cavancha, uniendo lo histórico con lo balneario.",
+          "La plaza es accesible y sin pendientes, perfecta para sillas de ruedas y coches de bebé."
+        ]
+      }
+    ],
+    "localTipsTitle": "Consejos para tu visita",
+    "localTips": [
+      "La plaza no tiene sombra: usa sombrero, gafas de sol y protector solar de alto factor.",
+      "Como la torre está siempre abierta, la mejor luz para fotos es antes de las 10:00 o al atardecer.",
+      "En enero y febrero el centro se llena de visitantes y compradores del puerto libre: ve temprano."
+    ],
+    "mapsCta": "Ver mapa y ruta",
+    "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A"
+  },
+  "officialManagement": {
+    "title": "Acerca de la Torre",
+    "text": "La Torre del Reloj es un hito patrimonial del casco histórico de Iquique, ligado al auge salitrero del siglo XIX. Construida en 1877 con pino de Oregón traído por mar, forma parte del conjunto de edificaciones históricas que rodean la Plaza Arturo Prat. Hoy es un espacio público de libre acceso, mantenido en el marco de la identidad y la memoria de la ciudad, junto a la Municipalidad de Iquique y los organismos regionales de Tarapacá."
+  },
+  "knowledge": {
+    "title": "Historia, significado y leyenda de la Torre",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Orígenes (1877)",
+        "content": "La Torre del Reloj se erigió en 1877, en el punto más alto de la entonces Plaza Prat, durante la fiebre del salitre, cuando Iquique era el principal puerto de exportación de nitrato de Chile y una de las ciudades más prósperas del Pacífico sur. En pleno desierto, la madera escaseaba; por eso se importó pino de Oregón (Oregon pine) en los barcos que venían cargados de salitre. La torre se pensó como reloj público y ornamentación del paseo cívico, y su estilo morisco reflejaba la moda exótica y elegante de la élite salitrera."
+      },
+      {
+        "id": "meaning",
+        "title": "¿Por qué aquí?",
+        "content": "Se emplazó en el centro de la Plaza Arturo Prat porque el casco histórico era el corazón social y comercial de Iquique. Desde la torre, la gente regulaba su día con el reloj público y la plaza se convertía en el escenario de la vida ciudadana: paseos, encuentros y celebraciones. Simbólicamente, la torre de madera es el contraste perfecto entre el desierto de Atacama y la ambición cosmopolita del puerto salitrero."
+      },
+      {
+        "id": "legend",
+        "title": "Leyendas locales",
+        "content": "Quienes crecieron en Iquique cuentan que, en las noches de viento del desierto, el péndulo de la torre parece marcar un compás distinto, como si el tiempo del salitre aún latiera en la madera. Otra historia popular dice que las familias salitreras se citaban bajo la torre al dar las campanadas, y que quien se besaba junto a ella al mediodía volvería siempre a Iquique. Sea leyenda o costumbre, la torre sigue siendo el punto de encuentro de la ciudad."
+      },
+      {
+        "id": "significance",
+        "title": "Un símbolo de Iquique",
+        "content": "Hoy la Torre del Reloj es uno de los símbolos de Iquique y el telón de fondo de la Plaza Arturo Prat. Junto al Paseo Baquedano, el Teatro Municipal y las casonas de pino de la época salitrera, forma parte del recorrido patrimonial del centro. Es, además, la puerta de entrada para entender la historia urbana de Tarapacá y el legado del auge del salitre en el norte de Chile."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Galería de fotos",
+    "subtitle": "Recorre la Torre del Reloj y la Plaza Arturo Prat a través de escenas concretas, desde la madera de pino hasta el encanto morisco.",
+    "photoAlt": "Torre del Reloj de Iquique y Plaza Arturo Prat",
+    "photoAlts": [
+      "Vista general de la Torre del Reloj en el centro de la Plaza Arturo Prat",
+      "Detalle de la estructura de madera de pino de Oregón de la torre",
+      "El reloj y la esfera superior con el cielo azul de Iquique",
+      "Plaza Arturo Prat con la torre al fondo y el paseo peatonal",
+      "Paseo Baquedano con su tablado de madera frente a la plaza",
+      "Teatro Municipal de Iquique enmarcado por la arquitectura de la plaza",
+      "Detalle morisco de la torre bajo la luz del mediodía",
+      "Banca y palmeras de la plaza con la torre de fondo",
+      "Atardecer cálido sobre la plaza y la torre iluminada",
+      "Vista nocturna de la torre con iluminación amarilla",
+      "Cerca de la torre mostrando la textura de la madera importada",
+      "La plaza vista desde una esquina del Paseo Baquedano",
+      "Casonas de pino de Oregón del barrio salitrero alrededor de la plaza",
+      "Grupo de visitantes fotografiando la torre de día",
+      "Contraste de la torre blanca contra el cielo desierto",
+      "Esculturas y monumentos de la Plaza Arturo Prat",
+      "Perspectiva amplia del casco histórico de Iquique",
+      "Detalle de la cúpula y el remate superior de la torre"
+    ],
+    "viewAll": "Ver ubicación en Google Maps",
+    "showMore": "Mostrar más fotos",
+    "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A"
+  },
+  "reviews": {
+    "title": "Opiniones de los visitantes",
+    "declaration": "Las opiniones de los visitantes están disponibles en Google Maps (enlace externo).",
+    "featuredTitle": "Impresiones destacadas",
+    "featuredSubtitle": "Dos voces resumidas ayudan a enlazar la lectura histórica con la experiencia real de la plaza.",
+    "moreReviews": "Ver en Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
+    "featured": [
+      {
+        "text": "Un hito pequeño pero con mucha historia. Queda en plena plaza, ideal para una foto rápida y conocer el Iquique salitrero.",
+        "source": "Camila R., marzo 2026"
+      },
+      {
+        "text": "De noche se ve preciosa con la iluminación. El paseo Baquedano al lado es lo mejor para caminar sin auto.",
+        "source": "Diego M., febrero 2026"
+      }
+    ],
+    "items": [
+      {
+        "name": "Camila R.",
+        "date": "Marzo 2026",
+        "rating": 5,
+        "text": "Un hito pequeño pero con mucha historia. Queda en plena plaza, ideal para una foto rápida y conocer el Iquique salitrero. Entrada libre y abierto siempre."
+      },
+      {
+        "name": "Diego M.",
+        "date": "Febrero 2026",
+        "rating": 5,
+        "text": "De noche se ve preciosa con la iluminación cálida. El Paseo Baquedano al lado es lo mejor para caminar sin auto y sentir el centro histórico."
+      },
+      {
+        "name": "Francisca L.",
+        "date": "Enero 2026",
+        "rating": 4,
+        "text": "Muy buen punto de partida para recorrer el centro. Lleva agua y sombrero: en la plaza no hay sombra y el sol pega fuerte."
+      },
+      {
+        "name": "Tomás V.",
+        "date": "Diciembre 2025",
+        "rating": 5,
+        "text": "La torre de madera es curiosa; se nota que es de otra época. Combinada con el Teatro Municipal queda un paseo patrimonial muy completo."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Cómo llegar",
+    "subtitle": "Plaza Arturo Prat, calle Baquedano, Iquique, Región de Tarapacá, Chile",
+    "openMaps": "Abrir en Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A"
+  },
+  "footer": {
+    "siteName": "Torre del Reloj",
+    "rights": "© 2026 Torre del Reloj — Proyecto independiente y sin fines de lucro de información patrimonial. Todos los derechos reservados.",
+    "legalLinksTitle": "Privacidad y términos",
+    "privacy": "Política de privacidad",
+    "terms": "Términos del servicio",
+    "cookies": "Configuración de cookies",
+    "officialResourcesTitle": "Recursos oficiales y de referencia",
+    "mapsLabel": "Google Maps →",
+    "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
+    "officialLinksList": [
+      { "name": "Ilustre Municipalidad de Iquique", "url": "https://www.iqique.cl" },
+      { "name": "SERNATUR Chile Travel", "url": "https://www.chile.travel" },
+      { "name": "Gobierno Regional de Tarapacá", "url": "https://www.goretarapaca.cl" },
+      { "name": "Subsecretaría de Turismo de Chile", "url": "https://www.subturismo.gob.cl" }
+    ],
+    "disclaimer": "Este es un proyecto independiente y sin fines de lucro de información para visitantes. No estamos afiliados con ningún organismo gubernamental ni institución oficial."
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "lastUpdated": "Última actualización: marzo 2026",
+    "sections": [
+      {
+        "heading": "1. Recopilación de información",
+        "content": "Por lo general, no recopilamos activamente información personal identificable de los usuarios. Cualquier información que nos proporciones mediante formularios de contacto o correos electrónicos se mantendrá estrictamente confidencial."
+      },
+      {
+        "heading": "2. Uso de la información",
+        "content": "La información que recopilamos se utiliza únicamente para ofrecer, mantener y mejorar nuestros servicios, y para comunicarnos contigo. No vendemos ni compartimos tu información personal con terceros con fines de marketing."
+      },
+      {
+        "heading": "3. Cookies y seguimiento",
+        "content": "Utilizamos cookies y tecnologías de seguimiento similares para monitorear la actividad en nuestro sitio web y almacenar cierta información. Puedes configurar tu navegador para rechazar todas las cookies o para avisarte cuando se envía una cookie."
+      },
+      {
+        "heading": "4. Seguridad de los datos",
+        "content": "La seguridad de tus datos es importante para nosotros. Utilizamos medios comercialmente aceptables para proteger tus datos personales, aunque ningún método de transmisión por Internet es 100% seguro."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Términos del servicio",
+    "lastUpdated": "Última actualización: marzo 2026",
+    "sections": [
+      {
+        "heading": "1. Aceptación de los términos",
+        "content": "Al acceder y utilizar este sitio web, aceptas quedar vinculado por estos términos del servicio. Si no estás de acuerdo con alguna parte de los términos, no podrás acceder al servicio."
+      },
+      {
+        "heading": "2. Uso del servicio",
+        "content": "Este sitio web es un proyecto independiente y sin fines de lucro de información para visitantes. La información proporcionada es solo para fines informativos generales. Aceptas utilizar el sitio de manera responsable y lícita."
+      },
+      {
+        "heading": "3. Propiedad intelectual",
+        "content": "Todo el contenido de este sitio web, incluidos textos, imágenes y logotipos, es propiedad del titular del sitio salvo que se indique lo contrario. Queda estrictamente prohibido el uso, reproducción o distribución no autorizados."
+      },
+      {
+        "heading": "4. Limitación de responsabilidad",
+        "content": "No nos hacemos responsables de ningún daño directo, indirecto, incidental o consecuente derivado del uso o la imposibilidad de usar este sitio web o la información que contiene."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Configuración de cookies",
+    "description": "Gestiona tus preferencias de cookies.",
+    "essential": {
+      "title": "Cookies estrictamente necesarias",
+      "description": "Requeridas para la funcionalidad básica del sitio web.",
+      "badge": "Siempre activas"
+    },
+    "analytics": {
+      "title": "Cookies de analítica",
+      "description": "Nos ayudan a entender cómo interactúan los visitantes con el sitio."
+    },
+    "marketing": {
+      "title": "Cookies de marketing",
+      "description": "Se utilizan para rastrear a los visitantes entre sitios web."
+    },
+    "save": "Guardar preferencias",
+    "saved": "¡Preferencias guardadas!"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Información práctica sobre servicios, historia y planificación de tu visita a la Torre del Reloj de Iquique.",
+    "amenities": {
+      "title": "Servicios en la zona",
+      "items": [
+        { "icon": "🅿️", "label": "Estacionamiento", "value": "Calles aledañas y estacionamientos del centro" },
+        { "icon": "🚻", "label": "Baños", "value": "Comercios, cafés y servicios públicos cercanos" },
+        { "icon": "🔌", "label": "Carga / Gasolina", "value": "Bencineras y carga EV en Iquique" },
+        { "icon": "♿", "label": "Accesibilidad", "value": "Plaza plana y paseo peatonal sin escalones" }
+      ]
+    },
+    "categories": [
+      {
+        "id": "infra",
+        "title": "Transporte e infraestructura",
+        "items": [
+          {
+            "q": "¿Hay estacionamiento en la zona? ¿Cuánto cuesta?",
+            "a": "La Plaza Arturo Prat está en el centro, así que no hay estacionamiento propio de la torre. Alrededor hay calles con estacionamiento tarifado y estacionamientos públicos del centro a pocas cuadras. En enero y febrero se llenan pronto, por lo que el colectivo, taxi o caminar desde tu alojamiento suelen ser la mejor opción."
+          },
+          {
+            "q": "¿Se puede acceder con silla de ruedas o coche de bebé?",
+            "a": "Sí. La plaza es totalmente plana y el Paseo Baquedano es peatonal, sin escalones ni vehículos, por lo que es muy amable con sillas de ruedas y coches de bebé. Ojo: el tablado de madera del paseo tiene a veces juntas o desniveles leves, así que conviene empujar con cuidado."
+          },
+          {
+            "q": "¿Hay baños o servicios de comida en la zona?",
+            "a": "La torre es una plaza abierta, sin baños ni cafetería propios. En las calles aledañas hay cafés, restaurantes, locales de comida y servicios públicos a pocos pasos, especialmente a lo largo del Paseo Baquedano y la costanera."
+          }
+        ]
+      },
+      {
+        "id": "geo",
+        "title": "Historia y curiosidades",
+        "items": [
+          {
+            "q": "¿De qué material está hecha la torre y por qué es especial?",
+            "a": "Está construida con pino de Oregón (Oregon pine) traído por mar durante el auge del salitre. En el desierto la madera escaseaba y era un material preciado, por eso la torre de 1877 es de madera en lugar de piedra. Su estilo morisco y su reloj la hacen única en la plaza."
+          },
+          {
+            "q": "¿Por qué se construyó en medio de la plaza?",
+            "a": "Porque la Plaza Arturo Prat era el corazón social y comercial de Iquique en la época salitrera. La torre funcionaba como reloj público que marcaba el ritmo de la ciudad, y la plaza era el escenario de la vida cívica. Por eso sigue siendo hoy el punto de encuentro de la ciudad."
+          }
+        ]
+      },
+      {
+        "id": "plan",
+        "title": "Planificación y entradas",
+        "items": [
+          {
+            "q": "¿Se paga entrada?",
+            "a": "No. La Torre del Reloj está en una plaza pública y la entrada es libre en todo momento, ya que el recinto está abierto las 24 horas. No hay taquilla ni control de acceso."
+          },
+          {
+            "q": "¿Cuánto tiempo se necesita para visitarla?",
+            "a": "Una visita habitual dura entre 15 y 30 minutos: fotografiar la torre, recorrer la plaza, leer la señalética histórica y, si quieres, continuar por el Paseo Baquedano o hasta Playa Cavancha. Si sumas elcasco histórico y el Teatro Municipal, la experiencia llena fácilmente una mañana."
+          },
+          {
+            "q": "¿Se puede ir con mal tiempo?",
+            "a": "La plaza está al aire libre y abierta siempre, así que se puede visitar cualquier día. Eso sí, en Iquique el sol es intensísimo y no hay sombra: lleva sombrero, gafas y protector solar. La lluvia es rara, pero el viento de Atacama puede soplar fuerte."
+          }
+        ]
+      },
+      {
+        "id": "nearby",
+        "title": "Qué ver cerca",
+        "items": [
+          {
+            "q": "Terminando la visita, ¿qué otros lugares recomiendan cerca?",
+            "a": "A pasos están el Paseo Baquedano, el Teatro Municipal de Iquique y las casonas de pino de la época salitrera. A pocos minutos a pie o en bici llegas a Playa Cavancha; y si quieres compras libres de impuestos, la Zona Franca (Zofri) es una parada clásica en Iquique."
+          }
+        ]
+      }
+    ]
+  },
+  "recommendations": {
+    "title": "Descubre más en Iquique y Tarapacá",
+    "attractionsTitle": "Atracciones cercanas",
+    "toursTitle": "Tours y actividades recomendados",
+    "attractions": [
+      { "name": "Paseo Baquedano", "url": "https://www.iqique.cl" },
+      { "name": "Teatro Municipal de Iquique", "url": "https://www.chile.travel" },
+      { "name": "Plaza Arturo Prat", "url": "https://www.iqique.cl" },
+      { "name": "Playa Cavancha", "url": "https://www.chile.travel" },
+      { "name": "Zona Franca de Iquique (Zofri)", "url": "https://www.goretarapaca.cl" }
+    ],
+    "tours": [
+      { "name": "Tour patrimonial del casco histórico", "url": "https://www.chile.travel" },
+      { "name": "Caminata costanera a Playa Cavancha", "url": "https://www.iqique.cl" },
+      { "name": "Visita a la Zona Franca (Zofri)", "url": "https://www.goretarapaca.cl" }
+    ]
+  }
+}
