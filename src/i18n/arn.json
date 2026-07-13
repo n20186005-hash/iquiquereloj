@@ -245,7 +245,7 @@
     "mapsLabel": "Google Maps →",
     "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
     "officialLinksList": [
-      { "name": "Municipalidad de Iquique", "url": "https://www.iqique.cl" },
+      { "name": "Municipalidad de Iquique", "url": "http://www.municipioiquique.cl/" },
       { "name": "SERNATUR Chile Travel", "url": "https://www.chile.travel" },
       { "name": "Gobierno Regional de Tarapacá", "url": "https://www.goretarapaca.cl" },
       { "name": "Subsecretaría de Turismo", "url": "https://www.subturismo.gob.cl" }
@@ -395,15 +395,15 @@
     "attractionsTitle": "Tenda cercano",
     "toursTitle": "Tour ka actividad",
     "attractions": [
-      { "name": "Baquedano peme", "url": "https://www.iqique.cl" },
+      { "name": "Baquedano peme", "url": "http://www.municipioiquique.cl/" },
       { "name": "Teatro Municipal Iquique", "url": "https://www.chile.travel" },
-      { "name": "Plaza Arturo Prat", "url": "https://www.iqique.cl" },
+      { "name": "Plaza Arturo Prat", "url": "http://www.municipioiquique.cl/" },
       { "name": "Playa Cavancha", "url": "https://www.chile.travel" },
       { "name": "Zona Franca Iquique (Zofri)", "url": "https://www.goretarapaca.cl" }
     ],
     "tours": [
       { "name": "Kuyfi ruka tour", "url": "https://www.chile.travel" },
-      { "name": "Costanera Playa Cavancha", "url": "https://www.iqique.cl" },
+      { "name": "Costanera Playa Cavancha", "url": "http://www.municipioiquique.cl/" },
       { "name": "Zofri tour", "url": "https://www.goretarapaca.cl" }
     ]
   }

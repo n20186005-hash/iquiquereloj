@@ -245,7 +245,7 @@
     "mapsLabel": "Google 地图 →",
     "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
     "officialLinksList": [
-      { "name": "伊基克市政府 (Municipalidad de Iquique)", "url": "https://www.iqique.cl" },
+      { "name": "伊基克市政府 (Municipalidad de Iquique)", "url": "http://www.municipioiquique.cl/" },
       { "name": "智利国家旅游局 (SERNATUR Chile Travel)", "url": "https://www.chile.travel" },
       { "name": "塔拉帕卡大区政府", "url": "https://www.goretarapaca.cl" },
       { "name": "智利旅游部 (Subsecretaría de Turismo)", "url": "https://www.subturismo.gob.cl" }
@@ -395,15 +395,15 @@
     "attractionsTitle": "附近景点",
     "toursTitle": "推荐游览与活动",
     "attractions": [
-      { "name": "巴克达诺步行街", "url": "https://www.iqique.cl" },
+      { "name": "巴克达诺步行街", "url": "http://www.municipioiquique.cl/" },
       { "name": "伊基克市政剧院", "url": "https://www.chile.travel" },
-      { "name": "阿图罗·普拉特广场", "url": "https://www.iqique.cl" },
+      { "name": "阿图罗·普拉特广场", "url": "http://www.municipioiquique.cl/" },
       { "name": "卡万查海滩", "url": "https://www.chile.travel" },
       { "name": "伊基克自由贸易区（Zofri）", "url": "https://www.goretarapaca.cl" }
     ],
     "tours": [
       { "name": "历史老城遗产漫游", "url": "https://www.chile.travel" },
-      { "name": "滨海步道徒步至卡万查海滩", "url": "https://www.iqique.cl" },
+      { "name": "滨海步道徒步至卡万查海滩", "url": "http://www.municipioiquique.cl/" },
       { "name": "自由贸易区（Zofri）购物之旅", "url": "https://www.goretarapaca.cl" }
     ]
   }

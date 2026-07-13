@@ -245,7 +245,7 @@
     "mapsLabel": "Google Maps →",
     "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
     "officialLinksList": [
-      { "name": "Ilustre Municipalidad de Iquique", "url": "https://www.iqique.cl" },
+      { "name": "Ilustre Municipalidad de Iquique", "url": "http://www.municipioiquique.cl/" },
       { "name": "SERNATUR Chile Travel", "url": "https://www.chile.travel" },
       { "name": "Gobierno Regional de Tarapacá", "url": "https://www.goretarapaca.cl" },
       { "name": "Subsecretaría de Turismo de Chile", "url": "https://www.subturismo.gob.cl" }
@@ -395,15 +395,15 @@
     "attractionsTitle": "Atracciones cercanas",
     "toursTitle": "Tours y actividades recomendados",
     "attractions": [
-      { "name": "Paseo Baquedano", "url": "https://www.iqique.cl" },
+      { "name": "Paseo Baquedano", "url": "http://www.municipioiquique.cl/" },
       { "name": "Teatro Municipal de Iquique", "url": "https://www.chile.travel" },
-      { "name": "Plaza Arturo Prat", "url": "https://www.iqique.cl" },
+      { "name": "Plaza Arturo Prat", "url": "http://www.municipioiquique.cl/" },
       { "name": "Playa Cavancha", "url": "https://www.chile.travel" },
       { "name": "Zona Franca de Iquique (Zofri)", "url": "https://www.goretarapaca.cl" }
     ],
     "tours": [
       { "name": "Tour patrimonial del casco histórico", "url": "https://www.chile.travel" },
-      { "name": "Caminata costanera a Playa Cavancha", "url": "https://www.iqique.cl" },
+      { "name": "Caminata costanera a Playa Cavancha", "url": "http://www.municipioiquique.cl/" },
       { "name": "Visita a la Zona Franca (Zofri)", "url": "https://www.goretarapaca.cl" }
     ]
   }

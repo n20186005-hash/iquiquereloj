@@ -245,7 +245,7 @@
     "mapsLabel": "Google Maps →",
     "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
     "officialLinksList": [
-      { "name": "Municipality of Iquique", "url": "https://www.iqique.cl" },
+      { "name": "Municipality of Iquique", "url": "http://www.municipioiquique.cl/" },
       { "name": "SERNATUR Chile Travel", "url": "https://www.chile.travel" },
       { "name": "Regional Government of Tarapacá", "url": "https://www.goretarapaca.cl" },
       { "name": "Undersecretary of Tourism of Chile", "url": "https://www.subturismo.gob.cl" }
@@ -395,15 +395,15 @@
     "attractionsTitle": "Nearby Attractions",
     "toursTitle": "Recommended Tours & Activities",
     "attractions": [
-      { "name": "Baquedano Promenade", "url": "https://www.iqique.cl" },
+      { "name": "Baquedano Promenade", "url": "http://www.municipioiquique.cl/" },
       { "name": "Iquique Municipal Theatre", "url": "https://www.chile.travel" },
-      { "name": "Plaza Arturo Prat", "url": "https://www.iqique.cl" },
+      { "name": "Plaza Arturo Prat", "url": "http://www.municipioiquique.cl/" },
       { "name": "Playa Cavancha", "url": "https://www.chile.travel" },
       { "name": "Iquique Free Zone (Zofri)", "url": "https://www.goretarapaca.cl" }
     ],
     "tours": [
       { "name": "Historic-centre heritage tour", "url": "https://www.chile.travel" },
-      { "name": "Seafront walk to Playa Cavancha", "url": "https://www.iqique.cl" },
+      { "name": "Seafront walk to Playa Cavancha", "url": "http://www.municipioiquique.cl/" },
       { "name": "Visit to the Free Zone (Zofri)", "url": "https://www.goretarapaca.cl" }
     ]
   }
