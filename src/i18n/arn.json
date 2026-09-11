@@ -1,13 +1,94 @@
 {
   "meta": {
-    "title": "Torre del Reloj | Iquique, Chile",
-    "description": "Torre del Reloj (Iquique) nütram: salitre kuyfi, Oregon pine ruka, ta'anga, chewü nütram, chumküpa Tarapacá Región, Chile."
+    "title": "Torre del Reloj Iquique: Historia, Amu ka Plaza Prat",
+    "description": "Plaza Prat mew Torre del Reloj, Iquique: historia, mülewe, foto ka chem pe amu. Tarapacá, Chile.",
+    "ogTitle": "Torre del Reloj Iquique: Historia, Amu ka Plaza Prat",
+    "ogDescription": "Historia, mülewe ka foto Torre del Reloj, Plaza Prat, Iquique, Chile."
+  },
+  "drawings": {
+    "title": "Dibujo ka Ilustración Torre del Reloj",
+    "subtitle": "Kiñe línea dibujo torre ñi, pe rume amu.",
+    "intro": "Femün dibujo feypi torre ñi: pino de Oregón ruka, reloj 1877 mew, ka cúpula cruz mew. Kiñe línea dibujo, küme pe torre Plaza Arturo Prat mew kam costanera mew.",
+    "alt": "Dibujo Torre del Reloj Iquique",
+    "caption": "Dibujo Torre del Reloj, Plaza Arturo Prat, Tarapacá.",
+    "anatomyTitle": "Torre ñi chem dibujo mew",
+    "anatomy": [
+      {
+        "name": "Cúpula ka cruz",
+        "text": "Füta mew cúpula ka cruz, costanera mew pe küme."
+      },
+      {
+        "name": "Reloj",
+        "text": "Reloj público 1877 mew, puerto salitre ñi aravo."
+      },
+      {
+        "name": "Ruka madera",
+        "text": "Pino de Oregón winka ko mew küpan: femün torre üñüm tunten."
+      }
+    ],
+    "downloadLabel": "Descargar dibujo SVG",
+    "note": "Dibujo femün tüfachi guía mew."
+  },
+  "plaza": {
+    "title": "Chem Pe Amu Plaza Prat Wall",
+    "subtitle": "Torre del Reloj Plaza Arturo Prat piwke mew müle: femün rüpü amu, centro histórico Iquique mew.",
+    "intro": "Torre ül kiñe mülen. Plaza Arturo Prat piwke mew müle, chew Baquedano paseo ka centro histórico Iquique mew trafkin. Wall müle Teatro Municipal, pino de Oregón ruka ka costanera Playa Cavancha püle, femün amu rüpü küme.",
+    "addressLabel": "Dirección",
+    "address": "Calle Baquedano, Plaza Arturo Prat, Iquique, Tarapacá, Chile",
+    "itemsTitle": "Pe küme pichi rüpü mew",
+    "items": [
+      {
+        "name": "Paseo Baquedano",
+        "text": "Paseo peatonal madera, plaza wall mew küpan; küme rüpü ñi pelon.",
+        "link": "Chumül amu Paseo Baquedano",
+        "href": "#transport"
+      },
+      {
+        "name": "Teatro Municipal Iquique",
+        "text": "Kiñe küme patrimonio ruka centro mew, torre wall pichi müten.",
+        "link": "Pe mapa ka mülewe",
+        "href": "#map"
+      },
+      {
+        "name": "Ruka pino de Oregón",
+        "text": "Ruka salitre mew feypi torre ñi madera ka historia.",
+        "link": "Historia ka arquitectura Torre del Reloj",
+        "href": "#history"
+      },
+      {
+        "name": "Playa Cavancha",
+        "text": "Iquique ñi küme playa, costanera mew 15 minuto amu.",
+        "link": "Femün küyen Iquique mew",
+        "href": "#weather"
+      },
+      {
+        "name": "Torre ka plaza foto",
+        "text": "Pelon amu, küme pe chumül lig torre anti mew.",
+        "link": "Foto Torre del Reloj ka plaza",
+        "href": "#gallery"
+      },
+      {
+        "name": "Torre del Reloj dibujo mew",
+        "text": "Línea dibujo kellu pe torre ñi forma ka remate.",
+        "link": "Dibujo Torre del Reloj",
+        "href": "#drawings"
+      }
+    ],
+    "routeTitle": "Rüpü amu Paseo Baquedano mew",
+    "route": [
+      "Pelon Paseo Baquedano mew, amu Plaza Arturo Prat püle.",
+      "Torre del Reloj plaza piwke mew müle, palmera ka banca wall.",
+      "Amu plaza wall mew, pe Teatro Municipal ka ruka pino salitre.",
+      "Amu costanera püle Playa Cavancha mew, femün rüpü."
+    ]
   },
   "header": {
     "siteName": "Torre del Reloj",
     "home": "Ruka",
     "visit": "Küpa",
     "transport": "Chumküpa",
+    "weather": "Küyen",
+    "facilities": "Küme ruka",
     "history": "Kuyfi dungu",
     "gallery": "Ta'anga aty",
     "reviews": "Chewü nütram",
@@ -20,7 +101,8 @@
     "toggleTheme": "Küyen müno"
   },
   "hero": {
-    "title": "Torre del Reloj",
+    "title": "Torre del Reloj Iquique",
+    "descriptor": "Plaza Prat ñi piwke (corazón histórico)",
     "subtitle": "1877 ruka, Plaza Arturo Prat nag, Iquique salitre kuyfi newen.",
     "rating": "4.5 (11.533)",
     "reviewCount": "Chewü nütram 11.533",
@@ -90,7 +172,7 @@
         "title": "Bus füta",
         "description": "Bus Iquique küpa pichi costo.",
         "details": [
-          "Bus Terminal Iquique Pullman, Condor, Tur Bus.",
+          "Bus Terminal Iquique: bus füta kompañía.",
           "Santiago 24 hora rume; Antofagasta, Arica transbordo.",
           "Terminal colectivo taxi Plaza Arturo Prat."
         ]
@@ -153,7 +235,155 @@
         "id": "significance",
         "title": "Iquique ta'anga",
         "content": "Akün Torre del Reloj Iquique ta'anga, Plaza Arturo Prat. Baquedano peme, Teatro Municipal, Oregon pine ruka rume, Iquique kuyfi ruka. Tarapacá kuyfi ka salitre newen."
+      },
+      {
+        "id": "architecture",
+        "title": "Ruka kimün: chumül madera torre",
+        "content": "Torre del Reloj Oregon pine ruka: madera füta, templete ka cúpula, reloj esfera. Desierto mew madera ruka küme: Oregon pine wapi püle küpan, füta, ligero ka newen. Arco ka moldura morisco: salitre ülmen ta'anga. Ruka ligero ka füta ruka contraste."
+      },
+      {
+        "id": "context",
+        "title": "Iquique salitre: 1877 tripantu",
+        "content": "1877 mew Iquique füta puerto salitre, Pacífico sur ülmen waria. Salitre desierto püle müle, wapi mew amu; comercio winka ka América che küpan. Waria madera mew füta, paseo, teatro, club. Plaza mew banco, comercio, edificio público ka torre hora. Fey mew torre madera 1877 ta'anga."
+      },
+      {
+        "id": "traditions",
+        "title": "Kuyfi nütram ka dungu",
+        "content": "Reloj nütram rume, plaza nütram müle: novio torre nag trür, vendedor campana mew antü, marinero küme rüpü. Popular nütram, documento ül — fey mew Iquique torre piuke ta'anga."
+      },
+      {
+        "id": "curiosities",
+        "title": "Kimün küpa: detalle pe",
+        "content": "Detalle pe: esfera ka aguja, templete ka cúpula, pintura lig ruka, madera ligero ka füta ruka contraste. Sombra (atardecer) ka pun luz mew torre küme az ta'anga. Baquedano peme madera ka mueble rume ruka."
+      },
+      {
+        "id": "heritage",
+        "title": "Patrimonio ka cuidado",
+        "content": "Torre Iquique kuyfi ruka patrimonio, Baquedano peme, Teatro Municipal ka Oregon pine ruka rume. Madera ruka sol, mawün ka viento mew: mantenimiento ka pintura küpa. Küpa rume cuidado: ürke ül, mueble respeto, plaza lig küme."
       }
+    ],
+    "timelineTitle": "Kuyfi antü",
+    "timeline": [
+      { "year": "1877", "text": "Torre del Reloj Plaza Prat mew, salitre küme antü, Oregon pine wapi mew." },
+      { "year": "1880-1900", "text": "Iquique füta puerto salitre, plaza centro cívico." },
+      { "year": "Siglo XX", "text": "Salitre crisis, waria müten; torre kuyfi ruka ta'anga." },
+      { "year": "Actualidad", "text": "Torre patrimonio ta'anga, Baquedano peme rüpü mew." }
+    ]
+  },
+  "weather": {
+    "title": "Küyen Iquique ka 7 antü",
+    "subtitle": "Küyen pe: paraguas, sombrero ka abrigo ligero küpa-üy?",
+    "now": "Femün",
+    "feelsLike": "Küyen siente",
+    "humidity": "Humedad",
+    "wind": "Viento",
+    "precipitation": "Mawün prob.",
+    "uvIndex": "UV",
+    "forecast": "7 antü küyen",
+    "today": "Femün antü",
+    "umbrellaYes": "Femün paraguas üy: mawün küpan.",
+    "umbrellaNo": "Femün paraguas ül: mawün ül.",
+    "updated": "Küme akün",
+    "unavailable": "Küyen kimün ül femün. Akün küpa.",
+    "sourceLabel": "Küyen zugun",
+    "conditions": {
+      "clear": "Lig",
+      "mainlyClear": "Lig rume",
+      "partlyCloudy": "Parcial nube",
+      "overcast": "Nube",
+      "fog": "Munta",
+      "drizzle": "Pichi mawün",
+      "rain": "Mawün",
+      "showers": "Mawün pichi",
+      "snow": "Pire",
+      "thunderstorm": "Trueno",
+      "unknown": "Rume"
+    },
+    "uv": {
+      "low": "Pichi",
+      "moderate": "Kiñe",
+      "high": "Füta",
+      "veryHigh": "Rume füta",
+      "extreme": "Mex füta"
+    },
+    "alertsTitle": "Küyen peligro",
+    "noAlerts": "Femün küyen peligro ül.",
+    "seaTitle": "Lafken küyen",
+    "waveHeight": "Ola füta",
+    "wavePeriod": "Ola tiempo",
+    "seaTemp": "Ko temperatura",
+    "groupOutfit": "Chumül takuy",
+    "groupPlan": "Chumül amu",
+    "groupGear": "Chem küpa",
+    "advice": {
+      "alertThunderstorm": "Trueno: ül amu cerro, ül amu mita ko, ül mülen lafken püle.",
+      "alertHeavyRain": "Mawün füta: ül amu bajo, ül amu quebrada. Desierto mew mawün füta weküfü küpan.",
+      "alertHighWind": "Viento füta: ül amu cartel püle, ül amu costa borde; actividad fuera suspended mülen may.",
+      "alertFog": "Munta: pe ül küme; femün ül küme mirador, lafken ka cerro.",
+      "alertExtremeHeat": "Sol füta: pichi amu rüpü, agua küpa, 11:00-16:00 ül amu.",
+      "alertExtremeUv": "UV peligro: protección füta, gafas, sombra mülen; piel ligero üla.",
+      "alertCold": "Külfün füta: abrigo küme, ül mülen fuera kuyfi.",
+      "alertHighSwell": "Ola peligro: ül kon inaltu ko, ül amu piedra; lig pe füta mew.",
+      "alertDust": "Polvo: ül üy proteccion; respirar problema mew pichi amu fuera.",
+      "outfitHot": "Küme küme (calor): taku ligero, transpirable, lig küme.",
+      "outfitWarm": "Temperatura küme: taku ligero; manga pichi küpa brisa mew.",
+      "outfitMild": "Templado: manga larga ligero kam chaqueta pichi.",
+      "outfitCool": "Külfün pichi: chaqueta kam polar ligero küpa.",
+      "outfitCold": "Külfün: abrigo füta, bufanda, calcetín füta.",
+      "outfitSwing": "Anti ka pun {n} °C contraste: capa mew takuy, pun abrigo küpa.",
+      "outfitRainproof": "Mawün küpan: calzado cerrado ka chaqueta ko, paraguas ül küme.",
+      "outfitWindy": "Viento küpan: sombrero müna, ül pollera ancha.",
+      "planClear": "Lig küme: küme rüpü peme plaza ka paseo; atardecer foto küme.",
+      "planCloudy": "Nube: luz suave, foto küme; sol ül, paseo larga rume küme.",
+      "planRainLight": "Mawün pichi: rüpü resbaloso (piso ka tablado madera); actividad fuera ül küme.",
+      "planRainHeavy": "Mawün füta: ruka mew püle amu; barco ka actividad fuera cerrado müle.",
+      "planThunderstorm": "Trueno: actividad ko cerrado; ül mülen cielo püle kam füta mew.",
+      "planFog": "Munta: pe ül küme; femün ül küme mirador ka horizonte foto.",
+      "planBeachOk": "Lafken tranquilo: küme amu costa, welu ko külfün müten.",
+      "planBeachCaution": "Ola media: arena mew mülen, ül amuñawe costa; ola küpa sorprender.",
+      "planBeachDanger": "Ola füta: ül kon ko, ül amu piedra ka rompiente; füta mew pe.",
+      "planBeachCold": "Ko külfün ({n} °C): pichi müten kon, neopreno kam wekun lig küpa.",
+      "planHeat": "Pichi amu rüpü fuera; mediodía sombra kam ruka mew mülen.",
+      "planDesertMidday": "Desierto mediodía sol füta: paseo larga primera hora kam atardecer küpa.",
+      "planHighUv": "UV füta: mediodía sombra küpa, piel ka ojos protección.",
+      "planWind": "Viento: barco ka actividad fuera suspended mülen may; abrigo pichi küpa.",
+      "planWindStrong": "Viento füta: actividad fuera ka mar casi cerrado.",
+      "gearSunscreen": "Protector solar, gafas, sombrero.",
+      "gearWater": "Agua küpa: desierto mew sed küpan pe ül (wekun ürüf ko).",
+      "gearUmbrella": "Paraguas kam chubasquero plegable.",
+      "gearFoldingUmbrella": "Paraguas pichi, mawün may küpa.",
+      "gearRaincoat": "Chubasquero ko; viento mew paraguas largo ül küme.",
+      "gearWarm": "Abrigo füta, bufanda, guante.",
+      "gearLayer": "Capa küpa (chaqueta ligero kam polar) küyenüm pun mew.",
+      "gearWindproof": "Cortavientos; sombrero ancha viento mew üla.",
+      "gearMask": "Mascarilla kam pañuelo polvo küpa."
+    }
+  },
+  "facilities": {
+    "title": "Küme ruka ka servicio rupa",
+    "subtitle": "Torre del Reloj rupa: baño, estacionamiento, mita, ruka, comercio, bencina ka carga.",
+    "neutral": "Neutral: servicio tipo müten pe. Comercio dueño ül, recomendación ül.",
+    "note": "Rüpü distancia, Plaza Arturo Prat püle. Horario ka küme mülen may külfün.",
+    "items": [
+      { "icon": "🚻", "title": "Baño", "detail": "Plaza mew baño ül. Centro mew baño público müle ka mita ruka baño. Papel küpa.", "distance": "Centro, pichi rüpü" },
+      { "icon": "🅿️", "title": "Estacionamiento", "detail": "Rüpü mew estacionamiento ka pago sitio. Küyen mew füta gente; küme antü küpa kam püle amu.", "distance": "Plaza rupa rüpü" },
+      { "icon": "🍽️", "title": "Mita ruka ka café", "detail": "Mita mapuche/Chile ka pichi mita, café, pan ka helado. Küme üy küpa.", "distance": "Peme ka rüpü" },
+      { "icon": "🛏️", "title": "Ruka (alojamiento)", "detail": "Hotel, hostal, residencial ka departamento. Costa ka Cavancha püle rume.", "distance": "Centro ka costa" },
+      { "icon": "🛒", "title": "Comercio ka supermercado", "detail": "Supermercado, pichi comercio, farmacia ka barrio comercio. Zona franca pichi rüpü auto mew.", "distance": "Centro rüpü" },
+      { "icon": "⛽", "title": "Bencina ka carga eléctrica", "detail": "Bencinera ka carga punto waria mew. Disponible ka conector pe küpa.", "distance": "Centro rupa, auto mew" },
+      { "icon": "🏧", "title": "Cajero ka banco", "detail": "Centro mew cajero automático ka banco, semana pichi horario. Pichi plata küpa.", "distance": "Centro" },
+      { "icon": "🏥", "title": "Salud ka farmacia", "detail": "Posta, clínica ka farmacia, urgencia turno mew. Emergencia mew público teléfono.", "distance": "Centro ka rupa" },
+      { "icon": "🚰", "title": "Agua ka sombra", "detail": "Agua potable küme. Fuente ka sombra pichi: botella küpa ka sol protección.", "distance": "Plaza mew" },
+      { "icon": "📶", "title": "Internet ka teléfono", "detail": "Waria mew teléfono señal ka wifi ruka mew. Rüpü ka kuyfi ruka mew señal küme mülen may.", "distance": "Kom rupa" },
+      { "icon": "♿", "title": "Accesibilidad", "detail": "Plaza plano ka pavimento, silla rueda ka coche küme amu; rüpü mew cruce adaptado. Madera peme pichi juntas.", "distance": "Plaza ka peme" },
+      { "icon": "🚌", "title": "Bus público ka taxi", "detail": "Bus paradero, taxi ka app rüpü füta mew. Centro pichi, püle amu küme.", "distance": "Rüpü füta" }
+    ],
+    "practicalTitle": "Rüpü mew kimün",
+    "practical": [
+      "Antü küme ka seguro; pun mew iluminado rüpü küpa.",
+      "Desierto küyen: antü ka pun külfün; abrigo ligero küpa.",
+      "11:00-16:00 sol füta: protección ka agua üy.",
+      "Comercio küme antü ka tarde; domingo müten cerrado."
     ]
   },
   "gallery": {
@@ -250,7 +480,12 @@
       { "name": "Gobierno Regional de Tarapacá", "url": "https://www.goretarapaca.cl" },
       { "name": "Subsecretaría de Turismo", "url": "https://www.subturismo.gob.cl" }
     ],
-    "disclaimer": "Ko web küme mongen nütram, institución oficial ül."
+    "disclaimer": "Ko web küme mongen nütram, institución oficial ül.",
+    "napTitle": "Oficial üy ka mülewe",
+    "napName": "Torre del Reloj (Clock Tower)",
+    "napAddress": "Plaza Arturo Prat, Baquedano, Iquique, Tarapacá, Chile",
+    "imageCopyright": "Ta'anga derecho: kom ta'anga ko web mew, ta'anga zugun dueño chewü ta'angafe püle.",
+    "sourcesLink": "Zugun ka referencia"
   },
   "privacy": {
     "title": "Privacidad",
@@ -321,10 +556,16 @@
     "amenities": {
       "title": "Tenda rupi",
       "items": [
-        { "icon": "🅿️", "label": "Estacionamiento", "value": "Ruka rüpü ka estacionamiento" },
-        { "icon": "🚻", "label": "Baños", "value": "Café, tienda, público" },
-        { "icon": "🔌", "label": "Bencina / Carga", "value": "Iquique bencina ka EV" },
-        { "icon": "♿", "label": "Accesibilidad", "value": "Plaza plano, peme ül escalón" }
+        { "icon": "🚻", "label": "Baños", "value": "Público ka ruka baño, centro mew" },
+        { "icon": "🅿️", "label": "Estacionamiento", "value": "Rüpü ka pago sitio, centro mew" },
+        { "icon": "🍽️", "label": "Mita", "value": "Mita ruka, café ka pichi mita rüpü mew" },
+        { "icon": "🛏️", "label": "Ruka", "value": "Hotel, hostal ka residencial, centro ka costa" },
+        { "icon": "🛒", "label": "Comercio", "value": "Supermercado, pichi comercio ka farmacia" },
+        { "icon": "⛽", "label": "Bencina / Carga", "value": "Bencinera ka carga eléctrica waria mew" },
+        { "icon": "🏧", "label": "Cajero", "value": "Cajero automático ka banco, centro mew" },
+        { "icon": "🏥", "label": "Salud", "value": "Posta ka farmacia, urgencia turno mew" },
+        { "icon": "♿", "label": "Accesibilidad", "value": "Plaza plano, peme ül escalón" },
+        { "icon": "📶", "label": "Internet", "value": "Teléfono señal ka wifi ruka mew" }
       ]
     },
     "categories": [
@@ -405,6 +646,34 @@
       { "name": "Kuyfi ruka tour", "url": "https://www.chile.travel" },
       { "name": "Costanera Playa Cavancha", "url": "http://www.municipioiquique.cl/" },
       { "name": "Zofri tour", "url": "https://www.goretarapaca.cl" }
+    ]
+  },
+  "entity": {
+    "breadcrumb": ["Torre del Reloj", "Iquique", "Tarapacá", "Chile"],
+    "schemaDescription": "Torre del Reloj, Iquique, Tarapacá, Chile küpa reko füta.",
+    "welcome": "Küpa Torre del Reloj, Iquique Reloj pingechi. Iquique, Tarapacá, Chile ruka nag müle, chewü küpa füta tenda.",
+    "nearby": "Torre del Reloj küpa, chewü kuyfi tenda ka plaza pe: Baquedano peme ka Teatro Municipal de Iquique.",
+    "aboutTitle": "Torre del Reloj nütram",
+    "aboutText": "Torre del Reloj Iquique pino ta'anga füta, Plaza Arturo Prat nag. 1877 Oregon pine ruka, reloj akün kuyfi ruka antü rüpü, Atacama desert ka salitre puerto.",
+    "locationTitle": "Mülewe ka chumküpa Iquique Reloj",
+    "locationText": "Torre del Reloj Plaza Arturo Prat mew, Baquedano rüpü, Iquique kuyfi ruka, Tarapacá. Baquedano peme ka costanera püle peme; plaza plano, accesible, 24 hora ka entrada küme.",
+    "landmarksTitle": "Tenda ka atracción Iquique Reloj rupi",
+    "landmarksText": "Torre del Reloj rupi: Baquedano peme, Teatro Municipal Iquique, Oregon pine ruka salitre. Pichi peme Playa Cavancha ka Zofri.",
+    "historyTitle": "Torre del Reloj kuyfi ka newen",
+    "historyText": "1877 salitre kütral mew, Torre del Reloj Iquique salitre puerto füta kuyfi. Moorish estilo ka Oregon pine ruka, Iquique ta'anga."
+  },
+  "sources": {
+    "title": "Zugun ka oficial referencia",
+    "intro": "Ko küme mongen dungu, oficial ka referencia web püle. Akün dungu echë.",
+    "officialPortal": "Chile / Tarapacá oficial turismo portal",
+    "items": [
+      { "name": "Municipalidad de Iquique", "url": "http://www.municipioiquique.cl/" },
+      { "name": "SERNATUR – Chile Travel (turismo oficial)", "url": "https://www.chile.travel" },
+      { "name": "Gobierno Regional de Tarapacá", "url": "https://www.goretarapaca.cl" },
+      { "name": "Subsecretaría de Turismo de Chile", "url": "https://www.subturismo.gob.cl" },
+      { "name": "Consejo de Monumentos Nacionales de Chile", "url": "https://www.monumentos.gob.cl" },
+      { "name": "Google Maps – Clock Tower, Iquique", "url": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A" },
+      { "name": "Open-Meteo – küyen zugun", "url": "https://open-meteo.com/" }
     ]
   }
 }

@@ -1,13 +1,94 @@
 {
   "meta": {
-    "title": "Clock Tower | Iquique, Chile",
-    "description": "The complete guide to the Iquique Clock Tower: nitrate-boom history, Oregon-pine architecture, photos, visitor reviews and how to get there in Chile's Tarapacá Region."
+    "title": "Iquique Clock Tower: History, Visits & Plaza Prat Guide",
+    "description": "Discover the historic Clock Tower in Plaza Prat, Iquique. History, location, photos and what to see around in the Tarapacá Region, Chile.",
+    "ogTitle": "Iquique Clock Tower: History, Visits & Plaza Prat Guide",
+    "ogDescription": "History, location, photos and what to see around the Clock Tower in Plaza Prat, Iquique, Chile."
+  },
+  "drawings": {
+    "title": "Drawings and Illustrations of the Clock Tower",
+    "subtitle": "A line illustration of the tower so you can recognise its silhouette before you visit.",
+    "intro": "This drawing sums up the anatomy of the Iquique Clock Tower: the Oregon pine body, the clock face that has marked the hours since 1877, and the domed top with its cross. It is a line illustration, useful for recognising the tower from anywhere in Plaza Arturo Prat or along the seafront.",
+    "alt": "Drawing of the Clock Tower of Iquique",
+    "caption": "Drawing of the Clock Tower of Iquique in Plaza Arturo Prat, Tarapacá Region.",
+    "anatomyTitle": "Parts of the tower shown in the drawing",
+    "anatomy": [
+      {
+        "name": "Dome and finial",
+        "text": "The small dome and cross on top that make the tower visible from the seafront."
+      },
+      {
+        "name": "Clock face",
+        "text": "The public clock that has ordered life in the nitrate port since 1877."
+      },
+      {
+        "name": "Wooden body",
+        "text": "An Oregon pine structure shipped in by sea: the detail that sets this tower apart from any other."
+      }
+    ],
+    "downloadLabel": "Download the drawing as SVG",
+    "note": "Original illustration created for this guide."
+  },
+  "plaza": {
+    "title": "What to See Around Plaza Prat",
+    "subtitle": "The Clock Tower stands at the centre of Plaza Arturo Prat: this is the walk that connects it with the rest of Iquique's historic centre.",
+    "intro": "The tower does not stand alone. It rises in the middle of Plaza Arturo Prat, where the Baquedano pedestrian street meets Iquique's historic centre. Around it are the Municipal Theatre, the Oregon pine mansions of the nitrate era and the seafront that runs down to Cavancha Beach, so the visit is best completed on foot.",
+    "addressLabel": "Address",
+    "address": "Baquedano Street, Plaza Arturo Prat, Iquique, Tarapacá Region, Chile",
+    "itemsTitle": "Points of interest a few steps away",
+    "items": [
+      {
+        "name": "Paseo Baquedano",
+        "text": "The wooden pedestrian promenade that starts beside the square and is the best starting point for the walk.",
+        "link": "How to get to Paseo Baquedano",
+        "href": "#transport"
+      },
+      {
+        "name": "Municipal Theatre of Iquique",
+        "text": "One of the most elegant heritage buildings in the centre, less than a block from the tower.",
+        "link": "See the map and exact location",
+        "href": "#map"
+      },
+      {
+        "name": "Oregon pine mansions",
+        "text": "The nitrate-era houses explain the tower's own material and its historical context.",
+        "link": "History and architecture of the Clock Tower",
+        "href": "#history"
+      },
+      {
+        "name": "Cavancha Beach",
+        "text": "Iquique's best-known city beach, about 15 minutes on foot along the seafront.",
+        "link": "Today's weather in Iquique",
+        "href": "#weather"
+      },
+      {
+        "name": "The tower and square in photos",
+        "text": "Before the walk it is worth seeing how the light on the tower changes through the day.",
+        "link": "Photos of the Clock Tower and the square",
+        "href": "#gallery"
+      },
+      {
+        "name": "The Clock Tower as a drawing",
+        "text": "The line illustration helps you recognise the silhouette and the domed top.",
+        "link": "Drawing of the Clock Tower",
+        "href": "#drawings"
+      }
+    ],
+    "routeTitle": "Walking route from Paseo Baquedano",
+    "route": [
+      "Start on the Baquedano pedestrian street and walk towards Plaza Arturo Prat.",
+      "The Clock Tower appears at the centre of the square, surrounded by palms and benches.",
+      "Walk around the square to see the Municipal Theatre and the nitrate-era pine houses.",
+      "Finish the walk by heading down the seafront towards Cavancha Beach."
+    ]
   },
   "header": {
     "siteName": "Clock Tower",
     "home": "Home",
     "visit": "Visit",
     "transport": "Getting Here",
+    "weather": "Weather",
+    "facilities": "Services",
     "history": "History",
     "gallery": "Gallery",
     "reviews": "Reviews",
@@ -20,7 +101,8 @@
     "toggleTheme": "Toggle theme"
   },
   "hero": {
-    "title": "Clock Tower",
+    "title": "Clock Tower of Iquique",
+    "descriptor": "The historic heart of Plaza Prat",
     "subtitle": "An 1877 urban landmark at the heart of Plaza Arturo Prat: the Clock Tower, a wooden symbol of Iquique's nitrate-boom glory.",
     "rating": "4.5 (11,533)",
     "reviewCount": "11,533 reviews",
@@ -90,7 +172,7 @@
         "title": "Long-distance Bus",
         "description": "The bus is the budget option to reach Iquique from the rest of Chile.",
         "details": [
-          "The Iquique Bus Terminal receives services from Pullman, Condor, Tur Bus and other lines.",
+          "The Iquique Bus Terminal is served by several long-distance intercity bus companies.",
           "From Santiago the trip is long (over 24 h); many combine via Antofagasta or Arica.",
           "From the terminal, a colectivo or taxi drops you at Plaza Arturo Prat in a few minutes."
         ]
@@ -153,7 +235,155 @@
         "id": "significance",
         "title": "A Symbol of Iquique",
         "content": "Today the Clock Tower is one of the symbols of Iquique and the backdrop of Plaza Arturo Prat. Alongside the Baquedano Promenade, the Municipal Theatre and the Oregon-pine mansions of the nitrate era, it forms part of the heritage route of the centre. It is also the gateway to understanding the urban history of Tarapacá and the legacy of the nitrate boom in northern Chile."
+      },
+      {
+        "id": "architecture",
+        "title": "Architecture: Why a Wooden Tower",
+        "content": "The tower is a piece of timber engineering: an Oregon-pine body, assembled and painted, crowned by a small lantern and dome, with the clock face as its focal point. Building in timber was no eccentricity in a desert city — Oregon pine arrived by ship and offered long, light, resistant pieces that were easy to transport and work. Its Moorish-inspired ornament — arches, mouldings and finials — was the aesthetic signature of the nitrate elite, who imported European and exotic fashions to set their buildings apart. Notice how the white tower stands out against the sky and the neighbouring façades: it is a piece of urban scenery in itself."
+      },
+      {
+        "id": "context",
+        "title": "Nitrate Iquique: The Context of 1877",
+        "content": "In 1877 Iquique was far more than a port: it was one of the wealthiest cities on the South Pacific, thanks to nitrate. Saltpetre was mined inland and shipped from here, and that trade attracted merchants, technicians and immigrant families from Europe, Asia and the rest of the Americas. The city grew in timber, with promenades, theatres and social clubs. The main square concentrated that pride: banks, shops, public buildings and, at its centre, the tower that kept time for everyone. Understanding that context is understanding why a wooden tower from 1877 is still the symbol of the city."
+      },
+      {
+        "id": "traditions",
+        "title": "Traditions and Oral Stories",
+        "content": "Beyond the legends about the pendulum and the bells, oral stories about the square are still passed on in Iquique: that sweethearts met at the foot of the tower, that street vendors set the rhythm of their day by its chimes, and that newly arrived sailors used it as a landmark to find their way. These are accounts of popular memory rather than historical documents — which is exactly why they show how the community turned the tower into an emotional reference point."
+      },
+      {
+        "id": "curiosities",
+        "title": "Details to Look For During Your Visit",
+        "content": "Some details are easy to miss: the clock face and hands, the upper finial and its dome, the white painted joinery renewed with each maintenance cycle, and the contrast between the lightness of the timber and the solidity of the neighbouring buildings. At sunset the tower changes character; at night, lit up, it becomes the most photographed spot on the square. Look also at the wooden decking and street furniture of the Baquedano Promenade — they belong to the same heritage ensemble."
+      },
+      {
+        "id": "heritage",
+        "title": "Heritage and Conservation",
+        "content": "The tower is part of the heritage ensemble of Iquique's historic centre, alongside the Baquedano Promenade, the Municipal Theatre and the Oregon-pine mansions. As a timber structure exposed to sun, coastal humidity and desert wind, it requires periodic maintenance and repainting. Visiting is also a way of caring for it: not climbing on or forcing elements, respecting the furniture and keeping the square clean helps this symbol stand for generations to come."
       }
+    ],
+    "timelineTitle": "Essential Timeline",
+    "timeline": [
+      { "year": "1877", "text": "The Clock Tower is raised in Plaza Prat at the height of the nitrate boom, using Oregon pine brought in by sea." },
+      { "year": "1880-1900", "text": "Iquique's golden age as one of the world's leading nitrate-export ports; the square consolidates as the civic centre." },
+      { "year": "20th century", "text": "With the nitrate crisis and the arrival of synthetic nitrates the city changes pace; the tower remains the reference point of the historic centre." },
+      { "year": "Today", "text": "The tower is Iquique's heritage symbol, a civic meeting point and an essential stop on the historic walk beside the Baquedano Promenade." }
+    ]
+  },
+  "weather": {
+    "title": "Iquique Weather and 7-Day Forecast",
+    "subtitle": "Check current conditions and the outlook to decide whether you need an umbrella, a hat or a light layer during your visit.",
+    "now": "Now",
+    "feelsLike": "Feels like",
+    "humidity": "Humidity",
+    "wind": "Wind",
+    "precipitation": "Rain chance",
+    "uvIndex": "UV index",
+    "forecast": "Next 7 days",
+    "today": "Today",
+    "umbrellaYes": "Worth taking an umbrella today: rain is likely.",
+    "umbrellaNo": "No umbrella needed today: no rain expected.",
+    "updated": "Updated",
+    "unavailable": "The forecast is not available right now. Please check back a little later.",
+    "sourceLabel": "Weather source",
+    "conditions": {
+      "clear": "Clear",
+      "mainlyClear": "Mainly clear",
+      "partlyCloudy": "Partly cloudy",
+      "overcast": "Overcast",
+      "fog": "Fog",
+      "drizzle": "Drizzle",
+      "rain": "Rain",
+      "showers": "Showers",
+      "snow": "Snow",
+      "thunderstorm": "Thunderstorm",
+      "unknown": "Variable"
+    },
+    "uv": {
+      "low": "Low",
+      "moderate": "Moderate",
+      "high": "High",
+      "veryHigh": "Very high",
+      "extreme": "Extreme"
+    },
+    "alertsTitle": "Weather warnings",
+    "noAlerts": "No weather warnings in effect for today.",
+    "seaTitle": "Sea conditions",
+    "waveHeight": "Wave height",
+    "wavePeriod": "Wave period",
+    "seaTemp": "Water temperature",
+    "groupOutfit": "What to wear",
+    "groupPlan": "How to plan your visit",
+    "groupGear": "What to pack",
+    "advice": {
+      "alertThunderstorm": "Thunderstorm: don't head for viewpoints or hills, don't shelter under trees, and stay away from the beach and the water.",
+      "alertHeavyRain": "Heavy rain: avoid low ground, dry riverbeds and valleys; in desert areas intense rain can trigger flash floods.",
+      "alertHighWind": "Strong wind: stay clear of hoardings, scaffolding and coastal rocks; outdoor and boat activities may be suspended.",
+      "alertFog": "Dense fog: visibility is poor, so it is not a good time for viewpoints, the coast or the hills.",
+      "alertExtremeHeat": "Extreme heat: cut back on outdoor activity and keep drinking water, especially between 11:00 and 16:00.",
+      "alertExtremeUv": "Dangerous UV levels: use maximum sun protection, wear sunglasses and stay in the shade.",
+      "alertCold": "Very low temperatures: wrap up well and avoid long spells outdoors.",
+      "alertHighSwell": "Dangerous swell: don't go into the water or near the rocks; watch the sea from a safe distance.",
+      "alertDust": "Airborne dust: protect your airways and eyes; if you have a respiratory condition, limit your time outdoors.",
+      "outfitHot": "Hot: light, breathable, light-coloured clothing.",
+      "outfitWarm": "Warm and pleasant: light clothing, with thin sleeves in case of a sea breeze.",
+      "outfitMild": "Mild: a thin long-sleeved layer or a light jacket.",
+      "outfitCool": "Cool: add a jacket or a light fleece.",
+      "outfitCold": "Cold: heavy coat, scarf and warm socks.",
+      "outfitSwing": "Day and night differ by about {n}°C: dress in layers so you can add clothing in the evening.",
+      "outfitRainproof": "Rain possible: closed shoes and a waterproof jacket work better than an umbrella.",
+      "outfitWindy": "It will be windy: hold on to your hat and avoid loose skirts or very baggy clothes.",
+      "planClear": "Clear skies: a great day for the square and the promenade, with lovely light for photos at sunset.",
+      "planCloudy": "Some cloud: soft light is flattering for photos, and no direct sun makes a long walk more comfortable.",
+      "planRainLight": "Light rain: paving and the wooden decking turn slippery, and outdoor activities lose their appeal.",
+      "planRainHeavy": "Heavy rain: favour indoor options; boat trips and outdoor attractions often close.",
+      "planThunderstorm": "Thunderstorm: water activities are usually cancelled, and open or elevated ground is best avoided.",
+      "planFog": "Fog: visibility is poor, so today is not the day for panoramas or horizon shots.",
+      "planBeachOk": "The sea is calm: a good day to walk the shoreline, though the Pacific stays cold.",
+      "planBeachCaution": "Moderate swell: stay on the sand and don't stray far from the shore; waves can catch you out.",
+      "planBeachDanger": "High swell: not a day for swimming or for rocky outcrops; watch the sea from a distance.",
+      "planBeachCold": "The water is cold ({n}°C): if you go in, keep it short and use a wetsuit or get out quickly.",
+      "planHeat": "Shorten outdoor activities and save the middle of the day for shade or indoor stops.",
+      "planDesertMidday": "The desert sun is fierce at midday: save long walks for early morning or sunset.",
+      "planHighUv": "UV is high: seek shade around midday and protect your skin and eyes.",
+      "planWind": "Breezy: boat trips and some outdoor attractions may be suspended; take a windproof layer.",
+      "planWindStrong": "Very strong wind: outdoor and sea-based activities are very likely to close.",
+      "gearSunscreen": "Sunscreen, sunglasses and a hat.",
+      "gearWater": "Plenty of water — in the desert you feel thirsty once you are already short of fluids.",
+      "gearUmbrella": "Umbrella or packable rain jacket.",
+      "gearFoldingUmbrella": "A compact umbrella in case of a passing shower.",
+      "gearRaincoat": "Rain jacket or waterproof shell; in wind, skip the long umbrella.",
+      "gearWarm": "Heavy coat, scarf and gloves if you feel the cold.",
+      "gearLayer": "One extra layer (light jacket or fleece) for when the temperature drops.",
+      "gearWindproof": "Windproof jacket; wide-brimmed hats blow away.",
+      "gearMask": "Mask or scarf for dust and airborne particles."
+    }
+  },
+  "facilities": {
+    "title": "Services and Infrastructure Nearby",
+    "subtitle": "Practical information on the types of service you will find around the Clock Tower: restrooms, parking, food, accommodation, shopping, fuel and EV charging, among others.",
+    "neutral": "Neutral directory: we only describe the types of service available in the area. We do not promote, recommend or list any specific business.",
+    "note": "Distances are indicative and measured on foot from Plaza Arturo Prat. Availability and opening hours may vary by season.",
+    "items": [
+      { "icon": "🚻", "title": "Restrooms and public conveniences", "detail": "The square has no restrooms of its own. In the city centre there are public toilets and hospitality venues offer facilities to their customers. Carrying tissue or hand gel is a good idea.", "distance": "City centre, a few metres" },
+      { "icon": "🅿️", "title": "Parking", "detail": "On-street parking with meters and paid car parks in the historic centre. Demand is high in summer and at weekends; arriving early or walking in is usually quicker.", "distance": "Streets around the square" },
+      { "icon": "🍽️", "title": "Restaurants and cafés", "detail": "A varied offer of local, seafood and fast-food options, plus cafés, bakeries and ice-cream shops. Choices exist for different budgets and diets.", "distance": "Pedestrian promenade and nearby streets" },
+      { "icon": "🛏️", "title": "Accommodation", "detail": "Accommodation in several categories: hotels, guesthouses, residential hostels and tourist apartments. There is also supply along the seafront and near Cavancha Beach.", "distance": "City centre and seafront" },
+      { "icon": "🛒", "title": "Supermarkets and everyday shops", "detail": "Supermarkets, convenience stores, pharmacies and neighbourhood shops for essentials. The duty-free commercial zone is a few minutes away by vehicle.", "distance": "Central streets" },
+      { "icon": "⛽", "title": "Fuel and EV charging", "detail": "Petrol stations with liquid fuel and electric-vehicle charging points across the city. It is wise to check availability and connector type on arrival.", "distance": "City outskirts, by vehicle" },
+      { "icon": "🏧", "title": "ATMs and banking", "detail": "ATMs and bank branches in the city centre, with reduced hours at weekends. Carrying some cash is useful for small shops.", "distance": "City centre" },
+      { "icon": "🏥", "title": "Health and pharmacies", "detail": "Primary-care centres, private clinics and pharmacies, with on-call emergency rotas. In an emergency, contact the country's public emergency services.", "distance": "Centre and surroundings" },
+      { "icon": "🚰", "title": "Drinking water and shade", "detail": "Tap water is drinkable. Public fountains and shaded areas are limited, so carrying a refillable bottle and protecting yourself from the sun is recommended.", "distance": "In and around the square" },
+      { "icon": "📶", "title": "Connectivity and mobile signal", "detail": "Mobile coverage across the city and wifi in hospitality venues. Outdoor signal and reception inside older buildings can be irregular.", "distance": "Throughout the area" },
+      { "icon": "♿", "title": "Accessibility", "detail": "The square is flat and paved, navigable with wheelchairs and strollers, with adapted crossings on the surrounding streets. The wooden promenade may have slight gaps between boards.", "distance": "Square and pedestrian promenade" },
+      { "icon": "🚌", "title": "Public transport and taxis", "detail": "Urban bus stops, taxis and ride-hailing services on the nearby avenues. The historic centre is compact and best explored on foot.", "distance": "Nearby avenues" }
+    ],
+    "practicalTitle": "Practical Notes Before You Set Off",
+    "practical": [
+      "The area is safe and busy during the day; at night it is best to stay on the well-lit, busy streets of the centre.",
+      "The climate is desert-like: temperatures swing widely between day and night, so a light layer is useful even in summer.",
+      "The sun is very intense between 11:00 and 16:00; protect your skin and eyes and keep hydrated.",
+      "Shops generally open in the morning and late afternoon with a midday break; most commerce closes on Sundays."
     ]
   },
   "gallery": {
@@ -250,7 +480,12 @@
       { "name": "Regional Government of Tarapacá", "url": "https://www.goretarapaca.cl" },
       { "name": "Undersecretary of Tourism of Chile", "url": "https://www.subturismo.gob.cl" }
     ],
-    "disclaimer": "This is an independent, non-profit visitor information project. We are not affiliated with any government body or official institution."
+    "disclaimer": "This is an independent, non-profit visitor information project. We are not affiliated with any government body or official institution.",
+    "napTitle": "Official name & address",
+    "napName": "Torre del Reloj (Clock Tower)",
+    "napAddress": "Plaza Arturo Prat, Baquedano, Iquique, Tarapacá, Chile",
+    "imageCopyright": "Image copyright notice: all images displayed on this website remain the property and copyright of their original photographers.",
+    "sourcesLink": "Sources & references"
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -321,10 +556,16 @@
     "amenities": {
       "title": "Facilities nearby",
       "items": [
-        { "icon": "🅿️", "label": "Parking", "value": "Side streets and downtown car parks" },
-        { "icon": "🚻", "label": "Restrooms", "value": "Shops, cafés and public facilities nearby" },
-        { "icon": "🔌", "label": "Fuel / EV", "value": "Fuel stations and EV charging in Iquique" },
-        { "icon": "♿", "label": "Accessibility", "value": "Level square and step-free promenade" }
+        { "icon": "🚻", "label": "Restrooms", "value": "Public and hospitality toilets in the city centre" },
+        { "icon": "🅿️", "label": "Parking", "value": "Metered streets and paid car parks downtown" },
+        { "icon": "🍽️", "label": "Food & drink", "value": "Restaurants, cafés and fast food on nearby streets" },
+        { "icon": "🛏️", "label": "Accommodation", "value": "Hotels, guesthouses and hostels in the centre and along the seafront" },
+        { "icon": "🛒", "label": "Shops & supermarkets", "value": "Supermarkets, convenience stores and local pharmacies" },
+        { "icon": "⛽", "label": "Fuel / EV", "value": "Fuel stations and EV charging points across the city" },
+        { "icon": "🏧", "label": "ATMs & banking", "value": "Cash machines and bank branches in the city centre" },
+        { "icon": "🏥", "label": "Health & pharmacies", "value": "Health centres and pharmacies with emergency rotas" },
+        { "icon": "♿", "label": "Accessibility", "value": "Level square and step-free promenade" },
+        { "icon": "📶", "label": "Connectivity", "value": "Mobile coverage and wifi in venues" }
       ]
     },
     "categories": [
@@ -405,6 +646,34 @@
       { "name": "Historic-centre heritage tour", "url": "https://www.chile.travel" },
       { "name": "Seafront walk to Playa Cavancha", "url": "http://www.municipioiquique.cl/" },
       { "name": "Visit to the Free Zone (Zofri)", "url": "https://www.goretarapaca.cl" }
+    ]
+  },
+  "entity": {
+    "breadcrumb": ["Torre del Reloj", "Iquique", "Tarapacá", "Chile"],
+    "schemaDescription": "Comprehensive visitor guide to Torre del Reloj in Iquique, Tarapacá, Chile.",
+    "welcome": "Welcome to Torre del Reloj, widely recognized as the central Iquique Clock Tower. Located in the heart of Iquique, Tarapacá, Chile, this destination serves as a primary hub for travelers visiting the region.",
+    "nearby": "When visiting Torre del Reloj, visitors can easily explore surrounding historical landmarks and points of interest, including Paseo Baquedano and Teatro Municipal de Iquique.",
+    "aboutTitle": "About Torre del Reloj",
+    "aboutText": "Torre del Reloj is Iquique's most recognisable wooden landmark and the symbolic centre of Plaza Arturo Prat. Built in 1877 with Oregon pine shipped in by sea, its clock still sets the rhythm of the historic centre between the Atacama desert and the old nitrate port.",
+    "locationTitle": "Location & How to Visit Iquique Clock Tower in Iquique",
+    "locationText": "Torre del Reloj stands in Plaza Arturo Prat, on Baquedano street, in the historic centre of Iquique, Tarapacá. It is reached on foot from the Baquedano Promenade and the seafront; the square is flat, accessible and open 24 hours with free entry.",
+    "landmarksTitle": "Landmarks & Attractions Around Iquique Clock Tower",
+    "landmarksText": "Around Torre del Reloj visitors find the Baquedano Promenade, the Iquique Municipal Theatre and the Oregon-pine mansions of the nitrate era. A few minutes away are Playa Cavancha and the Free Zone (Zofri).",
+    "historyTitle": "History & Significance of Torre del Reloj",
+    "historyText": "Raised in 1877 during the nitrate boom, Torre del Reloj commemorates the era when Iquique was one of the world's leading nitrate-export ports. Its Moorish style and Oregon-pine structure made it the heritage symbol of the city."
+  },
+  "sources": {
+    "title": "Sources & Official References",
+    "intro": "This independent project gathers information cross-checked against official and reference public sources. Follow the links for up-to-date details.",
+    "officialPortal": "Chile / Tarapacá Official Tourism Portal",
+    "items": [
+      { "name": "Municipality of Iquique", "url": "http://www.municipioiquique.cl/" },
+      { "name": "SERNATUR – Chile Travel (official tourism)", "url": "https://www.chile.travel" },
+      { "name": "Regional Government of Tarapacá", "url": "https://www.goretarapaca.cl" },
+      { "name": "Undersecretary of Tourism of Chile", "url": "https://www.subturismo.gob.cl" },
+      { "name": "Council of National Monuments of Chile", "url": "https://www.monumentos.gob.cl" },
+      { "name": "Google Maps – Clock Tower, Iquique", "url": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A" },
+      { "name": "Open-Meteo – open weather data", "url": "https://open-meteo.com/" }
     ]
   }
 }

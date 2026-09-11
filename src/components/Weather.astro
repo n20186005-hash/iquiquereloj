@@ -1,0 +1,432 @@
+---
+import { getI18n } from '../i18n/ui';
+import { getWeather, buildApiUrls } from '../lib/weather';
+import { weatherGroup, weatherIcon, uvLevel } from '../lib/weather-utils';
+import { buildAdvice, toAdviceInput, formatAdvice } from '../lib/weather-advice';
+
+const { lang, messages } = getI18n(Astro.url);
+const w = messages.weather;
+const table = (w.advice ?? {}) as Record<string, string>;
+
+const INTL: Record<string, string> = {
+  es: 'es-CL',
+  en: 'en-US',
+  zh: 'zh-CN',
+  arn: 'es-CL',
+};
+const locale = INTL[lang] ?? 'es-CL';
+
+const result = await getWeather();
+const data = result?.weather ?? null;
+const marine = result?.marine ?? null;
+const air = result?.air ?? null;
+const fetchedAt = result?.fetchedAt ?? 0;
+
+/* 规则引擎：数据 → 可执行建议（只返回键，不满足条件的不出现） */
+const input = data ? toAdviceInput({ weather: data, marine, air }) : null;
+const advice = input ? buildAdvice(input) : null;
+const say = (key: string) => (input ? formatAdvice(key, table, input) : '');
+
+const groups = (w.conditions ?? {}) as Record<string, string>;
+const uvLabels = (w.uv ?? {}) as Record<string, string>;
+
+const blocks = [
+  { key: 'outfit', icon: '🧥', title: w.groupOutfit, items: advice?.outfit ?? [] },
+  { key: 'plan', icon: '🗺️', title: w.groupPlan, items: advice?.plan ?? [] },
+  { key: 'gear', icon: '🎒', title: w.groupGear, items: advice?.gear ?? [] },
+];
+
+/* 海况（仅滨海景点有数据时才展示） */
+const seaWave = marine?.current?.wave_height ?? marine?.daily?.wave_height_max?.[0] ?? null;
+const seaPeriod = marine?.current?.wave_period ?? marine?.daily?.wave_period_max?.[0] ?? null;
+const seaTemp = marine?.current?.sea_surface_temperature ?? marine?.daily?.sea_surface_temperature_max?.[0] ?? null;
+const hasSea = seaWave !== null || seaPeriod !== null || seaTemp !== null;
+
+const dayLabel = (dateStr: string, index: number) => {
+  if (index === 0) return w.today;
+  try {
+    return new Intl.DateTimeFormat(locale, { weekday: 'short', timeZone: 'UTC' }).format(
+      new Date(`${dateStr}T12:00:00Z`)
+    );
+  } catch {
+    return dateStr;
+  }
+};
+
+const updatedText = fetchedAt
+  ? `${w.updated}: ${new Intl.DateTimeFormat(locale, {
+      hour: '2-digit',
+      minute: '2-digit',
+      timeZone: 'America/Santiago',
+    }).format(new Date(fetchedAt))}`
+  : '';
+
+const currentGroup = data ? weatherGroup(data.current.weather_code) : 'unknown';
+const todayPop = Math.round(data?.daily.precipitation_probability_max?.[0] ?? 0);
+const todayUv = data?.daily.uv_index_max?.[0] ?? null;
+
+/* 交给浏览器端静默刷新的配置（规则引擎本身会被打包复用，不重复实现） */
+const configJson = JSON.stringify({
+  urls: buildApiUrls(),
+  locale,
+  fetchedAt,
+  groups,
+  uvLabels,
+  table,
+  labels: {
+    noAlerts: w.noAlerts,
+    updated: w.updated,
+    waveHeight: w.waveHeight,
+    wavePeriod: w.wavePeriod,
+    seaTemp: w.seaTemp,
+    today: w.today,
+  },
+}).replace(/</g, '\\u003c');
+---
+
+<section id="weather" class="section-padding" style="background: var(--bg-primary);">
+  <div class="max-w-5xl mx-auto px-4">
+    <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3 text-center" style="color: var(--text-primary);">{w.title}</h2>
+    <p class="text-center text-base sm:text-lg mb-8" style="color: var(--text-secondary);">{w.subtitle}</p>
+
+    <div id="weather-live" class="rounded-3xl border p-5 sm:p-7" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+      <div id="w-data" class={data ? '' : 'hidden'}>
+        <!-- 一、当前实况 -->
+        <div class="flex flex-col sm:flex-row items-center gap-6 sm:gap-8">
+          <div class="text-center shrink-0">
+            <div id="w-icon" class="text-6xl leading-none mb-2">{weatherIcon(currentGroup, data?.current.is_day ?? 1)}</div>
+            <div id="w-temp" class="font-display text-5xl font-bold" style="color: var(--text-primary);">
+              {data ? `${Math.round(data.current.temperature_2m)}°` : '–'}
+            </div>
+            <div id="w-desc" class="text-sm mt-1" style="color: var(--text-secondary);">
+              {data ? groups[currentGroup] ?? groups.unknown : ''}
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 sm:grid-cols-5 gap-3 w-full">
+            <div class="rounded-xl border p-3 text-center" style="border-color: var(--border-color);">
+              <div class="text-xs mb-1" style="color: var(--text-muted);">{w.feelsLike}</div>
+              <div id="w-feels" class="font-semibold" style="color: var(--text-primary);">
+                {data ? `${Math.round(data.current.apparent_temperature)}°` : '–'}
+              </div>
+            </div>
+            <div class="rounded-xl border p-3 text-center" style="border-color: var(--border-color);">
+              <div class="text-xs mb-1" style="color: var(--text-muted);">{w.humidity}</div>
+              <div id="w-humidity" class="font-semibold" style="color: var(--text-primary);">
+                {data ? `${Math.round(data.current.relative_humidity_2m)}%` : '–'}
+              </div>
+            </div>
+            <div class="rounded-xl border p-3 text-center" style="border-color: var(--border-color);">
+              <div class="text-xs mb-1" style="color: var(--text-muted);">{w.wind}</div>
+              <div id="w-wind" class="font-semibold" style="color: var(--text-primary);">
+                {data ? `${Math.round(data.current.wind_speed_10m)} km/h` : '–'}
+              </div>
+            </div>
+            <div class="rounded-xl border p-3 text-center" style="border-color: var(--border-color);">
+              <div class="text-xs mb-1" style="color: var(--text-muted);">{w.precipitation}</div>
+              <div id="w-precip" class="font-semibold" style="color: var(--text-primary);">
+                {data ? `${todayPop}%` : '–'}
+              </div>
+            </div>
+            <div class="rounded-xl border p-3 text-center" style="border-color: var(--border-color);">
+              <div class="text-xs mb-1" style="color: var(--text-muted);">{w.uvIndex}</div>
+              <div id="w-uv" class="font-semibold" style="color: var(--text-primary);">
+                {todayUv === null ? '–' : `${Math.round(todayUv)} · ${uvLabels[uvLevel(todayUv)] ?? ''}`}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 二、风险提醒：有预警才置顶高亮，无预警显示平静状态 -->
+        <div id="w-alerts-box" class="weather-alerts mt-6 rounded-2xl border p-4" data-alert={advice?.hasAlert ? 'true' : 'false'}>
+          <p class="weather-alerts-title text-sm font-semibold mb-2" style="color: var(--text-primary);">{w.alertsTitle}</p>
+          <ul id="w-alerts" class="space-y-1.5 text-sm" style="color: var(--text-secondary);">
+            {advice && advice.alerts.length > 0
+              ? advice.alerts.map((key) => (
+                  <li class="flex gap-2"><span aria-hidden="true">⚠️</span><span>{say(key)}</span></li>
+                ))
+              : (
+                  <li class="flex gap-2"><span aria-hidden="true">✅</span><span>{w.noAlerts}</span></li>
+                )}
+          </ul>
+        </div>
+
+        <!-- 三、出行穿搭 / 游玩安排 / 随身物品（不满足条件的整块隐藏） -->
+        <div class="mt-5 grid gap-3 lg:grid-cols-3 items-start">
+          {blocks.map((block) => (
+            <div
+              data-advice-group={block.key}
+              class={`rounded-2xl border p-4 ${block.items.length ? '' : 'hidden'}`}
+              style="border-color: var(--border-color); background: var(--bg-tertiary);"
+            >
+              <p class="text-sm font-semibold mb-2" style="color: var(--text-primary);">
+                <span aria-hidden="true">{block.icon}</span> {block.title}
+              </p>
+              <ul data-advice-list={block.key} class="space-y-1.5 text-sm" style="color: var(--text-secondary);">
+                {block.items.map((key) => (
+                  <li>{say(key)}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+
+        <!-- 四、海况（仅滨海景点展示：浪高 / 浪周期 / 海水温度） -->
+        <div
+          id="w-sea"
+          class={`mt-5 rounded-2xl border px-4 py-3 text-sm flex flex-wrap items-center gap-x-5 gap-y-2 ${hasSea ? '' : 'hidden'}`}
+          style="border-color: var(--border-color);"
+        >
+          <span class="font-semibold" style="color: var(--text-primary);">{w.seaTitle}</span>
+          <span data-sea-item="wave" class={seaWave === null ? 'hidden' : ''} style="color: var(--text-secondary);">
+            🌊 {w.waveHeight}: <span data-sea-wave class="font-semibold" style="color: var(--text-primary);">{seaWave === null ? '–' : `${seaWave.toFixed(1)} m`}</span>
+          </span>
+          <span data-sea-item="period" class={seaPeriod === null ? 'hidden' : ''} style="color: var(--text-secondary);">
+            ⏱️ {w.wavePeriod}: <span data-sea-period class="font-semibold" style="color: var(--text-primary);">{seaPeriod === null ? '–' : `${Math.round(seaPeriod)} s`}</span>
+          </span>
+          <span data-sea-item="temp" class={seaTemp === null ? 'hidden' : ''} style="color: var(--text-secondary);">
+            🌡️ {w.seaTemp}: <span data-sea-temp class="font-semibold" style="color: var(--text-primary);">{seaTemp === null ? '–' : `${Math.round(seaTemp)}°`}</span>
+          </span>
+        </div>
+
+        <!-- 五、7 日预报 -->
+        <h3 class="font-display text-lg font-semibold mt-8 mb-3" style="color: var(--text-primary);">{w.forecast}</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-2">
+          {data
+            ? data.daily.time.map((dateStr, index) => {
+                const grp = weatherGroup(data.daily.weather_code[index]);
+                const pop = Math.round(data.daily.precipitation_probability_max?.[index] ?? 0);
+                const windMax = data.daily.wind_speed_10m_max?.[index];
+                return (
+                  <div class="rounded-xl border p-3 text-center" data-day={index} style="border-color: var(--border-color);">
+                    <div class="text-xs font-medium mb-1 truncate" data-day-label style="color: var(--text-muted);">
+                      {dayLabel(dateStr, index)}
+                    </div>
+                    <div class="text-2xl leading-none mb-1" data-day-icon>{weatherIcon(grp, 1)}</div>
+                    <div class="text-sm font-semibold" style="color: var(--text-primary);">
+                      <span data-day-max>{Math.round(data.daily.temperature_2m_max[index])}°</span>
+                      <span style="color: var(--text-muted);"> / </span>
+                      <span data-day-min style="color: var(--text-muted);">{Math.round(data.daily.temperature_2m_min[index])}°</span>
+                    </div>
+                    <div class="text-[11px] mt-1" data-day-pop style="color: var(--text-secondary);">💧 {pop}%</div>
+                    <div class="text-[11px] mt-0.5" data-day-wind style="color: var(--text-muted);">
+                      {windMax === null || windMax === undefined ? '' : `🌬️ ${Math.round(windMax)} km/h`}
+                    </div>
+                  </div>
+                );
+              })
+            : Array.from({ length: 7 }, (_, index) => (
+                <div class="rounded-xl border p-3 text-center" data-day={index} style="border-color: var(--border-color);">
+                  <div class="text-xs font-medium mb-1" data-day-label style="color: var(--text-muted);">–</div>
+                  <div class="text-2xl leading-none mb-1" data-day-icon>🌡️</div>
+                  <div class="text-sm font-semibold" style="color: var(--text-primary);"><span data-day-max>–</span></div>
+                  <div class="text-[11px] mt-1" data-day-pop style="color: var(--text-secondary);">💧 –</div>
+                  <div class="text-[11px] mt-0.5" data-day-wind style="color: var(--text-muted);"></div>
+                </div>
+              ))}
+        </div>
+
+        <p id="w-updated" class="text-xs mt-4" style="color: var(--text-muted);">{updatedText}</p>
+      </div>
+
+      <p id="w-fallback" class={`text-center py-6${data ? ' hidden' : ''}`} style="color: var(--text-secondary);">
+        {w.unavailable}
+      </p>
+    </div>
+
+    <p class="text-xs text-center mt-4" style="color: var(--text-muted);">
+      {w.sourceLabel}:
+      <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer" class="underline hover:opacity-70">Open-Meteo</a>
+    </p>
+  </div>
+</section>
+
+<script type="application/json" id="weather-config" set:html={configJson}></script>
+
+<script>
+  import { buildAdvice, toAdviceInput, formatAdvice } from '../lib/weather-advice';
+  import { weatherGroup, weatherIcon, uvLevel } from '../lib/weather-utils';
+
+  interface WeatherConfig {
+    urls: { forecast: string; marine: string; air: string };
+    locale: string;
+    fetchedAt: number;
+    groups: Record<string, string>;
+    uvLabels: Record<string, string>;
+    table: Record<string, string>;
+    labels: Record<string, string>;
+  }
+
+  const configNode = document.getElementById('weather-config');
+  const live = document.getElementById('weather-live');
+
+  if (configNode?.textContent && live) {
+    const cfg = JSON.parse(configNode.textContent) as WeatherConfig;
+    const FRESH_MS = 20 * 60 * 1000;
+    const set = (id: string, text: string) => {
+      const node = document.getElementById(id);
+      if (node) node.textContent = text;
+    };
+    const toggle = (node: Element | null, visible: boolean, hiddenClass = 'hidden') => {
+      if (node) node.classList.toggle(hiddenClass, !visible);
+    };
+    const fmtDay = (dateStr: string) => {
+      try {
+        return new Intl.DateTimeFormat(cfg.locale, { weekday: 'short', timeZone: 'UTC' }).format(
+          new Date(`${dateStr}T12:00:00Z`)
+        );
+      } catch {
+        return dateStr;
+      }
+    };
+
+    /** 风险提醒：有预警才高亮，无预警回到平静态 */
+    function renderAlerts(alerts: string[], say: (key: string) => string) {
+      const list = document.getElementById('w-alerts');
+      const box = document.getElementById('w-alerts-box');
+      if (!list || !box) return;
+      const keys = alerts.length > 0 ? alerts : [];
+
+      box.setAttribute('data-alert', alerts.length > 0 ? 'true' : 'false');
+      list.textContent = '';
+      if (keys.length === 0) {
+        const li = document.createElement('li');
+        li.className = 'flex gap-2';
+        li.innerHTML = '<span aria-hidden="true">✅</span>';
+        const span = document.createElement('span');
+        span.textContent = cfg.labels.noAlerts;
+        li.appendChild(span);
+        list.appendChild(li);
+        return;
+      }
+      keys.forEach((key) => {
+        const li = document.createElement('li');
+        li.className = 'flex gap-2';
+        li.innerHTML = '<span aria-hidden="true">⚠️</span>';
+        const span = document.createElement('span');
+        span.textContent = say(key);
+        li.appendChild(span);
+        list.appendChild(li);
+      });
+    }
+
+    /** 三块建议：条目为空则整块隐藏 */
+    function renderAdviceBlocks(advice: ReturnType<typeof buildAdvice>, say: (key: string) => string) {
+      const map: Record<string, string[]> = {
+        outfit: advice.outfit,
+        plan: advice.plan,
+        gear: advice.gear,
+      };
+      Object.keys(map).forEach((group) => {
+        const wrapper = live!.querySelector(`[data-advice-group="${group}"]`);
+        const list = live!.querySelector(`[data-advice-list="${group}"]`);
+        toggle(wrapper, map[group].length > 0);
+        if (!list) return;
+        list.textContent = '';
+        map[group].forEach((key) => {
+          const li = document.createElement('li');
+          li.textContent = say(key);
+          list.appendChild(li);
+        });
+      });
+    }
+
+    /** 海况 */
+    function renderSea(marine: any) {
+      const current = marine?.current ?? null;
+      const daily = marine?.daily ?? null;
+      const pick = (key: string, arrayKey: string) => {
+        const fromCurrent = current?.[key];
+        if (typeof fromCurrent === 'number') return fromCurrent;
+        const value = Array.isArray(daily?.[arrayKey]) ? daily[arrayKey][0] : null;
+        return typeof value === 'number' ? value : null;
+      };
+      const wave = pick('wave_height', 'wave_height_max');
+      const period = pick('wave_period', 'wave_period_max');
+      const temp = pick('sea_surface_temperature', 'sea_surface_temperature_max');
+
+      set('w-sea-wave', wave === null ? '–' : wave.toFixed(1) + ' m');
+      set('w-sea-period', period === null ? '–' : Math.round(period) + ' s');
+      set('w-sea-temp', temp === null ? '–' : Math.round(temp) + '°');
+      toggle(live!.querySelector('[data-sea-item="wave"]'), wave !== null);
+      toggle(live!.querySelector('[data-sea-item="period"]'), period !== null);
+      toggle(live!.querySelector('[data-sea-item="temp"]'), temp !== null);
+      toggle(document.getElementById('w-sea'), wave !== null || period !== null || temp !== null);
+    }
+
+    function render(payload: { weather: any; marine: any; air: any }) {
+      const weather = payload.weather;
+      if (!weather?.current || !weather?.daily) return;
+      const c = weather.current;
+      const d = weather.daily;
+      const group = weatherGroup(c.weather_code);
+      const popToday = Math.round(d.precipitation_probability_max?.[0] ?? 0);
+      const uvToday = d.uv_index_max?.[0] ?? null;
+
+      // 当前实况
+      set('w-icon', weatherIcon(group, c.is_day));
+      set('w-temp', Math.round(c.temperature_2m) + '°');
+      set('w-desc', cfg.groups[group] || cfg.groups.unknown || '');
+      set('w-feels', Math.round(c.apparent_temperature) + '°');
+      set('w-humidity', Math.round(c.relative_humidity_2m) + '%');
+      set('w-wind', Math.round(c.wind_speed_10m) + ' km/h');
+      set('w-precip', popToday + '%');
+      set('w-updated', cfg.labels.updated + ': ' + new Date().toLocaleTimeString(cfg.locale, { hour: '2-digit', minute: '2-digit' }));
+
+      // 建议：与首次渲染完全同一套规则
+      const input = toAdviceInput({ weather, marine: payload.marine, air: payload.air });
+      const say = (key: string) => formatAdvice(key, cfg.table, input);
+      const advice = buildAdvice(input);
+
+      renderAlerts(advice.alerts, say);
+      renderAdviceBlocks(advice, say);
+      renderSea(payload.marine);
+
+      // 7 日预报
+      const cards = live!.querySelectorAll('[data-day]');
+      for (let i = 0; i < cards.length; i += 1) {
+        const card = cards[i];
+        const iconEl = card.querySelector('[data-day-icon]');
+        if (iconEl) iconEl.textContent = weatherIcon(weatherGroup(d.weather_code[i]), 1);
+        const maxEl = card.querySelector('[data-day-max]');
+        if (maxEl) maxEl.textContent = Math.round(d.temperature_2m_max[i]) + '°';
+        const minEl = card.querySelector('[data-day-min]');
+        if (minEl) minEl.textContent = Math.round(d.temperature_2m_min[i]) + '°';
+        const popEl = card.querySelector('[data-day-pop]');
+        if (popEl) popEl.textContent = '💧 ' + Math.round(d.precipitation_probability_max?.[i] ?? 0) + '%';
+        const windEl = card.querySelector('[data-day-wind]');
+        const windMax = d.wind_speed_10m_max?.[i];
+        if (windEl) windEl.textContent = typeof windMax === 'number' ? '🌬️ ' + Math.round(windMax) + ' km/h' : '';
+        const labelEl = card.querySelector('[data-day-label]');
+        if (labelEl && i > 0) labelEl.textContent = fmtDay(d.time[i]);
+      }
+
+      // UV 指数独立展示位（若模板中保留）
+      set('w-uv', uvToday === null ? '–' : Math.round(uvToday) + ' · ' + (cfg.uvLabels[uvLevel(uvToday)] || ''));
+
+      toggle(document.getElementById('w-data'), true);
+      toggle(document.getElementById('w-fallback'), false);
+    }
+
+    async function refresh() {
+      const get = async (url: string) => {
+        try {
+          const response = await fetch(url, { cache: 'no-store' });
+          return response.ok ? await response.json() : null;
+        } catch {
+          return null;
+        }
+      };
+      const [forecast, marine, air] = await Promise.all([
+        get(cfg.urls.forecast),
+        get(cfg.urls.marine),
+        get(cfg.urls.air),
+      ]);
+      if (!forecast?.current || !forecast?.daily) return;
+      render({ weather: forecast, marine, air });
+    }
+
+    // 页面如果已经打开很久，静默刷新一次；失败则保留服务端渲染结果
+    if (!cfg.fetchedAt || Date.now() - cfg.fetchedAt > FRESH_MS) refresh();
+  }
+</script>

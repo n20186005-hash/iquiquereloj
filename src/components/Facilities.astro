@@ -1,0 +1,50 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const f = messages.facilities;
+const items = f.items ?? [];
+const practical = f.practical ?? [];
+---
+
+<section id="facilities" class="section-padding" style="background: var(--bg-secondary);">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3 text-center" style="color: var(--text-primary);">{f.title}</h2>
+    <p class="text-center text-base sm:text-lg mb-4 max-w-3xl mx-auto" style="color: var(--text-secondary);">{f.subtitle}</p>
+
+    <!-- 中立声明：只介绍服务类型，不推荐具体商户 -->
+    <p class="text-center text-xs sm:text-sm max-w-3xl mx-auto mb-10 rounded-xl px-4 py-3" style="background: var(--bg-tertiary); color: var(--text-muted);">
+      ⚖️ {f.neutral}
+    </p>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {items.map((item) => (
+        <article class="rounded-2xl border p-5" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <div class="flex items-center gap-3 mb-2">
+            <span class="text-2xl leading-none" aria-hidden="true">{item.icon}</span>
+            <h3 class="font-semibold text-base" style="color: var(--text-primary);">{item.title}</h3>
+          </div>
+          <p class="text-sm leading-relaxed mb-3" style="color: var(--text-secondary);">{item.detail}</p>
+          <p class="text-xs inline-flex items-center gap-1 rounded-full border px-3 py-1" style="border-color: var(--border-color); color: var(--text-muted);">
+            📍 {item.distance}
+          </p>
+        </article>
+      ))}
+    </div>
+
+    {practical.length > 0 && (
+      <div class="mt-10 rounded-2xl border p-6" style="background: var(--card-bg); border-color: var(--border-color);">
+        <h3 class="font-display text-xl font-semibold mb-4" style="color: var(--text-primary);">{f.practicalTitle}</h3>
+        <ul class="space-y-3">
+          {practical.map((tip) => (
+            <li class="flex gap-3 text-sm sm:text-base leading-relaxed" style="color: var(--text-secondary);">
+              <span aria-hidden="true" style="color: var(--accent);">•</span>
+              <span>{tip}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    <p class="text-xs text-center mt-6 max-w-3xl mx-auto" style="color: var(--text-muted);">{f.note}</p>
+  </div>
+</section>

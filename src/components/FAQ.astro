@@ -4,6 +4,18 @@ const { messages } = getI18n(Astro.url);
 const faq = messages.faq;
 const categories = faq.categories;
 const amenities = faq.amenities?.items ?? [];
+
+// FAQPage 结构化数据（获取 Featured Snippet / AI 概览卡片）
+const faqItems = (categories ?? []).flatMap((cat: any) => cat.items ?? []);
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map((item: any) => ({
+    '@type': 'Question',
+    name: item.q,
+    acceptedAnswer: { '@type': 'Answer', text: item.a },
+  })),
+};
 ---
 
 <section id="faq" class="section-padding" style="background: var(--bg-primary);">
@@ -42,4 +54,6 @@ const amenities = faq.amenities?.items ?? [];
       ))}
     </div>
   </div>
+
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(faqSchema)}></script>
 </section>

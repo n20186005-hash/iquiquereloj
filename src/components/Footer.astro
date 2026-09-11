@@ -1,5 +1,6 @@
 ---
 import { getI18n } from '../i18n/ui';
+import attraction from '../config/attraction';
 const { lang, messages } = getI18n(Astro.url);
 const f = messages.footer;
 const links = f.officialLinksList;
@@ -7,10 +8,24 @@ const links = f.officialLinksList;
 
 <footer class="section-padding" style="background: var(--bg-tertiary); border-top: 1px solid var(--border-color);">
   <div class="max-w-6xl mx-auto px-4">
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
       <div>
         <h3 class="font-display text-xl font-semibold mb-3" style="color: var(--text-primary);" set:html={f.siteName}></h3>
         <p class="text-sm leading-relaxed" style="color: var(--text-secondary);">{f.rights}</p>
+      </div>
+
+      <!-- NAP: 名称 / 地址一致性（与 Google 地图资料对齐） -->
+      <div>
+        <h4 class="font-semibold mb-3" style="color: var(--text-primary);">{f.napTitle}</h4>
+        <address class="not-italic space-y-2 text-sm leading-relaxed" style="color: var(--text-secondary);">
+          <p class="font-semibold" style="color: var(--text-primary);">{f.napName ?? attraction.fullName}</p>
+          <p>{f.napAddress ?? `${attraction.streetAddress}, ${attraction.city}, ${attraction.state}, ${attraction.country}`}</p>
+          <p>
+            <a href={attraction.mapsShareUrl} target="_blank" rel="noopener noreferrer" class="hover:opacity-70" style="color: var(--accent);">
+              {f.mapsLabel ?? 'Google Maps →'}
+            </a>
+          </p>
+        </address>
       </div>
 
       <div>
@@ -23,6 +38,9 @@ const links = f.officialLinksList;
               </a>
             </li>
           ))}
+          <li>
+            <a href="#sources" class="hover:opacity-70" style="color: var(--accent);">{f.sourcesLink} →</a>
+          </li>
         </ul>
       </div>
 
@@ -36,8 +54,9 @@ const links = f.officialLinksList;
       </div>
     </div>
 
-    <div class="mt-10 pt-6 border-t text-xs" style="border-color: var(--border-color); color: var(--text-muted);">
+    <div class="mt-10 pt-6 border-t text-xs space-y-3" style="border-color: var(--border-color); color: var(--text-muted);">
       <p class="leading-relaxed" set:html={f.disclaimer}></p>
+      <p class="leading-relaxed">{f.imageCopyright}</p>
     </div>
   </div>
 </footer>

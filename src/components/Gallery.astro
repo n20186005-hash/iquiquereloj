@@ -1,13 +1,12 @@
 ---
 import { getI18n } from '../i18n/ui';
+import attraction, { galleryImage } from '../config/attraction';
 const { messages } = getI18n(Astro.url);
 const g = messages.gallery;
-const totalImages = 18;
-const images = Array.from({ length: totalImages }, (_, i) => {
-  const n = String(i + 1).padStart(2, '0');
-  const ext = i === totalImages - 1 ? 'png' : 'jpg';
-  return `/gallery/clock-tower-${n}.${ext}`;
-});
+const images = Array.from({ length: attraction.gallery.count }, (_, i) => ({
+  jpg: galleryImage(i + 1, 'jpg'),
+  webp: galleryImage(i + 1, 'webp'),
+}));
 const photoAlts = g.photoAlts ?? images.map(() => g.photoAlt);
 ---
 
@@ -17,9 +16,18 @@ const photoAlts = g.photoAlts ?? images.map(() => g.photoAlt);
     <p class="text-center text-lg mb-10" style="color: var(--text-secondary);">{g.subtitle}</p>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5" id="gallery-grid">
-      {images.map((src, index) => (
+      {images.map((image, index) => (
         <figure class="gallery-item rounded-2xl border overflow-hidden" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
-          <img src={src} alt={photoAlts[index] ?? g.photoAlt} loading="lazy" class="w-full h-56 object-cover" />
+          <picture>
+            <source srcset={image.webp} type="image/webp" />
+            <img
+              src={image.jpg}
+              alt={photoAlts[index] ?? g.photoAlt}
+              loading="lazy"
+              decoding="async"
+              class="w-full h-56 object-cover"
+            />
+          </picture>
           <figcaption class="px-4 py-3 text-sm leading-relaxed" style="color: var(--text-secondary);">
             {photoAlts[index] ?? g.photoAlt}
           </figcaption>

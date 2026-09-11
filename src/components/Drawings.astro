@@ -1,0 +1,92 @@
+---
+import { getI18n } from '../i18n/ui';
+import attraction from '../config/attraction';
+
+const { lang, messages } = getI18n(Astro.url);
+const d = messages.drawings ?? {};
+const anatomy = d.anatomy ?? [];
+
+/* 线稿资产：位图给搜索引擎与 OG，矢量给浏览器与下载 */
+const drawing = {
+  svg: '/drawings/torre-del-reloj-iquique-dibujo.svg',
+  webp: '/drawings/torre-del-reloj-iquique-dibujo.webp',
+  png: '/drawings/torre-del-reloj-iquique-dibujo.png',
+  width: 900,
+  height: 1350,
+};
+
+/* ImageObject：让线稿成为可被 Google 图片独立理解的实体，并声明它描述的正是本页景点 */
+const imageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ImageObject',
+  '@id': `${attraction.baseUrl}/#dibujo-torre-del-reloj`,
+  contentUrl: `${attraction.baseUrl}${drawing.png}`,
+  url: `${attraction.baseUrl}${drawing.png}`,
+  name: d.alt,
+  description: d.caption,
+  caption: d.alt,
+  width: drawing.width,
+  height: drawing.height,
+  encodingFormat: 'image/png',
+  inLanguage: lang,
+  creditText: d.note,
+  about: { '@id': `${attraction.baseUrl}/#attraction` },
+  isPartOf: { '@id': `${attraction.baseUrl}/#website` },
+};
+---
+
+<section id="drawings" class="section-padding" style="background: var(--bg-primary);">
+  <div class="max-w-5xl mx-auto px-4">
+    <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3 text-center" style="color: var(--text-primary);">{d.title}</h2>
+    <p class="text-center text-lg mb-10" style="color: var(--text-secondary);">{d.subtitle}</p>
+
+    <div class="grid lg:grid-cols-[0.8fr_1.2fr] gap-8 lg:gap-12 items-start">
+      <figure class="rounded-2xl border overflow-hidden" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+        <picture>
+          <source srcset={drawing.webp} type="image/webp" />
+          <img
+            src={drawing.png}
+            alt={d.alt}
+            title={d.alt}
+            width={drawing.width}
+            height={drawing.height}
+            loading="lazy"
+            decoding="async"
+            class="w-full h-auto"
+          />
+        </picture>
+        <figcaption class="px-4 py-3 text-sm leading-relaxed" style="color: var(--text-secondary);">
+          {d.caption}
+        </figcaption>
+      </figure>
+
+      <div>
+        <p class="text-base sm:text-lg leading-relaxed mb-8" style="color: var(--text-secondary);">{d.intro}</p>
+
+        <h3 class="font-display text-xl font-semibold mb-4" style="color: var(--text-primary);">{d.anatomyTitle}</h3>
+        <ul class="space-y-4 mb-8">
+          {anatomy.map((part) => (
+            <li class="flex gap-3">
+              <span aria-hidden="true" style="color: var(--accent);">✦</span>
+              <span class="text-base leading-relaxed" style="color: var(--text-secondary);">
+                <strong style="color: var(--text-primary);">{part.name}</strong> — {part.text}
+              </span>
+            </li>
+          ))}
+        </ul>
+
+        <a
+          href={drawing.svg}
+          download="torre-del-reloj-iquique-dibujo.svg"
+          class="inline-flex w-full sm:w-auto justify-center px-6 py-3 rounded-full font-semibold border transition hover:opacity-80"
+          style="border-color: var(--border-color); color: var(--text-primary);"
+        >
+          ⬇ {d.downloadLabel}
+        </a>
+        <p class="text-xs mt-3" style="color: var(--text-muted);">{d.note}</p>
+      </div>
+    </div>
+  </div>
+
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(imageSchema)}></script>
+</section>

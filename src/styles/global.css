@@ -68,6 +68,8 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  /* Sticky header offset: keeps in-page anchors (Plaza Prat guide, nav) from hiding under the header */
+  scroll-padding-top: 5rem;
 }
 
 body {
@@ -84,10 +86,27 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
 }
 
-/* Hide Google Maps attribution */
+/* Google Maps attribution: must remain visible to comply with Google Maps Platform Terms.
+   (Previously these selectors applied `display: none`, which could get the embed disabled.) */
 .gm-style-cc,
 .gmnoprint {
-  display: none !important;
+  font-size: 11px;
+}
+
+/* Weather risk banner: calmer by default, turns red only when a warning is active */
+.weather-alerts {
+  background: var(--bg-tertiary);
+  border-color: var(--border-color);
+}
+.weather-alerts[data-alert='true'] {
+  background: color-mix(in srgb, #dc2626 10%, var(--card-bg));
+  border-color: color-mix(in srgb, #dc2626 40%, transparent);
+}
+.weather-alerts[data-alert='true'] .weather-alerts-title {
+  color: #b91c1c;
+}
+[data-theme='dark'] .weather-alerts[data-alert='true'] .weather-alerts-title {
+  color: #fca5a5;
 }
 
 /* Map container */

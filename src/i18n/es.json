@@ -1,13 +1,94 @@
 {
   "meta": {
-    "title": "Torre del Reloj | Iquique, Chile",
-    "description": "Guía completa de la Torre del Reloj de Iquique: historia del auge del salitre, arquitectura de pino de Oregón, fotos, opiniones de visitantes y cómo llegar en la Región de Tarapacá, Chile."
+    "title": "Torre del Reloj de Iquique: Historia, Visitas y Plaza Prat",
+    "description": "Descubre la histórica Torre del Reloj en Plaza Prat, Iquique. Historia, ubicación, fotos y qué ver alrededor en la Región de Tarapacá.",
+    "ogTitle": "Torre del Reloj de Iquique: Historia, Visitas y Plaza Prat",
+    "ogDescription": "Historia, ubicación, fotos y qué ver alrededor de la Torre del Reloj en la Plaza Prat de Iquique, Región de Tarapacá."
+  },
+  "drawings": {
+    "title": "Dibujos e Ilustraciones de la Torre del Reloj",
+    "subtitle": "Una ilustración lineal de la torre para reconocer su silueta antes de la visita.",
+    "intro": "Este dibujo resume la anatomía de la Torre del Reloj de Iquique: el cuerpo de madera de pino de Oregón, la esfera del reloj que marca las horas desde 1877 y la cúpula del remate con su cruz. Es una ilustración de línea, útil para reconocer la torre desde cualquier punto de la Plaza Arturo Prat o de la costanera.",
+    "alt": "Dibujo de la Torre del Reloj de Iquique",
+    "caption": "Dibujo de la Torre del Reloj de Iquique en la Plaza Arturo Prat, Región de Tarapacá.",
+    "anatomyTitle": "Partes de la torre que aparecen en el dibujo",
+    "anatomy": [
+      {
+        "name": "Remate y cúpula",
+        "text": "La corona con la pequeña cúpula y la cruz que hace visible la torre desde la costanera."
+      },
+      {
+        "name": "Esfera del reloj",
+        "text": "El reloj público que desde 1877 ordenaba la vida del puerto salitrero."
+      },
+      {
+        "name": "Cuerpo de madera",
+        "text": "Estructura de pino de Oregón llegado por barco: el detalle que distingue a esta torre de cualquier otra."
+      }
+    ],
+    "downloadLabel": "Descargar el dibujo en SVG",
+    "note": "Ilustración original creada para esta guía."
+  },
+  "plaza": {
+    "title": "Qué Ver Alrededor de Plaza Prat",
+    "subtitle": "La Torre del Reloj ocupa el centro de la Plaza Arturo Prat: este es el recorrido a pie que la conecta con el resto del casco histórico de Iquique.",
+    "intro": "La torre no está sola. Se levanta en el centro de la Plaza Arturo Prat, donde el paseo peatonal de Baquedano se cruza con el casco histórico de Iquique. Alrededor se concentran el Teatro Municipal, las casonas de pino de Oregón de la época salitrera y la costanera que baja hacia Playa Cavancha, así que la visita se completa caminando.",
+    "addressLabel": "Dirección",
+    "address": "Calle Baquedano, Plaza Arturo Prat, Iquique, Región de Tarapacá, Chile",
+    "itemsTitle": "Puntos de interés a pocos pasos",
+    "items": [
+      {
+        "name": "Paseo Baquedano",
+        "text": "El paseo peatonal de madera que arranca junto a la plaza y es el mejor punto de partida para la caminata.",
+        "link": "Cómo llegar al Paseo Baquedano",
+        "href": "#transport"
+      },
+      {
+        "name": "Teatro Municipal de Iquique",
+        "text": "Uno de los edificios patrimoniales más elegantes del centro, a menos de una cuadra de la torre.",
+        "link": "Ver el mapa y la ubicación exacta",
+        "href": "#map"
+      },
+      {
+        "name": "Casonas de pino de Oregón",
+        "text": "Las casas del barrio salitrero explican el mismo material de la torre y su contexto histórico.",
+        "link": "Historia y arquitectura de la Torre del Reloj",
+        "href": "#history"
+      },
+      {
+        "name": "Playa Cavancha",
+        "text": "La playa urbana más conocida de Iquique, a unos 15 minutos a pie por la costanera.",
+        "link": "Clima de hoy en Iquique",
+        "href": "#weather"
+      },
+      {
+        "name": "La torre y la plaza en fotos",
+        "text": "Antes del paseo conviene ver cómo cambia la luz de la torre a lo largo del día.",
+        "link": "Fotos de la Torre del Reloj y la plaza",
+        "href": "#gallery"
+      },
+      {
+        "name": "La Torre del Reloj en dibujo",
+        "text": "La ilustración lineal ayuda a reconocer la silueta y el remate de la torre.",
+        "link": "Dibujo de la Torre del Reloj",
+        "href": "#drawings"
+      }
+    ],
+    "routeTitle": "Ruta a pie desde el Paseo Baquedano",
+    "route": [
+      "Empieza en el paseo peatonal de Baquedano y camina hacia la Plaza Arturo Prat.",
+      "La Torre del Reloj aparece en el centro de la plaza, rodeada de palmeras y bancas.",
+      "Rodea la plaza para ver el Teatro Municipal y las casonas de pino de la época salitrera.",
+      "Termina el paseo bajando por la costanera hacia Playa Cavancha."
+    ]
   },
   "header": {
     "siteName": "Torre del Reloj",
     "home": "Inicio",
     "visit": "Visita",
     "transport": "Cómo llegar",
+    "weather": "Clima",
+    "facilities": "Servicios",
     "history": "Historia",
     "gallery": "Galería",
     "reviews": "Opiniones",
@@ -20,7 +101,8 @@
     "toggleTheme": "Cambiar tema"
   },
   "hero": {
-    "title": "Torre del Reloj",
+    "title": "Torre del Reloj de Iquique",
+    "descriptor": "El corazón histórico de Plaza Prat",
     "subtitle": "Un hito urbano de 1877 en el corazón de la Plaza Arturo Prat: la Torre del Reloj, símbolo de madera del auge salitrero de Iquique.",
     "rating": "4.5 (11.533)",
     "reviewCount": "11.533 opiniones",
@@ -90,7 +172,7 @@
         "title": "Bus de larga distancia",
         "description": "El bus es la opción económica para llegar a Iquique desde el resto de Chile.",
         "details": [
-          "La Terminal de Buses de Iquique recibe servicios de Pullman, Condor, Tur Bus y otras líneas.",
+          "La Terminal de Buses de Iquique recibe servicios de varias empresas de buses interurbanos de larga distancia.",
           "Desde Santiago el viaje es largo (más de 24 h); muchos combinan vía Antofagasta o Arica.",
           "Desde la terminal, un colectivo o taxi te deja en la Plaza Arturo Prat en pocos minutos."
         ]
@@ -153,7 +235,155 @@
         "id": "significance",
         "title": "Un símbolo de Iquique",
         "content": "Hoy la Torre del Reloj es uno de los símbolos de Iquique y el telón de fondo de la Plaza Arturo Prat. Junto al Paseo Baquedano, el Teatro Municipal y las casonas de pino de la época salitrera, forma parte del recorrido patrimonial del centro. Es, además, la puerta de entrada para entender la historia urbana de Tarapacá y el legado del auge del salitre en el norte de Chile."
+      },
+      {
+        "id": "architecture",
+        "title": "Arquitectura: por qué una torre de madera",
+        "content": "La torre es un ejercicio de ingeniería en madera: un cuerpo de pino de Oregón ensamblado y pintado, rematado por un pequeño templete y una cúpula, con la esfera del reloj como protagonista. En una ciudad de desierto, construir en madera no era una excentricidad: el pino de Oregón llegaba en barco y ofrecía piezas largas, ligeras y resistentes, fáciles de transportar y de trabajar. La decoración de inspiración morisca —arcos, molduras y remates— es la firma estética de la élite salitrera, que importaba modas europeas y exóticas para distinguir sus edificios. Observa cómo el blanco de la torre contrasta con el cielo y con las fachadas vecinas: es, en sí misma, una escenografía urbana."
+      },
+      {
+        "id": "context",
+        "title": "El Iquique salitrero: el contexto de 1877",
+        "content": "En 1877 Iquique era mucho más que un puerto: era una de las ciudades más ricas del Pacífico sur gracias al nitrato. El salitre se extraía en el interior del desierto y se embarcaba aquí, y ese comercio atrajo a comerciantes, técnicos y familias inmigrantes de Europa, Asia y el resto de América. La ciudad creció en madera, con paseos, teatros y clubes sociales. La plaza principal concentraba ese orgullo: bancos, comercios, edificios públicos y, en el centro, la torre que daba la hora a todos. Entender ese contexto es entender por qué una torre de madera de 1877 sigue siendo el símbolo de la ciudad."
+      },
+      {
+        "id": "traditions",
+        "title": "Tradiciones y relatos orales",
+        "content": "Además de las leyendas sobre el péndulo y las campanadas, en Iquique se transmiten relatos orales sobre la plaza: que los novios se citaban al pie de la torre, que los vendedores ambulantes ordenaban su jornada por sus campanadas y que los marinos recién llegados la usaban como referencia para orientarse en la ciudad. Son relatos de memoria popular, no documentos históricos, y precisamente por eso muestran cómo la comunidad ha convertido la torre en un punto de referencia afectivo."
+      },
+      {
+        "id": "curiosities",
+        "title": "Detalles para observar durante la visita",
+        "content": "Hay detalles que suelen pasar desapercibidos: la esfera y las agujas, el remate superior con su cúpula, la carpintería pintada de blanco que se renueva con el mantenimiento y el contraste entre la ligereza de la madera y la solidez de los edificios vecinos. Al atardecer la torre cambia de carácter y, de noche, con la iluminación, se convierte en el punto más fotografiado de la plaza. Fíjate también en el tablado y el mobiliario urbano del Paseo Baquedano: forman parte del mismo conjunto patrimonial."
+      },
+      {
+        "id": "heritage",
+        "title": "Patrimonio y conservación",
+        "content": "La torre forma parte del conjunto patrimonial del casco histórico de Iquique, junto al Paseo Baquedano, el Teatro Municipal y las casonas de pino de Oregón. Al ser una estructura de madera expuesta al sol, a la humedad costera y al viento del desierto, requiere mantenimiento y pintura periódicos. Visitar el lugar es también una forma de cuidarlo: no trepar ni forzar elementos, respetar el mobiliario y mantener la plaza limpia ayuda a que este símbolo siga en pie para las próximas generaciones."
       }
+    ],
+    "timelineTitle": "Cronología esencial",
+    "timeline": [
+      { "year": "1877", "text": "Se levanta la Torre del Reloj en la Plaza Prat, en pleno auge del salitre, con pino de Oregón traído por mar." },
+      { "year": "1880-1900", "text": "Época dorada de Iquique como uno de los principales puertos exportadores de nitrato del mundo; la plaza se consolida como centro cívico." },
+      { "year": "Siglo XX", "text": "Con la crisis del salitre y la llegada de los nitratos sintéticos, la ciudad cambia de ritmo; la torre permanece como referencia del casco histórico." },
+      { "year": "Actualidad", "text": "La torre es símbolo patrimonial de Iquique, punto de encuentro ciudadano y parada obligada del recorrido histórico junto al Paseo Baquedano." }
+    ]
+  },
+  "weather": {
+    "title": "Clima en Iquique y pronóstico de 7 días",
+    "subtitle": "Consulta el tiempo actual y la previsión para saber si conviene llevar paraguas, sombrero o una capa ligera durante tu visita.",
+    "now": "Ahora",
+    "feelsLike": "Sensación",
+    "humidity": "Humedad",
+    "wind": "Viento",
+    "precipitation": "Prob. de lluvia",
+    "uvIndex": "Índice UV",
+    "forecast": "Pronóstico de los próximos 7 días",
+    "today": "Hoy",
+    "umbrellaYes": "Hoy conviene llevar paraguas: hay probabilidad de precipitación.",
+    "umbrellaNo": "Hoy no necesitas paraguas: no se prevé precipitación.",
+    "updated": "Actualizado",
+    "unavailable": "El pronóstico no está disponible en este momento. Puedes volver a consultarlo más tarde.",
+    "sourceLabel": "Fuente meteorológica",
+    "conditions": {
+      "clear": "Despejado",
+      "mainlyClear": "Mayormente despejado",
+      "partlyCloudy": "Parcialmente nublado",
+      "overcast": "Cubierto",
+      "fog": "Niebla",
+      "drizzle": "Llovizna",
+      "rain": "Lluvia",
+      "showers": "Chubascos",
+      "snow": "Nieve",
+      "thunderstorm": "Tormenta eléctrica",
+      "unknown": "Variable"
+    },
+    "uv": {
+      "low": "Bajo",
+      "moderate": "Moderado",
+      "high": "Alto",
+      "veryHigh": "Muy alto",
+      "extreme": "Extremo"
+    },
+    "alertsTitle": "Avisos meteorológicos",
+    "noAlerts": "Hoy no hay avisos meteorológicos activos.",
+    "seaTitle": "Condiciones del mar",
+    "waveHeight": "Oleaje",
+    "wavePeriod": "Periodo",
+    "seaTemp": "Temp. del agua",
+    "groupOutfit": "Qué ponerse",
+    "groupPlan": "Cómo organizar la visita",
+    "groupGear": "Qué llevar en la mochila",
+    "advice": {
+      "alertThunderstorm": "Tormenta eléctrica: no subas a miradores ni cerros, no te refugies bajo los árboles y mantente fuera del agua y de la playa.",
+      "alertHeavyRain": "Lluvia intensa: evita zonas bajas, quebradas y cauces secos; en el desierto una lluvia fuerte puede provocar crecidas repentinas.",
+      "alertHighWind": "Viento fuerte: aléjate de andamios, carteles y bordes costeros; las actividades al aire libre y marítimas pueden suspenderse.",
+      "alertFog": "Niebla densa: la visibilidad es reducida y no es buen momento para miradores, playa o caminos de altura.",
+      "alertExtremeHeat": "Calor extremo: reduce las actividades al aire libre y mantente hidratado, sobre todo entre las 11:00 y las 16:00.",
+      "alertExtremeUv": "Radiación UV peligrosa: usa protección máxima, gafas de sol y busca la sombra; la piel se quema rápido.",
+      "alertCold": "Temperatura muy baja: abrígate bien y evita permanecer mucho tiempo a la intemperie.",
+      "alertHighSwell": "Oleaje peligroso: no entres al agua ni te acerques a las rocas; contempla el mar desde una distancia segura.",
+      "alertDust": "Polvo en suspensión: protege las vías respiratorias y los ojos; si tienes problemas respiratorios, reduce el tiempo al aire libre.",
+      "outfitHot": "Hace calor: ropa ligera, transpirable y de colores claros.",
+      "outfitWarm": "Temperatura cálida y agradable: ropa ligera, con manga fina por si corre la brisa marina.",
+      "outfitMild": "Temperatura templada: manga larga fina o una chaqueta ligera.",
+      "outfitCool": "Aire fresco: suma una chaqueta o un forro polar ligero.",
+      "outfitCold": "Hace frío: abrigo grueso, bufanda y calcetines de abrigo.",
+      "outfitSwing": "Entre el día y la noche hay unos {n} °C de diferencia: viste por capas para poder abrigarte al caer la tarde.",
+      "outfitRainproof": "Puede llover: calzado cerrado y chaqueta impermeable funcionan mejor que el paraguas.",
+      "outfitWindy": "Va a ventar: sujeta bien el sombrero y evita faldas amplias o prendas muy sueltas.",
+      "planClear": "Cielo despejado: buen día para recorrer la plaza y el paseo, con luz excelente para fotos al atardecer.",
+      "planCloudy": "Cielo con nubes: la luz es suave y favorece las fotos, y sin sol directo el paseo largo se aguanta mejor.",
+      "planRainLight": "Lluvia débil: las baldosas y el tablado de madera se ponen resbaladizos; las actividades al aire libre pierden encanto.",
+      "planRainHeavy": "Lluvia fuerte: prioriza planes bajo techo; los paseos en barco y las atracciones al aire libre suelen cerrar.",
+      "planThunderstorm": "Tormenta: los planes acuáticos suelen cancelarse y conviene evitar zonas descubiertas o en altura.",
+      "planFog": "Niebla: mala visibilidad, así que hoy no es día de panorámicas ni de fotos de horizonte.",
+      "planBeachOk": "El mar está tranquilo: buena jornada para caminar por la orilla, aunque el agua del Pacífico sigue fría.",
+      "planBeachCaution": "Oleaje moderado: quédate en la arena y no te alejes de la costa; las olas pueden sorprender.",
+      "planBeachDanger": "Oleaje alto: no es día de baño ni de caminar por rocas y rompientes; observa el mar desde lejos.",
+      "planBeachCold": "El agua está fría ({n} °C): si te bañas, hazlo poco tiempo y sal rápido o con neopreno.",
+      "planHeat": "Acorta las actividades al aire libre y reserva las horas centrales para lugares con sombra o bajo techo.",
+      "planDesertMidday": "El sol del desierto pega fuerte al mediodía: deja el paseo largo para primera hora o para el atardecer.",
+      "planHighUv": "El índice UV es alto: busca sombra en las horas centrales y protege la piel y los ojos.",
+      "planWind": "Viento moderado: pueden suspenderse paseos en barco y algunas atracciones al aire libre; lleva una capa cortavientos.",
+      "planWindStrong": "Viento muy fuerte: es muy probable que cierren las actividades al aire libre y marítimas.",
+      "gearSunscreen": "Protector solar, gafas de sol y gorra o sombrero.",
+      "gearWater": "Agua suficiente: en el desierto la sed aparece cuando ya te falta líquido.",
+      "gearUmbrella": "Paraguas o chubasquero plegable.",
+      "gearFoldingUmbrella": "Un paraguas pequeño por si cae alguna gota.",
+      "gearRaincoat": "Chubasquero o impermeable; con viento, mejor evitar el paraguas de mango largo.",
+      "gearWarm": "Abrigo grueso, bufanda y guantes si eres friolero.",
+      "gearLayer": "Una capa extra (chaqueta ligera o forro) para cuando baje la temperatura.",
+      "gearWindproof": "Cortavientos; el sombrero de ala ancha vuela con el viento.",
+      "gearMask": "Mascarilla o pañuelo para el polvo y las partículas en suspensión."
+    }
+  },
+  "facilities": {
+    "title": "Servicios e infraestructura en el entorno",
+    "subtitle": "Información práctica sobre los tipos de servicio que encontrarás alrededor de la Torre del Reloj: aseos, estacionamiento, alimentación, alojamiento, comercio, combustible y carga eléctrica, entre otros.",
+    "neutral": "Directorio neutral: describimos únicamente tipos de servicio disponibles en la zona. No promocionamos, recomendamos ni enumeramos comercios concretos.",
+    "note": "Las distancias son orientativas y se miden a pie desde la Plaza Arturo Prat. La disponibilidad y los horarios pueden variar según la temporada.",
+    "items": [
+      { "icon": "🚻", "title": "Aseos y servicios higiénicos", "detail": "La plaza no dispone de aseos propios. En el sector céntrico hay aseos públicos y servicios higiénicos en locales de hostelería para sus clientes. Conviene llevar papel o gel desinfectante.", "distance": "Sector céntrico, a pocos metros" },
+      { "icon": "🅿️", "title": "Estacionamiento", "detail": "Estacionamiento en vía pública con parquímetros y playas de pago en el casco histórico. En verano y fines de semana la demanda es alta; llegar temprano o venir a pie suele ser más rápido.", "distance": "Calles aledañas a la plaza" },
+      { "icon": "🍽️", "title": "Restaurantes y cafeterías", "detail": "Oferta variada de tipo local, marina y de cocina rápida, además de cafeterías, panaderías y heladerías. Hay opciones para distintos presupuestos y dietas.", "distance": "Paseo peatonal y calles próximas" },
+      { "icon": "🛏️", "title": "Alojamiento", "detail": "Alojamientos de distintas categorías: hoteles, hostales, residenciales y departamentos turísticos. También hay oferta junto a la costanera y cerca de Playa Cavancha.", "distance": "Centro y frente costero" },
+      { "icon": "🛒", "title": "Supermercados y comercio básico", "detail": "Supermercados, minimercados, farmacias y comercio de barrio para compras esenciales. La zona franca comercial está a pocos minutos en vehículo.", "distance": "Calles céntricas" },
+      { "icon": "⛽", "title": "Combustible y carga eléctrica", "detail": "Estaciones de servicio con combustible líquido y puntos de carga para vehículos eléctricos distribuidos por la ciudad. Conviene verificar la disponibilidad y el tipo de conector al llegar.", "distance": "Periferia del centro, en vehículo" },
+      { "icon": "🏧", "title": "Cajeros automáticos y banca", "detail": "Cajeros automáticos y sucursales bancarias en el sector céntrico, con horario comercial reducido los fines de semana. Se recomienda llevar algo de efectivo para pequeños comercios.", "distance": "Sector céntrico" },
+      { "icon": "🏥", "title": "Salud y farmacias", "detail": "Centros de atención primaria, clínicas privadas y farmacias, con turnos de urgencia. Ante una emergencia, contacta con los servicios públicos de emergencia del país.", "distance": "Centro y alrededores" },
+      { "icon": "🚰", "title": "Agua potable y sombra", "detail": "El agua de red es potable. Las fuentes públicas y las zonas de sombra son limitadas, así que se recomienda llevar una botella reutilizable y protegerse del sol.", "distance": "En la plaza y alrededores" },
+      { "icon": "📶", "title": "Conectividad y señal móvil", "detail": "Cobertura de telefonía móvil en toda la ciudad y redes wifi en establecimientos de hostelería. La señal al aire libre y en interiores antiguos puede ser irregular.", "distance": "Todo el sector" },
+      { "icon": "♿", "title": "Accesibilidad", "detail": "La plaza es plana y pavimentada, transitable con sillas de ruedas y coches de bebé, con cruces adaptados en las calles aledañas. El paseo de madera puede presentar juntas leves.", "distance": "Plaza y paseo peatonal" },
+      { "icon": "🚌", "title": "Transporte público y taxis", "detail": "Paradas de bus urbano, taxis y aplicaciones de movilidad en las avenidas próximas. El casco histórico es compacto y se recorre mejor a pie.", "distance": "Avenidas cercanas" }
+    ],
+    "practicalTitle": "Información práctica antes de salir",
+    "practical": [
+      "La zona es segura y muy transitada de día; por la noche conviene mantenerse en calles iluminadas y concurridas del centro.",
+      "El clima es desértico: oscila mucho entre el día y la noche, así que una capa ligera resulta útil incluso en verano.",
+      "El sol es muy intenso entre las 11:00 y las 16:00; protege la piel, los ojos y la hidratación.",
+      "Los horarios comerciales suelen ser de mañana y tarde, con pausa al mediodía; los domingos buena parte del comercio cierra."
     ]
   },
   "gallery": {
@@ -250,7 +480,12 @@
       { "name": "Gobierno Regional de Tarapacá", "url": "https://www.goretarapaca.cl" },
       { "name": "Subsecretaría de Turismo de Chile", "url": "https://www.subturismo.gob.cl" }
     ],
-    "disclaimer": "Este es un proyecto independiente y sin fines de lucro de información para visitantes. No estamos afiliados con ningún organismo gubernamental ni institución oficial."
+    "disclaimer": "Este es un proyecto independiente y sin fines de lucro de información para visitantes. No estamos afiliados con ningún organismo gubernamental ni institución oficial.",
+    "napTitle": "Nombre oficial y dirección",
+    "napName": "Torre del Reloj (Clock Tower)",
+    "napAddress": "Plaza Arturo Prat, Baquedano, Iquique, Tarapacá, Chile",
+    "imageCopyright": "Aviso de derechos de imagen: todas las imágenes mostradas en este sitio pertenecen y son propiedad intelectual de sus fotógrafos originales.",
+    "sourcesLink": "Fuentes y referencias"
   },
   "privacy": {
     "title": "Política de privacidad",
@@ -321,10 +556,16 @@
     "amenities": {
       "title": "Servicios en la zona",
       "items": [
-        { "icon": "🅿️", "label": "Estacionamiento", "value": "Calles aledañas y estacionamientos del centro" },
-        { "icon": "🚻", "label": "Baños", "value": "Comercios, cafés y servicios públicos cercanos" },
-        { "icon": "🔌", "label": "Carga / Gasolina", "value": "Bencineras y carga EV en Iquique" },
-        { "icon": "♿", "label": "Accesibilidad", "value": "Plaza plana y paseo peatonal sin escalones" }
+        { "icon": "🚻", "label": "Aseos", "value": "Baños públicos y de hostelería en el sector céntrico" },
+        { "icon": "🅿️", "label": "Estacionamiento", "value": "Calles tarifadas y playas de pago del centro" },
+        { "icon": "🍽️", "label": "Alimentación", "value": "Restaurantes, cafeterías y comida rápida en las calles próximas" },
+        { "icon": "🛏️", "label": "Alojamiento", "value": "Hoteles, hostales y residenciales del centro y la costanera" },
+        { "icon": "🛒", "label": "Comercio y supermercados", "value": "Supermercados, minimercados y farmacias de barrio" },
+        { "icon": "⛽", "label": "Combustible y carga", "value": "Estaciones de servicio y puntos de carga eléctrica en la ciudad" },
+        { "icon": "🏧", "label": "Cajeros y banca", "value": "Cajeros automáticos y sucursales en el sector céntrico" },
+        { "icon": "🏥", "label": "Salud y farmacias", "value": "Centros de salud y farmacias con turnos de urgencia" },
+        { "icon": "♿", "label": "Accesibilidad", "value": "Plaza plana y paseo peatonal sin escalones" },
+        { "icon": "📶", "label": "Conectividad", "value": "Cobertura móvil y wifi en establecimientos" }
       ]
     },
     "categories": [
@@ -405,6 +646,34 @@
       { "name": "Tour patrimonial del casco histórico", "url": "https://www.chile.travel" },
       { "name": "Caminata costanera a Playa Cavancha", "url": "http://www.municipioiquique.cl/" },
       { "name": "Visita a la Zona Franca (Zofri)", "url": "https://www.goretarapaca.cl" }
+    ]
+  },
+  "entity": {
+    "breadcrumb": ["Torre del Reloj", "Iquique", "Tarapacá", "Chile"],
+    "schemaDescription": "Guía completa para visitantes de Torre del Reloj en Iquique, Tarapacá, Chile.",
+    "welcome": "Bienvenido a Torre del Reloj, reconocido popularmente como el Reloj de Iquique. Ubicado en el corazón de Iquique, región de Tarapacá, Chile, este destino es un punto de referencia principal para los viajeros que visitan la zona.",
+    "nearby": "Al visitar Torre del Reloj, los viajeros pueden explorar fácilmente los hitos históricos y puntos de interés de los alrededores, como el Paseo Baquedano y el Teatro Municipal de Iquique.",
+    "aboutTitle": "Acerca de Torre del Reloj",
+    "aboutText": "Torre del Reloj es el hito de madera más reconocible de Iquique y el centro simbólico de la Plaza Arturo Prat. Construida en 1877 con pino de Oregón traído por mar, su reloj sigue marcando la vida del casco histórico entre el desierto de Atacama y el antiguo puerto salitrero.",
+    "locationTitle": "Ubicación y cómo visitar el Reloj de Iquique",
+    "locationText": "Torre del Reloj se encuentra en la Plaza Arturo Prat, sobre la calle Baquedano, en pleno casco histórico de Iquique, región de Tarapacá. Se llega caminando desde el Paseo Baquedano y la costanera; la plaza es plana, accesible y está abierta las 24 horas con entrada libre.",
+    "landmarksTitle": "Hitos y atracciones alrededor del Reloj de Iquique",
+    "landmarksText": "Alrededor de Torre del Reloj el visitante encuentra el Paseo Baquedano, el Teatro Municipal de Iquique y las casonas de pino de Oregón de la época salitrera. A pocos minutos están Playa Cavancha y la Zona Franca (Zofri).",
+    "historyTitle": "Historia y significado de Torre del Reloj",
+    "historyText": "Levantada en 1877 durante la fiebre del salitre, Torre del Reloj conmemora la época en que Iquique era uno de los principales puertos exportadores de nitrato del mundo. Su estilo morisco y su estructura de pino de Oregón la convirtieron en el símbolo patrimonial de la ciudad."
+  },
+  "sources": {
+    "title": "Fuentes y referencias oficiales",
+    "intro": "Este proyecto independiente reúne información contrastada con fuentes públicas oficiales y de referencia. Consulta los enlaces para obtener datos actualizados.",
+    "officialPortal": "Portal oficial de turismo de Chile / Tarapacá",
+    "items": [
+      { "name": "Ilustre Municipalidad de Iquique", "url": "http://www.municipioiquique.cl/" },
+      { "name": "SERNATUR – Chile Travel (turismo oficial)", "url": "https://www.chile.travel" },
+      { "name": "Gobierno Regional de Tarapacá", "url": "https://www.goretarapaca.cl" },
+      { "name": "Subsecretaría de Turismo de Chile", "url": "https://www.subturismo.gob.cl" },
+      { "name": "Consejo de Monumentos Nacionales de Chile", "url": "https://www.monumentos.gob.cl" },
+      { "name": "Google Maps – Clock Tower, Iquique", "url": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A" },
+      { "name": "Open-Meteo – datos meteorológicos abiertos", "url": "https://open-meteo.com/" }
     ]
   }
 }

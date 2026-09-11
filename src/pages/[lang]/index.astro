@@ -1,15 +1,21 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Hero from '../../components/Hero.astro';
+import EntitySeo from '../../components/EntitySeo.astro';
 import Intro from '../../components/Intro.astro';
+import Weather from '../../components/Weather.astro';
+import PlazaPrat from '../../components/PlazaPrat.astro';
 import Transport from '../../components/Transport.astro';
+import Facilities from '../../components/Facilities.astro';
 import InfoSection from '../../components/InfoSection.astro';
 import Gallery from '../../components/Gallery.astro';
+import Drawings from '../../components/Drawings.astro';
 import FeaturedQuotes from '../../components/FeaturedQuotes.astro';
 import VisitGuide from '../../components/VisitGuide.astro';
 import Reviews from '../../components/Reviews.astro';
 import MapEmbed from '../../components/MapEmbed.astro';
 import FAQ from '../../components/FAQ.astro';
+import SourcesSection from '../../components/SourcesSection.astro';
 import { getI18n, languagesList } from '../../i18n/ui';
 
 export function getStaticPaths() {
@@ -21,13 +27,19 @@ const { messages } = getI18n(Astro.url);
 
 <BaseLayout title={messages.meta.title} description={messages.meta.description} path="">
   <Hero />
+  <EntitySeo />
+  <Weather />
   <Intro />
+  <PlazaPrat />
   <Transport />
+  <Facilities />
   <InfoSection />
   <FeaturedQuotes />
   <VisitGuide />
   <Gallery />
+  <Drawings />
   <Reviews />
   <MapEmbed />
   <FAQ />
+  <SourcesSection />
 </BaseLayout>

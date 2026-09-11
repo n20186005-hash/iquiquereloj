@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1350" width="900" height="1350" role="img" aria-labelledby="t1 t2">
+  <title id="t1">Dibujo de la Torre del Reloj de Iquique</title>
+  <desc id="t2">Ilustración lineal de la Torre del Reloj de Iquique, Chile: cuerpo de madera de pino de Oregón, esfera del reloj y cúpula del remate, sobre la Plaza Arturo Prat.</desc>
+
+  <rect width="900" height="1350" fill="#f7f2e6"/>
+  <g stroke="#2b2b2b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+
+    <!-- ============ suelo / plaza ============ -->
+    <line x1="46" y1="1106" x2="854" y2="1106" stroke-width="2.6"/>
+    <line x1="86" y1="1136" x2="814" y2="1136" stroke-width="1"/>
+    <line x1="130" y1="1168" x2="770" y2="1168" stroke-width="1"/>
+    <line x1="176" y1="1204" x2="724" y2="1204" stroke-width="1"/>
+    <g stroke-width="0.7" opacity="0.55">
+      <line x1="300" y1="1106" x2="330" y2="1136"/>
+      <line x1="600" y1="1106" x2="570" y2="1136"/>
+      <line x1="250" y1="1136" x2="292" y2="1168"/>
+      <line x1="650" y1="1136" x2="608" y2="1168"/>
+    </g>
+
+    <!-- ============ remate: cruz, bola y cúpula ============ -->
+    <line x1="450" y1="268" x2="450" y2="304"/>
+    <line x1="442" y1="280" x2="458" y2="280"/>
+    <circle cx="450" cy="308" r="6.5"/>
+    <line x1="450" y1="315" x2="450" y2="330"/>
+    <path d="M398 382 A 52 52 0 0 1 502 382 Z"/>
+    <path d="M414 382 A 36 36 0 0 1 486 382" stroke-width="0.8" opacity="0.5"/>
+    <g stroke-width="0.8" opacity="0.5">
+      <line x1="450" y1="330" x2="450" y2="382"/>
+      <line x1="424" y1="336" x2="418" y2="382"/>
+      <line x1="476" y1="336" x2="482" y2="382"/>
+    </g>
+
+    <!-- ============ cornisa de la cúpula ============ -->
+    <rect x="388" y="382" width="124" height="11"/>
+    <rect x="396" y="393" width="108" height="7"/>
+
+    <!-- ============ templete ============ -->
+    <rect x="406" y="400" width="88" height="62"/>
+    <path d="M418 462 L418 434 A 8 8 0 0 1 434 434 L434 462" stroke-width="1.3"/>
+    <path d="M466 462 L466 434 A 8 8 0 0 1 482 434 L482 462" stroke-width="1.3"/>
+    <rect x="441" y="426" width="18" height="20" stroke-width="1.1"/>
+    <path d="M441 426 L450 416 L459 426" stroke-width="1.1"/>
+    <g stroke-width="0.8" opacity="0.6">
+      <line x1="450" y1="400" x2="450" y2="426"/>
+      <line x1="428" y1="400" x2="428" y2="426"/>
+      <line x1="472" y1="400" x2="472" y2="426"/>
+    </g>
+
+    <!-- ============ cornisa principal ============ -->
+    <rect x="386" y="462" width="128" height="9"/>
+    <rect x="378" y="471" width="144" height="9"/>
+
+    <!-- ============ cuerpo del reloj ============ -->
+    <rect x="374" y="480" width="152" height="168"/>
+    <rect x="382" y="480" width="8" height="168" stroke-width="0.9"/>
+    <rect x="510" y="480" width="8" height="168" stroke-width="0.9"/>
+    <circle cx="450" cy="566" r="59" stroke-width="2"/>
+    <circle cx="450" cy="566" r="3.2" fill="#2b2b2b"/>
+    <g stroke-width="1.3">
+      <line x1="450" y1="507" x2="450" y2="515"/>
+      <line x1="450" y1="617" x2="450" y2="625"/>
+      <line x1="391" y1="566" x2="399" y2="566"/>
+      <line x1="501" y1="566" x2="509" y2="566"/>
+    </g>
+    <g stroke-width="0.8" opacity="0.7">
+      <line x1="488" y1="528" x2="492" y2="532"/>
+      <line x1="412" y1="528" x2="408" y2="532"/>
+      <line x1="488" y1="604" x2="492" y2="600"/>
+      <line x1="412" y1="604" x2="408" y2="600"/>
+    </g>
+    <!-- manecillas: 10:10 -->
+    <line x1="450" y1="566" x2="427" y2="552" stroke-width="2.2"/>
+    <line x1="450" y1="566" x2="476" y2="522" stroke-width="2.2"/>
+    <g font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#2b2b2b" stroke="none" text-anchor="middle">
+      <text x="450" y="533">XII</text>
+      <text x="450" y="609">VI</text>
+      <text x="488" y="571">III</text>
+      <text x="412" y="571">IX</text>
+    </g>
+
+    <!-- ============ friso con celosías ============ -->
+    <rect x="366" y="648" width="168" height="12"/>
+    <rect x="374" y="660" width="152" height="10"/>
+    <g stroke-width="0.7" opacity="0.65">
+      <path d="M390 662 l8 6 l-8 6 M406 662 l8 6 l-8 6 M422 662 l8 6 l-8 6 M438 662 l8 6 l-8 6 M454 662 l8 6 l-8 6 M470 662 l8 6 l-8 6 M486 662 l8 6 l-8 6 M502 662 l8 6 l-8 6"/>
+    </g>
+
+    <!-- ============ fuste central ============ -->
+    <rect x="384" y="670" width="132" height="230"/>
+    <line x1="384" y1="716" x2="516" y2="716" stroke-width="0.9"/>
+    <line x1="384" y1="856" x2="516" y2="856" stroke-width="0.9"/>
+    <rect x="392" y="670" width="6" height="230" stroke-width="0.9"/>
+    <rect x="502" y="670" width="6" height="230" stroke-width="0.9"/>
+    <path d="M426 848 L426 762 A 24 24 0 0 1 474 762 L474 848" stroke-width="1.6"/>
+    <path d="M434 848 L434 766 A 16 16 0 0 1 466 766 L466 848" stroke-width="0.9"/>
+    <line x1="450" y1="750" x2="450" y2="848" stroke-width="0.9"/>
+    <line x1="434" y1="806" x2="466" y2="806" stroke-width="0.9"/>
+    <g stroke-width="0.7" opacity="0.5">
+      <line x1="406" y1="726" x2="406" y2="846"/>
+      <line x1="412" y1="726" x2="412" y2="846"/>
+      <line x1="488" y1="726" x2="488" y2="846"/>
+      <line x1="494" y1="726" x2="494" y2="846"/>
+    </g>
+
+    <!-- ============ cornisa baja ============ -->
+    <rect x="372" y="900" width="156" height="10"/>
+    <rect x="380" y="910" width="140" height="8"/>
+
+    <!-- ============ cuerpo inferior ============ -->
+    <rect x="390" y="918" width="120" height="164"/>
+    <rect x="398" y="918" width="6" height="164" stroke-width="0.9"/>
+    <rect x="496" y="918" width="6" height="164" stroke-width="0.9"/>
+    <rect x="408" y="948" width="22" height="24" stroke-width="1.1"/>
+    <line x1="419" y1="948" x2="419" y2="972" stroke-width="0.9"/>
+    <line x1="408" y1="960" x2="430" y2="960" stroke-width="0.9"/>
+    <rect x="470" y="948" width="22" height="24" stroke-width="1.1"/>
+    <line x1="481" y1="948" x2="481" y2="972" stroke-width="0.9"/>
+    <line x1="470" y1="960" x2="492" y2="960" stroke-width="0.9"/>
+    <path d="M424 1082 L424 1032 A 26 26 0 0 1 476 1032 L476 1082" stroke-width="1.6"/>
+    <path d="M432 1082 L432 1036 A 18 18 0 0 1 468 1036 L468 1082" stroke-width="0.9"/>
+    <line x1="450" y1="1018" x2="450" y2="1082" stroke-width="0.9"/>
+    <line x1="432" y1="1060" x2="468" y2="1060" stroke-width="0.9"/>
+
+    <!-- ============ basamento ============ -->
+    <rect x="382" y="1082" width="136" height="10"/>
+    <rect x="366" y="1092" width="168" height="14"/>
+
+    <!-- ============ sombreado (lado derecho) ============ -->
+    <g stroke-width="0.6" opacity="0.35">
+      <line x1="500" y1="486" x2="500" y2="640"/>
+      <line x1="508" y1="486" x2="508" y2="640"/>
+      <line x1="504" y1="676" x2="504" y2="894"/>
+      <line x1="511" y1="676" x2="511" y2="894"/>
+      <line x1="500" y1="924" x2="500" y2="1076"/>
+      <line x1="507" y1="924" x2="507" y2="1076"/>
+    </g>
+    <g stroke-width="0.6" opacity="0.3">
+      <line x1="470" y1="1112" x2="560" y2="1180"/>
+      <line x1="486" y1="1112" x2="586" y2="1180"/>
+      <line x1="502" y1="1112" x2="606" y2="1170"/>
+    </g>
+
+    <!-- ============ faroles y macizos ============ -->
+    <g>
+      <line x1="238" y1="1106" x2="238" y2="880"/>
+      <rect x="232" y="1106" width="12" height="7"/>
+      <rect x="226" y="866" width="24" height="14"/>
+      <path d="M226 866 L238 850 L250 866"/>
+      <circle cx="238" cy="858" r="3" fill="#f7f2e6"/>
+    </g>
+    <g>
+      <line x1="662" y1="1106" x2="662" y2="900"/>
+      <rect x="656" y="1106" width="12" height="7"/>
+      <rect x="650" y="886" width="24" height="14"/>
+      <path d="M650 886 L662 870 L674 886"/>
+      <circle cx="662" cy="878" r="3" fill="#f7f2e6"/>
+    </g>
+    <g stroke-width="1.2">
+      <path d="M126 1106 c0 -19 11 -30 25 -30 c14 0 25 11 25 30"/>
+      <path d="M134 1106 c0 -14 8 -22 17 -22 c9 0 17 8 17 22" stroke-width="0.8" opacity="0.6"/>
+      <path d="M724 1106 c0 -19 11 -30 25 -30 c14 0 25 11 25 30"/>
+      <path d="M732 1106 c0 -14 8 -22 17 -22 c9 0 17 8 17 22" stroke-width="0.8" opacity="0.6"/>
+    </g>
+
+    <!-- ============ aves ============ -->
+    <g stroke-width="1.4">
+      <path d="M268 300 c8 -8 14 -8 22 0 M290 300 c8 -8 14 -8 22 0"/>
+      <path d="M322 344 c6 -6 11 -6 17 0 M339 344 c6 -6 11 -6 17 0"/>
+      <path d="M614 268 c8 -8 14 -8 22 0 M636 268 c8 -8 14 -8 22 0"/>
+    </g>
+  </g>
+
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#5b5b5b">
+    <text x="450" y="1290" font-size="26" text-anchor="middle" letter-spacing="1.5" stroke="none">TORRE DEL RELOJ · IQUIQUE</text>
+    <text x="450" y="1322" font-size="16" text-anchor="middle" letter-spacing="0.5" stroke="none">Plaza Arturo Prat · Región de Tarapacá · Chile · 1877</text>
+  </g>
+</svg>

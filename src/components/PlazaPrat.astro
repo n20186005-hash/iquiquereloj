@@ -1,0 +1,82 @@
+---
+import { getI18n } from '../i18n/ui';
+import attraction from '../config/attraction';
+
+const { messages } = getI18n(Astro.url);
+const p = messages.plaza ?? {};
+const items = p.items ?? [];
+const route = p.route ?? [];
+const mapsCta = messages.mapSection?.openMaps ?? 'Google Maps';
+
+/* ItemList：把“广场周边看点”声明为一组实体，强化景点与所在广场的语义关联 */
+const itemListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: p.itemsTitle,
+  description: p.intro,
+  numberOfItems: items.length,
+  itemListOrder: 'https://schema.org/ItemListOrderAscending',
+  itemListElement: items.map((item: any, index: number) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    item: {
+      '@type': 'TouristAttraction',
+      name: item.name,
+      description: item.text,
+    },
+  })),
+};
+---
+
+<section id="plaza" class="section-padding scroll-mt-20" style="background: var(--bg-secondary);">
+  <div class="max-w-5xl mx-auto px-4">
+    <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3 text-center" style="color: var(--text-primary);">{p.title}</h2>
+    <p class="text-center text-base sm:text-lg mb-8" style="color: var(--text-secondary);">{p.subtitle}</p>
+
+    <p class="text-base sm:text-lg leading-relaxed mb-8" style="color: var(--text-secondary);">{p.intro}</p>
+
+    <!-- 地址明确写出：与 Google 商家资料的 NAP 保持一致 -->
+    <div class="rounded-2xl border p-5 sm:p-6 mb-10 flex flex-col sm:flex-row sm:items-center gap-4 sm:justify-between" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+      <div>
+        <p class="text-xs uppercase tracking-[0.18em] mb-1" style="color: var(--text-muted);">{p.addressLabel}</p>
+        <address class="not-italic font-semibold text-base" style="color: var(--text-primary);">{p.address}</address>
+      </div>
+      <a
+        href={attraction.mapsShareUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex shrink-0 justify-center px-6 py-3 rounded-full font-semibold text-white"
+        style="background: var(--accent);"
+      >
+        📍 {mapsCta}
+      </a>
+    </div>
+
+    <h3 class="font-display text-xl sm:text-2xl font-semibold mb-5" style="color: var(--text-primary);">{p.itemsTitle}</h3>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
+      {items.map((item: any) => (
+        <article class="rounded-2xl border p-5 flex flex-col" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <h4 class="font-semibold mb-2" style="color: var(--text-primary);">{item.name}</h4>
+          <p class="text-sm leading-relaxed mb-4 flex-1" style="color: var(--text-secondary);">{item.text}</p>
+          <a href={item.href} class="text-sm font-medium hover:opacity-70" style="color: var(--accent);">
+            {item.link} →
+          </a>
+        </article>
+      ))}
+    </div>
+
+    <h3 class="font-display text-xl sm:text-2xl font-semibold mb-5" style="color: var(--text-primary);">{p.routeTitle}</h3>
+    <ol class="space-y-4">
+      {route.map((step: string, index: number) => (
+        <li class="flex gap-4">
+          <span class="w-7 h-7 shrink-0 rounded-full flex items-center justify-center text-sm font-bold" style="background: var(--accent); color: #fff;" aria-hidden="true">
+            {index + 1}
+          </span>
+          <span class="text-base leading-relaxed" style="color: var(--text-secondary);">{step}</span>
+        </li>
+      ))}
+    </ol>
+  </div>
+
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(itemListSchema)}></script>
+</section>

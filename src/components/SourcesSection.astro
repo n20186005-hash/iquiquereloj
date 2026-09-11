@@ -1,0 +1,32 @@
+---
+import { getI18n } from '../i18n/ui';
+import attraction from '../config/attraction';
+const { messages } = getI18n(Astro.url);
+const s = messages.sources ?? {};
+const items = s.items ?? [];
+---
+
+<section id="sources" class="section-padding" style="background: var(--bg-tertiary);">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3 text-center" style="color: var(--text-primary);">{s.title}</h2>
+    <p class="text-center text-base sm:text-lg mb-10" style="color: var(--text-secondary);">{s.intro}</p>
+
+    <ul class="grid sm:grid-cols-2 gap-3">
+      {items.map((item) => (
+        <li>
+          <a href={item.url} target="_blank" rel="noopener noreferrer" class="block h-full rounded-xl p-4 border hover:shadow-md transition" style="background: var(--card-bg); border-color: var(--border-color); color: var(--text-primary);">
+            {item.name} <span style="color: var(--accent);">↗</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <!-- 权威 .gob / .org 出站链接 -->
+    <p class="mt-10 text-sm text-center leading-relaxed" style="color: var(--text-secondary);">
+      {s.officialPortal}:
+      <a href={attraction.govtTourismUrl} target="_blank" rel="noopener noreferrer" class="hover:opacity-70 underline" style="color: var(--accent);">
+        {attraction.govtTourismName}
+      </a>
+    </p>
+  </div>
+</section>

@@ -1,0 +1,64 @@
+---
+import { getI18n } from '../i18n/ui';
+import attraction from '../config/attraction';
+const { messages } = getI18n(Astro.url);
+const e = messages.entity ?? {};
+const crumbs: string[] = e.breadcrumb ?? [
+  attraction.fullName,
+  attraction.city,
+  attraction.state,
+  attraction.country,
+];
+---
+
+<section class="section-padding" style="background: var(--bg-primary);">
+  <div class="max-w-4xl mx-auto px-4">
+    <!-- 正文首段：将域名含义（俗称）与官方全称在语义层面等同 -->
+    <p class="text-lg sm:text-xl leading-relaxed mb-6" style="color: var(--text-primary);">
+      {e.welcome}
+    </p>
+
+    <!-- 地理面包屑与归属层级：全称 → 城市 → 省 → 国家 -->
+    <nav aria-label="Breadcrumb" class="mb-12 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs sm:text-sm" style="color: var(--text-muted);">
+      {crumbs.map((crumb, index) => (
+        <>
+          {index > 0 && <span aria-hidden="true">→</span>}
+          <span class={index === 0 ? 'font-semibold' : ''} style={index === 0 ? 'color: var(--accent);' : ''}>{crumb}</span>
+        </>
+      ))}
+    </nav>
+
+    <!-- H2 语义网络：围绕实体、位置、周边、历史建立关联 -->
+    <div class="space-y-10">
+      <div>
+        <h2 class="font-display text-2xl sm:text-3xl font-semibold mb-3" style="color: var(--text-primary);">{e.aboutTitle}</h2>
+        <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{e.aboutText}</p>
+      </div>
+
+      <div>
+        <h2 class="font-display text-2xl sm:text-3xl font-semibold mb-3" style="color: var(--text-primary);">{e.locationTitle}</h2>
+        <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{e.locationText}</p>
+      </div>
+
+      <div>
+        <h2 class="font-display text-2xl sm:text-3xl font-semibold mb-3" style="color: var(--text-primary);">{e.landmarksTitle}</h2>
+        <p class="text-base sm:text-lg leading-relaxed mb-4" style="color: var(--text-secondary);">{e.landmarksText}</p>
+        <ul class="flex flex-wrap gap-2">
+          {attraction.nearbyLandmarks.map((landmark) => (
+            <li class="rounded-full border px-3 py-1 text-sm" style="border-color: var(--border-color); color: var(--text-secondary);">
+              {landmark}
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="font-display text-2xl sm:text-3xl font-semibold mb-3" style="color: var(--text-primary);">{e.historyTitle}</h2>
+        <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{e.historyText}</p>
+      </div>
+    </div>
+
+    <!-- 周边语义集群描述 -->
+    <p class="mt-10 text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{e.nearby}</p>
+  </div>
+</section>

@@ -1,18 +1,36 @@
 ---
 import { getI18n } from '../i18n/ui';
+import attraction, { galleryImage } from '../config/attraction';
 const { messages } = getI18n(Astro.url);
 const h = messages.hero;
 const tags = h.tags ?? [];
 ---
 
 <section class="relative min-h-[78vh] sm:min-h-[88vh] flex items-center justify-center text-center overflow-hidden">
-  <div class="absolute inset-0" style={`background-image: linear-gradient(rgba(15,32,21,0.55), rgba(15,32,21,0.55)), url('/gallery/clock-tower-01.jpg'); background-size: cover; background-position: center;`}></div>
+  <!-- 主视觉图（LCP）：WebP 优先 + 实体语义 alt -->
+  <picture class="absolute inset-0 block">
+    <source srcset={galleryImage(1, 'webp')} type="image/webp" />
+    <img
+      src={attraction.heroImage}
+      alt={`${attraction.fullName} - Main view in ${attraction.city}, ${attraction.country}`}
+      class="absolute inset-0 w-full h-full object-cover"
+      width="1600"
+      height="1067"
+      fetchpriority="high"
+      decoding="async"
+    />
+  </picture>
+  <div class="absolute inset-0" style="background: linear-gradient(rgba(15,32,21,0.55), rgba(15,32,21,0.55));"></div>
   <div class="relative z-10 px-4 sm:px-6 py-16 sm:py-20 max-w-3xl animate-fade-in-up">
     <span class="inline-flex max-w-full flex-wrap items-center justify-center gap-1 px-3 py-1 mb-5 rounded-full text-xs sm:text-sm font-medium" style="background: rgba(255,255,255,0.15); color: #fff; backdrop-filter: blur(4px);">
       ⭐ {h.rating} · {h.reviewCount}
     </span>
+    <!-- H1：全页唯一。主行锁定“地点 + 城市”核心词，副行点出与 Plaza Prat 的关联 -->
     <h1 class="font-display text-4xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight mb-5">
       {h.title}
+      {h.descriptor && (
+        <span class="block text-xl sm:text-3xl lg:text-4xl font-normal text-white/85 mt-3">{h.descriptor}</span>
+      )}
     </h1>
     <p class="text-base sm:text-xl text-white/90 mb-4 max-w-2xl mx-auto leading-relaxed">
       {h.subtitle}

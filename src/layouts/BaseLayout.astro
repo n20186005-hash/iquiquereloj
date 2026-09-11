@@ -2,8 +2,9 @@
 import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { getLangFromUrl, buildAlternates, htmlLangAttr } from '../i18n/ui';
+import { getLangFromUrl, buildAlternates, htmlLangAttr, getI18n } from '../i18n/ui';
 import { ogLocale } from '../config';
+import attraction, { absoluteImage, absoluteOgImage, galleryImage } from '../config/attraction';
 
 interface Props {
   title: string;
@@ -14,8 +15,110 @@ interface Props {
 const { title, description, path = '' } = Astro.props;
 const lang = getLangFromUrl(Astro.url);
 const htmlLang = htmlLangAttr(lang);
+const { messages } = getI18n(Astro.url);
+const entity = messages.entity ?? {};
 const alts = buildAlternates(path);
 const canonical = alts[lang] ?? alts.es;
+
+const ogTitle = messages.meta?.ogTitle ?? title;
+const ogDescription = messages.meta?.ogDescription ?? description;
+
+// -------- Structured data (Schema.org / JSON-LD) --------
+// 线稿插画作为独立 ImageObject 参与实体识别（见 Drawings.astro），这里双向关联
+const drawingImage = `${attraction.baseUrl}/drawings/torre-del-reloj-iquique-dibujo.png`;
+const drawingId = `${attraction.baseUrl}/#dibujo-torre-del-reloj`;
+
+const attractionSchema = {
+  '@context': 'https://schema.org',
+  // 双类型：既是旅游景点，也是登录在册的历史建筑，帮助 Google 归并到同一个实体
+  '@type': ['TouristAttraction', 'LandmarksOrHistoricalBuildings'],
+  '@id': `${attraction.baseUrl}/#attraction`,
+  name: entity.fullName ?? attraction.fullName,
+  alternateName: attraction.alternateNames,
+  description: entity.schemaDescription ?? description,
+  url: canonical,
+  image: [absoluteImage, drawingImage],
+  hasPart: { '@id': drawingId },
+  isAccessibleForFree: attraction.isAccessibleForFree,
+  publicAccess: true,
+  openingHours: attraction.openingHours,
+  openingHoursSpecification: {
+    '@type': 'OpeningHoursSpecification',
+    dayOfWeek: [
+      'https://schema.org/Monday',
+      'https://schema.org/Tuesday',
+      'https://schema.org/Wednesday',
+      'https://schema.org/Thursday',
+      'https://schema.org/Friday',
+      'https://schema.org/Saturday',
+      'https://schema.org/Sunday',
+    ],
+    opens: '00:00',
+    closes: '23:59',
+  },
+  touristType: ['Cultural tourism', 'Heritage tourism'],
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: attraction.streetAddress,
+    addressLocality: attraction.city,
+    addressRegion: attraction.state,
+    postalCode: attraction.postalCode,
+    addressCountry: attraction.countryCode,
+  },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: attraction.latitude,
+    longitude: attraction.longitude,
+  },
+  hasMap: attraction.mapsShareUrl,
+  sameAs: [attraction.mapsShareUrl, attraction.govtTourismUrl],
+  containedInPlace: [
+    { '@type': 'City', name: attraction.city },
+    { '@type': 'AdministrativeArea', name: attraction.state },
+    { '@type': 'Country', name: attraction.country },
+  ],
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: attraction.rating,
+    reviewCount: attraction.reviewCount,
+    bestRating: 5,
+  },
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: attraction.city,
+      item: `${attraction.baseUrl}/${lang}`,
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: attraction.state,
+      item: `${attraction.baseUrl}/${lang}`,
+    },
+    {
+      '@type': 'ListItem',
+      position: 3,
+      name: entity.fullName ?? attraction.fullName,
+      item: canonical,
+    },
+  ],
+};
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': `${attraction.baseUrl}/#website`,
+  url: attraction.baseUrl,
+  name: `${attraction.fullName} (${attraction.city})`,
+  inLanguage: htmlLang,
+  publisher: { '@id': `${attraction.baseUrl}/#attraction` },
+};
 ---
 
 <!doctype html>
@@ -24,7 +127,12 @@ const canonical = alts[lang] ?? alts.es;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta name="description" content={description} />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <!-- Google Search Console 域名验证：将同一 Google 账号生成的验证码填入下方 content 即可（GBP 网站字段审核的关键信号） -->
+    <!-- <meta name="google-site-verification" content="REPLACE_WITH_SEARCH_CONSOLE_TOKEN" /> -->
     <link rel="canonical" href={canonical} />
     <link rel="alternate" hreflang="es" href={alts.es} />
     <link rel="alternate" hreflang="en" href={alts.en} />
@@ -32,12 +140,42 @@ const canonical = alts[lang] ?? alts.es;
     <link rel="alternate" hreflang="arn" href={alts.arn} />
     <link rel="alternate" hreflang="x-default" href={alts.xDefault} />
 
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
+    <meta property="og:title" content={ogTitle} />
+    <meta property="og:description" content={ogDescription} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={`${attraction.fullName} (${attraction.city})`} />
     <meta property="og:locale" content={ogLocale[lang] ?? lang} />
+    <meta property="og:image" content={absoluteOgImage} />
+    <meta property="og:image:alt" content={attraction.imageAlt} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={ogTitle} />
+    <meta name="twitter:description" content={ogDescription} />
+    <meta name="twitter:image" content={absoluteOgImage} />
+
+    <!-- 主视觉图预加载（LCP 优化） -->
+    <link rel="preload" as="image" href={galleryImage(1, 'webp')} type="image/webp" fetchpriority="high" />
+
+    <!-- PWA -->
+    <meta name="theme-color" content="#2d5a3d" />
+    <meta name="application-name" content={attraction.fullName} />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content={attraction.fullName} />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" type="image/png" sizes="256x256" href="/icons/icon-256.png" />
+    <link rel="apple-touch-icon" href="/icons/icon-256.png" />
+
+    <!-- Google Analytics 4 -->
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-HXM22WWPKP"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-HXM22WWPKP');
+    </script>
 
     <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXX" />
     <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossorigin="anonymous"></script>
@@ -53,6 +191,11 @@ const canonical = alts[lang] ?? alts.es;
       })();
     </script>
 
+    <!-- Structured data: TouristAttraction / BreadcrumbList / WebSite -->
+    <script type="application/ld+json" is:inline set:html={JSON.stringify(attractionSchema)}></script>
+    <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbSchema)}></script>
+    <script type="application/ld+json" is:inline set:html={JSON.stringify(websiteSchema)}></script>
+
     <slot name="head" />
   </head>
   <body class="min-h-screen">
@@ -61,5 +204,13 @@ const canonical = alts[lang] ?? alts.es;
       <slot />
     </main>
     <Footer />
+
+    <script is:inline>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('/sw.js').catch(function () {});
+        });
+      }
+    </script>
   </body>
 </html>
