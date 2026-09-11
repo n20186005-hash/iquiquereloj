@@ -20,6 +20,20 @@ const featured = reviews.featured ?? [];
           </blockquote>
         ))}
       </div>
+
+      <!-- 评价来源标注：明确说明引自 Google 地图用户评价，并给出查看完整评价的入口 -->
+      <div class="mt-8 text-center">
+        <p class="text-sm" style="color: var(--text-muted);">{reviews.featuredSource}</p>
+        <a
+          href={reviews.mapsUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center justify-center gap-1.5 mt-1 px-2 py-2 text-sm font-medium underline underline-offset-4 hover:opacity-70"
+          style="color: var(--accent);"
+        >
+          📍 {reviews.featuredMoreReviews}
+        </a>
+      </div>
     </div>
   </section>
 )}
