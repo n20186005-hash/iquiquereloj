@@ -36,7 +36,7 @@ export function getI18n(url: URL) {
 export function buildAlternates(path = ''): Record<string, string> {
   const base = 'https://iquiquereloj.com';
   const clean = path.replace(/^\/+/, '').replace(/\/+$/, '');
-  const mk = (l: string) => `${base}/${l}${clean ? '/' + clean : ''}`;
+  const mk = (l: string) => `${base}/${l}${clean ? '/' + clean : ''}/`;
   return {
     es: mk('es'),
     en: mk('en'),

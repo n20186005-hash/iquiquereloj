@@ -55,7 +55,7 @@ export const attraction = {
   isAccessibleForFree: true,
   openingHours: 'Mo-Su 00:00-23:59',
   rating: 4.5,
-  reviewCount: 11579,
+  reviewCount: 11588,
 } as const;
 
 export const absoluteImage = `${attraction.baseUrl}${attraction.heroImage}`;

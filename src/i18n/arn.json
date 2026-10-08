@@ -104,12 +104,12 @@
     "title": "Torre del Reloj Iquique",
     "descriptor": "Plaza Prat ñi piwke (corazón histórico)",
     "subtitle": "1877 ruka, Plaza Arturo Prat nag, Iquique salitre kuyfi newen.",
-    "rating": "4.5 (11.533)",
-    "reviewCount": "Chewü nütram 11.533",
-    "hours": "Kom antü 24 hora",
+    "rating": "4.5 (11.588)",
+    "reviewCount": "Chewü nütram 11.588",
+    "hours": "Plaza: entrada küme",
     "openMaps": "Google Maps tenda echë",
     "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
-    "tags": ["24 hora", "Entrada küme", "Iquique kuyfi ruka"],
+    "tags": ["Entrada küme", "Iquique kuyfi ruka", "Patrimonio ta'anga"],
     "routeCta": {
       "label": "Ruta küme",
       "href": "#transport"
@@ -263,11 +263,12 @@
       }
     ],
     "timelineTitle": "Kuyfi antü",
+    "timelineSource": "Wente: Consejo de Monumentos Nacionales de Chile — Torre-reloj de Iquique.",
     "timeline": [
-      { "year": "1877", "text": "Torre del Reloj Plaza Prat mew, salitre küme antü, Oregon pine wapi mew." },
-      { "year": "1880-1900", "text": "Iquique füta puerto salitre, plaza centro cívico." },
-      { "year": "Siglo XX", "text": "Salitre crisis, waria müten; torre kuyfi ruka ta'anga." },
-      { "year": "Actualidad", "text": "Torre patrimonio ta'anga, Baquedano peme rüpü mew." }
+      { "year": "1877", "text": "Torre del Reloj Iquique mew pülel, salitre küme antü, Oregon pine wapi mew." },
+      { "year": "1879", "text": "Torre reló público ramtu, plaza peme ornamental." },
+      { "year": "1884", "text": "Plaza Arturo Prat nag (Plaza Prat rüf) wenteya, füra tuwün." },
+      { "year": "1987", "text": "Consejo de Monumentos Nacionales pülel, Monumento Histórico de Chile." }
     ]
   },
   "weather": {
@@ -416,49 +417,15 @@
   },
   "reviews": {
     "title": "Chewü nütram",
-    "declaration": "Chewü nütram Google Maps (enlace externo).",
+    "declaration": "Torre del Reloj Google Maps mew 4.5 / 5 (11.588 chewü nütram, tripantu 2026 octubre). Kom chewü nütram Google Maps mew (enlace externo).",
     "featuredTitle": "Pichi nütram küme",
     "featuredSubtitle": "Epu chewü nütram: tenda, kuyfi dungu ka küpa mongen müley.",
     "featuredSource": "Zugun: chewü nütram Google Maps mew.",
     "featuredMoreReviews": "Kom chewü nütram Google Maps mew",
     "moreReviews": "Google Maps echë",
     "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
-    "featured": [
-      {
-        "text": "Ruka pichi ka kuyfi füta. Plaza nag, ta'anga ka salitre Iquique.",
-        "source": "Camila R., Marzo 2026"
-      },
-      {
-        "text": "Küyen torre llanka. Baquedano peme pié küme, auto ül.",
-        "source": "Diego M., Febrero 2026"
-      }
-    ],
-    "items": [
-      {
-        "name": "Camila R.",
-        "date": "Marzo 2026",
-        "rating": 5,
-        "text": "Ruka pichi ka kuyfi füta. Plaza nag, ta'anga ka salitre Iquique. Entrada küme 24 hora."
-      },
-      {
-        "name": "Diego M.",
-        "date": "Febrero 2026",
-        "rating": 5,
-        "text": "Küyen torre llanka. Baquedano peme pié küme, kuyfi ruka."
-      },
-      {
-        "name": "Francisca L.",
-        "date": "Enero 2026",
-        "rating": 4,
-        "text": "Ruka küpa kom. Ko ka chumpiru; plaza antü füta."
-      },
-      {
-        "name": "Tomás V.",
-        "date": "Diciembre 2025",
-        "rating": 5,
-        "text": "Torre pino kuyfi. Teatro Municipal rume kuyfi ruka küme."
-      }
-    ]
+    "featured": [],
+    "items": []
   },
   "mapSection": {
     "title": "Chumküpa",

@@ -104,12 +104,12 @@
     "title": "Clock Tower of Iquique",
     "descriptor": "The historic heart of Plaza Prat",
     "subtitle": "An 1877 urban landmark at the heart of Plaza Arturo Prat: the Clock Tower, a wooden symbol of Iquique's nitrate-boom glory.",
-    "rating": "4.5 (11,533)",
-    "reviewCount": "11,533 reviews",
-    "hours": "Open 24 hours",
+    "rating": "4.5 (11,588)",
+    "reviewCount": "11,588 reviews",
+    "hours": "Plaza: free access",
     "openMaps": "View on Google Maps",
     "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
-    "tags": ["Open 24 hours", "Free entry", "Iquique historic centre"],
+    "tags": ["Free entry", "Iquique historic centre", "Heritage symbol"],
     "routeCta": {
       "label": "Plan Your Route",
       "href": "#transport"
@@ -125,7 +125,7 @@
     "visitGuide": {
       "title": "Visitor Guide",
       "eyebrow": "Practical Planning",
-      "description": "As a public square open 24 hours, the Clock Tower can be visited at any time; the best light and fewest crowds are usually early in the morning.",
+      "description": "Plaza Arturo Prat is a public space with free access, so the Clock Tower can be viewed from the square at any time; the best light and fewest crowds are usually early in the morning. Access to the tower's interior is subject to authorization or enabled visits — check before you go.",
       "items": [
         "The visit is quick: 15 to 30 minutes is enough to photograph the tower, walk the plaza and read the historical signage.",
         "It stands in Plaza Arturo Prat, on Baquedano street, a few steps from the Baquedano Promenade and the Municipal Theatre.",
@@ -138,7 +138,7 @@
       "items": [
         "1877 landmark built with imported Oregon pine",
         "A symbol of Iquique's nitrate boom in Moorish style",
-        "Public square open 24 hours, free entry",
+        "Public square with free access, free entry",
         "In the heart of the historic centre, beside the Municipal Theatre"
       ]
     }
@@ -219,12 +219,12 @@
       {
         "id": "history",
         "title": "Origins (1877)",
-        "content": "The Clock Tower was erected in 1877, at the highest point of what was then Plaza Prat, during the nitrate fever, when Iquique was the main nitrate-export port of Chile and one of the wealthiest cities of the South Pacific. In the desert, timber was scarce; that is why Oregon pine was imported on the ships that left loaded with saltpetre. The tower was conceived as a public clock and ornament of the civic promenade, and its Moorish style reflected the exotic, elegant taste of the nitrate elite."
+        "content": "The Clock Tower was built in 1877, during the nitrate fever, when Iquique was the main nitrate-export port of Chile and one of the wealthiest cities of the South Pacific. It was inaugurated in 1879 as a public clock and ornament of the civic promenade, and in 1884 it was installed in the centre of Plaza Arturo Prat (then Plaza Prat), where it stands today. In the desert, timber was scarce; that is why Oregon pine was imported on the ships that left loaded with saltpetre. Its Moorish style reflected the exotic, elegant taste of the nitrate elite."
       },
       {
         "id": "meaning",
         "title": "Why Here?",
-        "content": "It was placed in the centre of Plaza Arturo Prat because the historic centre was the social and commercial heart of Iquique. From the tower, people set their day by the public clock and the plaza became the stage of city life: strolls, meetings and celebrations. Symbolically, the wooden tower is the perfect contrast between the Atacama desert and the cosmopolitan ambition of the saltpetre port."
+        "content": "In 1884 the tower was installed in the centre of Plaza Arturo Prat because the historic centre was the social and commercial heart of Iquique. From there, people set their day by the public clock and the plaza became the stage of city life: strolls, meetings and celebrations. Symbolically, the wooden tower is the perfect contrast between the Atacama desert and the cosmopolitan ambition of the saltpetre port."
       },
       {
         "id": "legend",
@@ -263,11 +263,12 @@
       }
     ],
     "timelineTitle": "Essential Timeline",
+    "timelineSource": "Source: Consejo de Monumentos Nacionales de Chile — Torre-reloj de Iquique.",
     "timeline": [
-      { "year": "1877", "text": "The Clock Tower is raised in Plaza Prat at the height of the nitrate boom, using Oregon pine brought in by sea." },
-      { "year": "1880-1900", "text": "Iquique's golden age as one of the world's leading nitrate-export ports; the square consolidates as the civic centre." },
-      { "year": "20th century", "text": "With the nitrate crisis and the arrival of synthetic nitrates the city changes pace; the tower remains the reference point of the historic centre." },
-      { "year": "Today", "text": "The tower is Iquique's heritage symbol, a civic meeting point and an essential stop on the historic walk beside the Baquedano Promenade." }
+      { "year": "1877", "text": "The Clock Tower is built in Iquique during the nitrate boom, using Oregon pine brought in by sea." },
+      { "year": "1879", "text": "The tower is inaugurated as a public clock and ornament of the civic promenade." },
+      { "year": "1884", "text": "It is installed in the centre of Plaza Arturo Prat (then Plaza Prat), its current location." },
+      { "year": "1987", "text": "It is declared a Historic Monument of Chile by the Consejo de Monumentos Nacionales." }
     ]
   },
   "weather": {
@@ -416,49 +417,15 @@
   },
   "reviews": {
     "title": "Visitor Reviews",
-    "declaration": "Visitor feedback is available on Google Maps (external link).",
+    "declaration": "The Clock Tower holds a 4.5 out of 5 rating on Google Maps (about 11,588 reviews, figure checked in October 2026). The full, verified reviews are on Google Maps (external link).",
     "featuredTitle": "Selected Impressions",
     "featuredSubtitle": "Two short visitor quotes break up the long read and reinforce the plaza's mix of history and experience.",
     "featuredSource": "Source: user reviews published on Google Maps.",
     "featuredMoreReviews": "See the full reviews on Google Maps",
     "moreReviews": "View on Google Maps",
     "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
-    "featured": [
-      {
-        "text": "A small landmark but full of history. Right on the plaza, ideal for a quick photo and to learn about nitrate-era Iquique.",
-        "source": "Camila R., March 2026"
-      },
-      {
-        "text": "Beautiful at night with the lighting. The Baquedano Promenade next to it is the best for walking without a car.",
-        "source": "Diego M., February 2026"
-      }
-    ],
-    "items": [
-      {
-        "name": "Camila R.",
-        "date": "March 2026",
-        "rating": 5,
-        "text": "A small landmark but full of history. Right on the plaza, ideal for a quick photo and to learn about nitrate-era Iquique. Free entry and always open."
-      },
-      {
-        "name": "Diego M.",
-        "date": "February 2026",
-        "rating": 5,
-        "text": "Beautiful at night with the warm lighting. The Baquedano Promenade next to it is the best for walking without a car and feeling the historic centre."
-      },
-      {
-        "name": "Francisca L.",
-        "date": "January 2026",
-        "rating": 4,
-        "text": "A great starting point to walk the centre. Bring water and a hat: there is no shade in the plaza and the sun is strong."
-      },
-      {
-        "name": "Tomás V.",
-        "date": "December 2025",
-        "rating": 5,
-        "text": "The wooden tower is curious; you can tell it is from another era. Combined with the Municipal Theatre it makes a very complete heritage walk."
-      }
-    ]
+    "featured": [],
+    "items": []
   },
   "mapSection": {
     "title": "How to Get Here",
@@ -609,7 +576,7 @@
         "items": [
           {
             "q": "Is there an entrance fee?",
-            "a": "No. The Clock Tower stands in a public square and entry is free at all times, since the site is open 24 hours. There is no ticket office or access control."
+            "a": "No. Plaza Arturo Prat is a public space with free access and there is no ticket office or access control; the tower can be viewed from the square at any time. Access to the tower's interior, however, is subject to authorization or enabled visits by the Municipality of Iquique — check the schedule before you go."
           },
           {
             "q": "How long does a visit take?",
@@ -658,7 +625,7 @@
     "aboutTitle": "About Torre del Reloj",
     "aboutText": "Torre del Reloj is Iquique's most recognisable wooden landmark and the symbolic centre of Plaza Arturo Prat. Built in 1877 with Oregon pine shipped in by sea, its clock still sets the rhythm of the historic centre between the Atacama desert and the old nitrate port.",
     "locationTitle": "Location & How to Visit Iquique Clock Tower in Iquique",
-    "locationText": "Torre del Reloj stands in Plaza Arturo Prat, on Baquedano street, in the historic centre of Iquique, Tarapacá. It is reached on foot from the Baquedano Promenade and the seafront; the square is flat, accessible and open 24 hours with free entry.",
+    "locationText": "Torre del Reloj stands in Plaza Arturo Prat, on Baquedano street, in the historic centre of Iquique, Tarapacá. It is reached on foot from the Baquedano Promenade and the seafront; the square is flat, accessible and free to access.",
     "landmarksTitle": "Landmarks & Attractions Around Iquique Clock Tower",
     "landmarksText": "Around Torre del Reloj visitors find the Baquedano Promenade, the Iquique Municipal Theatre and the Oregon-pine mansions of the nitrate era. A few minutes away are Playa Cavancha and the Free Zone (Zofri).",
     "historyTitle": "History & Significance of Torre del Reloj",

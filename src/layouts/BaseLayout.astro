@@ -10,9 +10,10 @@ interface Props {
   title: string;
   description: string;
   path?: string;
+  noIndex?: boolean;
 }
 
-const { title, description, path = '' } = Astro.props;
+const { title, description, path = '', noIndex = false } = Astro.props;
 const lang = getLangFromUrl(Astro.url);
 const htmlLang = htmlLangAttr(lang);
 const { messages } = getI18n(Astro.url);
@@ -93,13 +94,13 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: attraction.city,
-      item: `${attraction.baseUrl}/${lang}`,
+      item: `${attraction.baseUrl}/${lang}/`,
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: attraction.state,
-      item: `${attraction.baseUrl}/${lang}`,
+      item: `${attraction.baseUrl}/${lang}/`,
     },
     {
       '@type': 'ListItem',
@@ -130,7 +131,7 @@ const websiteSchema = {
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta name="description" content={description} />
-    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="robots" content={noIndex ? 'noindex, follow' : 'index, follow, max-image-preview:large'} />
     <!-- Google Search Console 域名验证：将同一 Google 账号生成的验证码填入下方 content 即可（GBP 网站字段审核的关键信号） -->
     <!-- <meta name="google-site-verification" content="REPLACE_WITH_SEARCH_CONSOLE_TOKEN" /> -->
     <link rel="canonical" href={canonical} />

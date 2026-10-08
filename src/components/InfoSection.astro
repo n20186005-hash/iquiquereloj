@@ -23,6 +23,9 @@ const timeline = t.timeline ?? [];
             </li>
           ))}
         </ol>
+        {t.timelineSource && (
+          <p class="text-sm text-center mt-4" style="color: var(--text-muted);">{t.timelineSource}</p>
+        )}
       </div>
     )}
 

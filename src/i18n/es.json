@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Torre del Reloj de Iquique: Historia, Visitas y Plaza Prat",
-    "description": "Descubre la histórica Torre del Reloj en Plaza Prat, Iquique. Historia, ubicación, fotos y qué ver alrededor en la Región de Tarapacá.",
-    "ogTitle": "Torre del Reloj de Iquique: Historia, Visitas y Plaza Prat",
-    "ogDescription": "Historia, ubicación, fotos y qué ver alrededor de la Torre del Reloj en la Plaza Prat de Iquique, Región de Tarapacá."
+    "title": "Torre del Reloj de Iquique: Historia y Visita a Plaza Prat",
+    "description": "Descubre la Torre del Reloj de Iquique, construida en 1877. Conoce su historia, ubicación en Plaza Prat, fotografías y consejos para tu visita.",
+    "ogTitle": "Torre del Reloj de Iquique: Historia y Visita a Plaza Prat",
+    "ogDescription": "Historia, ubicación, fotos y consejos de visita de la Torre del Reloj en la Plaza Prat de Iquique, Región de Tarapacá."
   },
   "drawings": {
     "title": "Dibujos e Ilustraciones de la Torre del Reloj",
@@ -102,14 +102,14 @@
   },
   "hero": {
     "title": "Torre del Reloj de Iquique",
-    "descriptor": "El corazón histórico de Plaza Prat",
+    "descriptor": "Historia y guía de visita a Plaza Prat",
     "subtitle": "Un hito urbano de 1877 en el corazón de la Plaza Arturo Prat: la Torre del Reloj, símbolo de madera del auge salitrero de Iquique.",
-    "rating": "4.5 (11.533)",
-    "reviewCount": "11.533 opiniones",
-    "hours": "Abierto las 24 horas",
+    "rating": "4.5 (11.588)",
+    "reviewCount": "11.588 opiniones",
+    "hours": "Plaza: acceso libre",
     "openMaps": "Ver ubicación en Google Maps",
     "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
-    "tags": ["Abierto 24 horas", "Entrada libre", "Centro histórico de Iquique"],
+    "tags": ["Entrada libre", "Centro histórico de Iquique", "Símbolo patrimonial"],
     "routeCta": {
       "label": "Planificar la ruta",
       "href": "#transport"
@@ -125,7 +125,7 @@
     "visitGuide": {
       "title": "Guía de visita",
       "eyebrow": "Planificación útil",
-      "description": "Al ser una plaza pública abierta las 24 horas, la Torre del Reloj se puede visitar en cualquier momento; la mejor luz y menos gente suelen estar por la mañana temprano.",
+      "description": "La Plaza Arturo Prat es de acceso público libre, así que la Torre del Reloj se puede contemplar desde la plaza en cualquier momento; la mejor luz y menos gente suelen estar por la mañana temprano. El interior de la torre tiene acceso sujeto a autorización o visitas habilitadas: conviene verificar antes de acudir.",
       "items": [
         "La visita es rápida: basta con 15 a 30 minutos para fotografiar la torre, recorrer la plaza y leer la señalética histórica.",
         "Está en la Plaza Arturo Prat, sobre la calle Baquedano, a pocos pasos del Paseo Baquedano y del Teatro Municipal.",
@@ -138,7 +138,7 @@
       "items": [
         "Hito urbano de 1877 construido en pino de Oregón importado",
         "Símbolo del auge salitrero de Iquique en estilo morisco",
-        "Plaza pública abierta las 24 horas, entrada libre",
+        "Plaza pública de acceso libre, entrada gratuita",
         "En el corazón del casco histórico, junto al Teatro Municipal"
       ]
     }
@@ -219,12 +219,12 @@
       {
         "id": "history",
         "title": "Orígenes (1877)",
-        "content": "La Torre del Reloj se erigió en 1877, en el punto más alto de la entonces Plaza Prat, durante la fiebre del salitre, cuando Iquique era el principal puerto de exportación de nitrato de Chile y una de las ciudades más prósperas del Pacífico sur. En pleno desierto, la madera escaseaba; por eso se importó pino de Oregón (Oregon pine) en los barcos que venían cargados de salitre. La torre se pensó como reloj público y ornamentación del paseo cívico, y su estilo morisco reflejaba la moda exótica y elegante de la élite salitrera."
+        "content": "La Torre del Reloj se construyó en 1877, en plena fiebre del salitre, cuando Iquique era el principal puerto de exportación de nitrato de Chile y una de las ciudades más prósperas del Pacífico sur. Se inauguró en 1879 como reloj público y ornamento del paseo cívico, y en 1884 fue instalada en el centro de la Plaza Arturo Prat (entonces Plaza Prat), donde hoy se levanta. En el desierto la madera escaseaba; por eso se importó pino de Oregón (Oregon pine) en los barcos que venían cargados de salitre. Su estilo morisco reflejaba la moda exótica y elegante de la élite salitrera."
       },
       {
         "id": "meaning",
         "title": "¿Por qué aquí?",
-        "content": "Se emplazó en el centro de la Plaza Arturo Prat porque el casco histórico era el corazón social y comercial de Iquique. Desde la torre, la gente regulaba su día con el reloj público y la plaza se convertía en el escenario de la vida ciudadana: paseos, encuentros y celebraciones. Simbólicamente, la torre de madera es el contraste perfecto entre el desierto de Atacama y la ambición cosmopolita del puerto salitrero."
+        "content": "En 1884 la torre se instaló en el centro de la Plaza Arturo Prat porque el casco histórico era el corazón social y comercial de Iquique. Desde allí, la gente regulaba su día con el reloj público y la plaza se convertía en el escenario de la vida ciudadana: paseos, encuentros y celebraciones. Simbólicamente, la torre de madera es el contraste perfecto entre el desierto de Atacama y la ambición cosmopolita del puerto salitrero."
       },
       {
         "id": "legend",
@@ -263,11 +263,12 @@
       }
     ],
     "timelineTitle": "Cronología esencial",
+    "timelineSource": "Fuente: Consejo de Monumentos Nacionales de Chile — Torre-reloj de Iquique.",
     "timeline": [
-      { "year": "1877", "text": "Se levanta la Torre del Reloj en la Plaza Prat, en pleno auge del salitre, con pino de Oregón traído por mar." },
-      { "year": "1880-1900", "text": "Época dorada de Iquique como uno de los principales puertos exportadores de nitrato del mundo; la plaza se consolida como centro cívico." },
-      { "year": "Siglo XX", "text": "Con la crisis del salitre y la llegada de los nitratos sintéticos, la ciudad cambia de ritmo; la torre permanece como referencia del casco histórico." },
-      { "year": "Actualidad", "text": "La torre es símbolo patrimonial de Iquique, punto de encuentro ciudadano y parada obligada del recorrido histórico junto al Paseo Baquedano." }
+      { "year": "1877", "text": "Se construye la Torre del Reloj en Iquique, durante el auge del salitre, con pino de Oregón traído por mar." },
+      { "year": "1879", "text": "La torre se inaugura como reloj público y ornamento del paseo cívico." },
+      { "year": "1884", "text": "Se instala en el centro de la Plaza Arturo Prat (entonces Plaza Prat), su ubicación actual." },
+      { "year": "1987", "text": "Es declarada Monumento Histórico de Chile por el Consejo de Monumentos Nacionales." }
     ]
   },
   "weather": {
@@ -416,49 +417,15 @@
   },
   "reviews": {
     "title": "Opiniones de los visitantes",
-    "declaration": "Las opiniones de los visitantes están disponibles en Google Maps (enlace externo).",
+    "declaration": "La Torre del Reloj tiene una valoración de 4,5 sobre 5 en Google Maps (aprox. 11.588 opiniones, cifra consultada en octubre de 2026). Las reseñas completas y verificadas se encuentran en Google Maps (enlace externo).",
     "featuredTitle": "Impresiones destacadas",
     "featuredSubtitle": "Dos voces resumidas ayudan a enlazar la lectura histórica con la experiencia real de la plaza.",
     "featuredSource": "Fuente: opiniones de usuarios publicadas en Google Maps.",
     "featuredMoreReviews": "Ver las opiniones completas en Google Maps",
     "moreReviews": "Ver en Google Maps",
     "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
-    "featured": [
-      {
-        "text": "Un hito pequeño pero con mucha historia. Queda en plena plaza, ideal para una foto rápida y conocer el Iquique salitrero.",
-        "source": "Camila R., marzo 2026"
-      },
-      {
-        "text": "De noche se ve preciosa con la iluminación. El paseo Baquedano al lado es lo mejor para caminar sin auto.",
-        "source": "Diego M., febrero 2026"
-      }
-    ],
-    "items": [
-      {
-        "name": "Camila R.",
-        "date": "Marzo 2026",
-        "rating": 5,
-        "text": "Un hito pequeño pero con mucha historia. Queda en plena plaza, ideal para una foto rápida y conocer el Iquique salitrero. Entrada libre y abierto siempre."
-      },
-      {
-        "name": "Diego M.",
-        "date": "Febrero 2026",
-        "rating": 5,
-        "text": "De noche se ve preciosa con la iluminación cálida. El Paseo Baquedano al lado es lo mejor para caminar sin auto y sentir el centro histórico."
-      },
-      {
-        "name": "Francisca L.",
-        "date": "Enero 2026",
-        "rating": 4,
-        "text": "Muy buen punto de partida para recorrer el centro. Lleva agua y sombrero: en la plaza no hay sombra y el sol pega fuerte."
-      },
-      {
-        "name": "Tomás V.",
-        "date": "Diciembre 2025",
-        "rating": 5,
-        "text": "La torre de madera es curiosa; se nota que es de otra época. Combinada con el Teatro Municipal queda un paseo patrimonial muy completo."
-      }
-    ]
+    "featured": [],
+    "items": []
   },
   "mapSection": {
     "title": "Cómo llegar",
@@ -609,7 +576,7 @@
         "items": [
           {
             "q": "¿Se paga entrada?",
-            "a": "No. La Torre del Reloj está en una plaza pública y la entrada es libre en todo momento, ya que el recinto está abierto las 24 horas. No hay taquilla ni control de acceso."
+            "a": "No. La Plaza Arturo Prat es de acceso público libre y no hay taquilla ni control de acceso; la torre se puede contemplar desde la plaza en cualquier momento. El interior de la torre, en cambio, tiene acceso sujeto a autorización o a visitas habilitadas por la Municipalidad de Iquique: conviene verificar el horario antes de acudir."
           },
           {
             "q": "¿Cuánto tiempo se necesita para visitarla?",
@@ -658,7 +625,7 @@
     "aboutTitle": "Acerca de Torre del Reloj",
     "aboutText": "Torre del Reloj es el hito de madera más reconocible de Iquique y el centro simbólico de la Plaza Arturo Prat. Construida en 1877 con pino de Oregón traído por mar, su reloj sigue marcando la vida del casco histórico entre el desierto de Atacama y el antiguo puerto salitrero.",
     "locationTitle": "Ubicación y cómo visitar el Reloj de Iquique",
-    "locationText": "Torre del Reloj se encuentra en la Plaza Arturo Prat, sobre la calle Baquedano, en pleno casco histórico de Iquique, región de Tarapacá. Se llega caminando desde el Paseo Baquedano y la costanera; la plaza es plana, accesible y está abierta las 24 horas con entrada libre.",
+    "locationText": "Torre del Reloj se encuentra en la Plaza Arturo Prat, sobre la calle Baquedano, en pleno casco histórico de Iquique, región de Tarapacá. Se llega caminando desde el Paseo Baquedano y la costanera; la plaza es plana, accesible y de acceso libre.",
     "landmarksTitle": "Hitos y atracciones alrededor del Reloj de Iquique",
     "landmarksText": "Alrededor de Torre del Reloj el visitante encuentra el Paseo Baquedano, el Teatro Municipal de Iquique y las casonas de pino de Oregón de la época salitrera. A pocos minutos están Playa Cavancha y la Zona Franca (Zofri).",
     "historyTitle": "Historia y significado de Torre del Reloj",
