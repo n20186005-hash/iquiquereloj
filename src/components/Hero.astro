@@ -12,7 +12,7 @@ const tags = h.tags ?? [];
     <source srcset={galleryImage(1, 'webp')} type="image/webp" />
     <img
       src={attraction.heroImage}
-      alt={`${attraction.fullName} - Main view in ${attraction.city}, ${attraction.country}`}
+      alt={messages.gallery?.photoAlts?.[0] ?? attraction.imageAlt}
       class="absolute inset-0 w-full h-full object-cover"
       width="1600"
       height="1067"

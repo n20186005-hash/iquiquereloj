@@ -42,21 +42,6 @@ const attractionSchema = {
   hasPart: { '@id': drawingId },
   isAccessibleForFree: attraction.isAccessibleForFree,
   publicAccess: true,
-  openingHours: attraction.openingHours,
-  openingHoursSpecification: {
-    '@type': 'OpeningHoursSpecification',
-    dayOfWeek: [
-      'https://schema.org/Monday',
-      'https://schema.org/Tuesday',
-      'https://schema.org/Wednesday',
-      'https://schema.org/Thursday',
-      'https://schema.org/Friday',
-      'https://schema.org/Saturday',
-      'https://schema.org/Sunday',
-    ],
-    opens: '00:00',
-    closes: '23:59',
-  },
   touristType: ['Cultural tourism', 'Heritage tourism'],
   address: {
     '@type': 'PostalAddress',
@@ -177,9 +162,6 @@ const websiteSchema = {
       gtag('js', new Date());
       gtag('config', 'G-HXM22WWPKP');
     </script>
-
-    <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXX" />
-    <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossorigin="anonymous"></script>
 
     <script is:inline>
       (function () {
