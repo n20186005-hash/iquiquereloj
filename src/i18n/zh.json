@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "伊基克钟楼 Torre del Reloj：历史、参观与普拉特广场",
-    "description": "智利伊基克普拉特广场的历史地标 Torre del Reloj 钟楼：建造历史、位置交通、实拍照片与周边景点，覆盖塔拉帕卡大区。",
-    "ogTitle": "伊基克钟楼 Torre del Reloj：历史、参观与普拉特广场",
-    "ogDescription": "伊基克普拉特广场 Torre del Reloj 钟楼的历史、位置、照片与周边景点指南。"
+    "title": "智利伊基克钟楼 Torre del Reloj：普拉特广场位置、交通与历史",
+    "description": "伊基克钟楼参观指南：查看普拉特广场准确位置、1877 年建造及 1879 年启用的历史、实景照片、步行路线与周边历史建筑。",
+    "ogTitle": "伊基克钟楼 Torre del Reloj：普拉特广场位置、交通与历史",
+    "ogDescription": "伊基克普拉特广场钟楼的历史、准确地图位置、实景照片与老城步行游览建议。"
   },
   "drawings": {
     "title": "伊基克钟楼线稿与插画",
@@ -102,7 +102,7 @@
   },
   "hero": {
     "title": "伊基克钟楼",
-    "descriptor": "普拉特广场的历史心脏",
+    "descriptor": "普拉特广场位置、历史与步行游览指南",
     "subtitle": "矗立于 1877 年的城市地标，位于阿图罗·普拉特广场（Plaza Arturo Prat）中心——伊基克硝石繁荣时代的木制象征。",
     "rating": "4.5（11,588）",
     "reviewCount": "11,588 条评价",
@@ -625,11 +625,11 @@
     "aboutTitle": "关于 Torre del Reloj",
     "aboutText": "Torre del Reloj 是伊基克最具辨识度的木制地标，也是阿图罗·普拉特广场的象征核心。它建于 1877 年，采用海运而来的俄勒冈松木建造，钟声至今仍为老城定义节奏，横跨阿塔卡马沙漠与旧日硝石港口。",
     "locationTitle": "伊基克钟楼的位置与参观方式",
-    "locationText": "Torre del Reloj 位于智利塔拉帕卡大区伊基克历史老城巴克达诺街的阿图罗·普拉特广场。从巴克达诺步行街与滨海一带步行即可到达；广场平坦无障碍，免费开放且免费入园。",
+    "locationText": "伊基克钟楼位于智利塔拉帕卡大区伊基克历史城区的阿图罗·普拉特广场（Plaza Arturo Prat）中央。巴克达诺步行街从广场旁延伸，可步行前往，并通过本页专属 Google 地图链接确认具体位置。广场是免费进入的公共空间，但不代表钟楼内部向游客开放。",
     "landmarksTitle": "伊基克钟楼周边的地标与景点",
     "landmarksText": "钟楼周边有巴克达诺步行街、伊基克市政剧院以及硝石时代的俄勒冈松木豪宅。步行数分钟即达卡万查海滩与自由贸易区（Zofri）。",
     "historyTitle": "Torre del Reloj 的历史与意义",
-    "historyText": "钟楼建于 1877 年硝石热潮时期，纪念伊基克曾是全球主要硝石出口港的年代。其摩尔风格与俄勒冈松木结构，使其成为这座城市的遗产象征。"
+    "historyText": "伊基克钟楼建于 1877 年，并于 1879 年启用，见证了当地硝石贸易兴盛的年代。钟表机芯于 1878 年从伦敦进口，钟楼于 1987 年被列为智利历史古迹。官方遗产文件记载，塔身高约 25 米，采用俄勒冈松木建造，饰有尖拱及穆德哈尔式元素。钟楼最初位于广场一侧，后来迁至广场中央。"
   },
   "sources": {
     "title": "资料来源与官方参考",
@@ -640,7 +640,7 @@
       { "name": "智利国家旅游局 (SERNATUR – Chile Travel)", "url": "https://www.chile.travel" },
       { "name": "塔拉帕卡大区政府", "url": "https://www.goretarapaca.cl" },
       { "name": "智利旅游部 (Subsecretaría de Turismo)", "url": "https://www.subturismo.gob.cl" },
-      { "name": "智利国家纪念物委员会", "url": "https://www.monumentos.gob.cl" },
+      { "name": "智利国家纪念物委员会", "url": "https://www.monumentos.gob.cl/sites/default/files/decretos/decreto_9_del_23-02-2024.pdf" },
       { "name": "Google 地图 – Clock Tower, Iquique", "url": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A" },
       { "name": "Open-Meteo – 开放天气数据", "url": "https://open-meteo.com/" }
     ]

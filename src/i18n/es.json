@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Torre del Reloj de Iquique: Historia y Visita a Plaza Prat",
-    "description": "Descubre la Torre del Reloj de Iquique, construida en 1877. Conoce su historia, ubicación en Plaza Prat, fotografías y consejos para tu visita.",
-    "ogTitle": "Torre del Reloj de Iquique: Historia y Visita a Plaza Prat",
-    "ogDescription": "Historia, ubicación, fotos y consejos de visita de la Torre del Reloj en la Plaza Prat de Iquique, Región de Tarapacá."
+    "title": "Torre del Reloj de Iquique (Plaza Prat): Historia y Cómo Llegar",
+    "description": "Visita la Torre del Reloj de Plaza Arturo Prat en Iquique: ubicación, historia de 1877, fotografías del monumento y ruta a pie por el casco histórico.",
+    "ogTitle": "Torre del Reloj de Iquique (Plaza Prat): Historia y Cómo Llegar",
+    "ogDescription": "Ubicación, historia de la Torre del Reloj, fotografías y consejos para recorrer Plaza Arturo Prat y Paseo Baquedano."
   },
   "drawings": {
     "title": "Dibujos e Ilustraciones de la Torre del Reloj",
@@ -102,7 +102,7 @@
   },
   "hero": {
     "title": "Torre del Reloj de Iquique",
-    "descriptor": "Historia y guía de visita a Plaza Prat",
+    "descriptor": "Historia, ubicación y paseo por Plaza Arturo Prat",
     "subtitle": "Un hito urbano de 1877 en el corazón de la Plaza Arturo Prat: la Torre del Reloj, símbolo de madera del auge salitrero de Iquique.",
     "rating": "4.5 (11.588)",
     "reviewCount": "11.588 opiniones",
@@ -625,11 +625,11 @@
     "aboutTitle": "Acerca de Torre del Reloj",
     "aboutText": "Torre del Reloj es el hito de madera más reconocible de Iquique y el centro simbólico de la Plaza Arturo Prat. Construida en 1877 con pino de Oregón traído por mar, su reloj sigue marcando la vida del casco histórico entre el desierto de Atacama y el antiguo puerto salitrero.",
     "locationTitle": "Ubicación y cómo visitar el Reloj de Iquique",
-    "locationText": "Torre del Reloj se encuentra en la Plaza Arturo Prat, sobre la calle Baquedano, en pleno casco histórico de Iquique, región de Tarapacá. Se llega caminando desde el Paseo Baquedano y la costanera; la plaza es plana, accesible y de acceso libre.",
+    "locationText": "La Torre del Reloj se encuentra en el centro de Plaza Arturo Prat, en el casco histórico de Iquique, región de Tarapacá, Chile. El Paseo Baquedano comienza junto a la plaza: puedes llegar caminando y consultar la ubicación exacta en Google Maps. La plaza es un espacio público de acceso libre; la visita exterior no implica acceso al interior de la torre.",
     "landmarksTitle": "Hitos y atracciones alrededor del Reloj de Iquique",
     "landmarksText": "Alrededor de Torre del Reloj el visitante encuentra el Paseo Baquedano, el Teatro Municipal de Iquique y las casonas de pino de Oregón de la época salitrera. A pocos minutos están Playa Cavancha y la Zona Franca (Zofri).",
     "historyTitle": "Historia y significado de Torre del Reloj",
-    "historyText": "Levantada en 1877 durante la fiebre del salitre, Torre del Reloj conmemora la época en que Iquique era uno de los principales puertos exportadores de nitrato del mundo. Su estilo morisco y su estructura de pino de Oregón la convirtieron en el símbolo patrimonial de la ciudad."
+    "historyText": "La Torre del Reloj se construyó en 1877 y se inauguró en 1879, durante la época salitrera de Iquique. Su reloj fue importado desde Londres en 1878 y la torre fue declarada Monumento Histórico en 1987. El registro patrimonial describe una estructura de aproximadamente 25 metros, construida con pino de Oregón y decorada con arcos ojivales y elementos de estilo mudéjar. La torre se instaló inicialmente a un lado de la plaza y posteriormente se trasladó al centro."
   },
   "sources": {
     "title": "Fuentes y referencias oficiales",
@@ -640,7 +640,7 @@
       { "name": "SERNATUR – Chile Travel (turismo oficial)", "url": "https://www.chile.travel" },
       { "name": "Gobierno Regional de Tarapacá", "url": "https://www.goretarapaca.cl" },
       { "name": "Subsecretaría de Turismo de Chile", "url": "https://www.subturismo.gob.cl" },
-      { "name": "Consejo de Monumentos Nacionales de Chile", "url": "https://www.monumentos.gob.cl" },
+      { "name": "Consejo de Monumentos Nacionales de Chile", "url": "https://www.monumentos.gob.cl/sites/default/files/decretos/decreto_9_del_23-02-2024.pdf" },
       { "name": "Google Maps – Clock Tower, Iquique", "url": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A" },
       { "name": "Open-Meteo – datos meteorológicos abiertos", "url": "https://open-meteo.com/" }
     ]

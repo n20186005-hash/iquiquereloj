@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Iquique Clock Tower: History, Visits & Plaza Prat Guide",
-    "description": "Discover the historic Clock Tower in Plaza Prat, Iquique. History, location, photos and what to see around in the Tarapacá Region, Chile.",
-    "ogTitle": "Iquique Clock Tower: History, Visits & Plaza Prat Guide",
-    "ogDescription": "History, location, photos and what to see around the Clock Tower in Plaza Prat, Iquique, Chile."
+    "title": "Torre del Reloj Iquique (Clock Tower): Plaza Prat Visitor Guide",
+    "description": "Visit the Clock Tower in Plaza Arturo Prat, Iquique, Chile. Find its history, exact location, photos, walking directions and nearby historic landmarks.",
+    "ogTitle": "Torre del Reloj Iquique (Clock Tower): Plaza Prat Visitor Guide",
+    "ogDescription": "Clock Tower history, photographs, location and walking tips for Plaza Arturo Prat and Paseo Baquedano in Iquique."
   },
   "drawings": {
     "title": "Drawings and Illustrations of the Clock Tower",
@@ -102,7 +102,7 @@
   },
   "hero": {
     "title": "Clock Tower of Iquique",
-    "descriptor": "The historic heart of Plaza Prat",
+    "descriptor": "Location, history and a walk around Plaza Prat",
     "subtitle": "An 1877 urban landmark at the heart of Plaza Arturo Prat: the Clock Tower, a wooden symbol of Iquique's nitrate-boom glory.",
     "rating": "4.5 (11,588)",
     "reviewCount": "11,588 reviews",
@@ -625,11 +625,11 @@
     "aboutTitle": "About Torre del Reloj",
     "aboutText": "Torre del Reloj is Iquique's most recognisable wooden landmark and the symbolic centre of Plaza Arturo Prat. Built in 1877 with Oregon pine shipped in by sea, its clock still sets the rhythm of the historic centre between the Atacama desert and the old nitrate port.",
     "locationTitle": "Location & How to Visit Iquique Clock Tower in Iquique",
-    "locationText": "Torre del Reloj stands in Plaza Arturo Prat, on Baquedano street, in the historic centre of Iquique, Tarapacá. It is reached on foot from the Baquedano Promenade and the seafront; the square is flat, accessible and free to access.",
+    "locationText": "Torre del Reloj stands in the centre of Plaza Arturo Prat in Iquique's historic centre, Tarapacá, Chile. Paseo Baquedano begins beside the square, making the tower easy to find on foot. Use the dedicated Google Maps link for the exact location. Access to the public square is free, but this does not mean visitors can enter the tower itself.",
     "landmarksTitle": "Landmarks & Attractions Around Iquique Clock Tower",
     "landmarksText": "Around Torre del Reloj visitors find the Baquedano Promenade, the Iquique Municipal Theatre and the Oregon-pine mansions of the nitrate era. A few minutes away are Playa Cavancha and the Free Zone (Zofri).",
     "historyTitle": "History & Significance of Torre del Reloj",
-    "historyText": "Raised in 1877 during the nitrate boom, Torre del Reloj commemorates the era when Iquique was one of the world's leading nitrate-export ports. Its Moorish style and Oregon-pine structure made it the heritage symbol of the city."
+    "historyText": "The Clock Tower was built in 1877 and inaugurated in 1879 during Iquique's nitrate-era expansion. Its clock was imported from London in 1878; the landmark received Historic Monument status in 1987. Chile's heritage records describe a roughly 25-metre Oregon-pine structure decorated with pointed arches and Mudéjar-style details. Originally placed at one side of the square, it was later moved to the centre."
   },
   "sources": {
     "title": "Sources & Official References",
@@ -640,7 +640,7 @@
       { "name": "SERNATUR – Chile Travel (official tourism)", "url": "https://www.chile.travel" },
       { "name": "Regional Government of Tarapacá", "url": "https://www.goretarapaca.cl" },
       { "name": "Undersecretary of Tourism of Chile", "url": "https://www.subturismo.gob.cl" },
-      { "name": "Council of National Monuments of Chile", "url": "https://www.monumentos.gob.cl" },
+      { "name": "Council of National Monuments of Chile", "url": "https://www.monumentos.gob.cl/sites/default/files/decretos/decreto_9_del_23-02-2024.pdf" },
       { "name": "Google Maps – Clock Tower, Iquique", "url": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A" },
       { "name": "Open-Meteo – open weather data", "url": "https://open-meteo.com/" }
     ]
