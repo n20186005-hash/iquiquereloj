@@ -5,6 +5,8 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   site: 'https://iquiquereloj.com',
   output: 'static',
+  trailingSlash: 'always',
+  build: { format: 'directory' },
   i18n: {
     defaultLocale: 'es',
     locales: ['es', 'en', 'zh', 'arn'],
