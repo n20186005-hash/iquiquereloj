@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "智利伊基克钟楼 Torre del Reloj：普拉特广场位置、交通与历史",
-    "description": "伊基克钟楼参观指南：查看普拉特广场准确位置、1877 年建造及 1879 年启用的历史、实景照片、步行路线与周边历史建筑。",
+    "description": "伊基克钟楼参观指南：普拉特广场位置、带来源的历史说明、现有照片、交通及周边建筑。",
     "ogTitle": "伊基克钟楼 Torre del Reloj：普拉特广场位置、交通与历史",
     "ogDescription": "伊基克普拉特广场钟楼的历史、准确地图位置、实景照片与老城步行游览建议。"
   },
   "drawings": {
     "title": "伊基克钟楼线稿与插画",
     "subtitle": "一张钟楼线稿，出发前先记住它的轮廓。",
-    "intro": "这张线稿概括了伊基克钟楼的构成：俄勒冈松木塔身、自 1877 年起计时的钟面，以及顶部的穹顶与十字。它是一幅纯线条插画，方便你在普拉特广场或滨海大道上任何位置认出这座钟楼。",
+    "intro": "这幅线稿展示钟楼的木制塔身、钟面及顶部构成，用于辅助观察。它是示意插画，并非现场照片或建筑测绘图。",
     "alt": "伊基克钟楼线稿（Dibujo de la Torre del Reloj de Iquique）",
     "caption": "伊基克普拉特广场钟楼线稿插画，塔拉帕卡大区。",
     "anatomyTitle": "线稿中的钟楼结构",
@@ -19,7 +19,7 @@
       },
       {
         "name": "钟面",
-        "text": "这座公共时钟自 1877 年起为硝石港的日常生活报时。"
+        "text": "公共时钟体现了这座纪念物服务城市生活的功能。"
       },
       {
         "name": "木结构塔身",
@@ -103,13 +103,17 @@
   "hero": {
     "title": "伊基克钟楼",
     "descriptor": "普拉特广场位置、历史与步行游览指南",
-    "subtitle": "矗立于 1877 年的城市地标，位于阿图罗·普拉特广场（Plaza Arturo Prat）中心——伊基克硝石繁荣时代的木制象征。",
+    "subtitle": "普拉特广场的木制地标，连接伊基克的公共生活与硝石时代城市遗产。",
     "rating": "4.5（11,588）",
     "reviewCount": "11,588 条评价",
     "hours": "广场：免费开放",
     "openMaps": "查看 Google 地图位置",
     "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
-    "tags": ["免费入园", "伊基克历史老城", "遗产象征"],
+    "tags": [
+      "免费入园",
+      "伊基克历史老城",
+      "遗产象征"
+    ],
     "routeCta": {
       "label": "规划前往路线",
       "href": "#transport"
@@ -121,7 +125,7 @@
   },
   "intro": {
     "title": "探索伊基克钟楼",
-    "description": "伊基克钟楼是这座城市最具辨识度的画面之一。它建于 1877 年硝石热潮的鼎盛时期，当时伊基克是全球最富有的硝石港口之一。钟楼矗立于阿图罗·普拉特广场，正对巴克达诺步行街（Paseo Baquedano）。它并非用石头或砖砌成，而是用从北方海运而来的俄勒冈松木（Oregon pine）建造——在沙漠海岸，木材是极为珍贵的材料。凭借其摩尔风格与至今仍在走动的时钟，钟楼是硝石黄金时代的鲜活见证，也是游人漫步伊基克历史老城时不可错过了的一站。",
+    "description": "伊基克钟楼位于阿图罗·普拉特广场，邻近巴克达诺街轴线。俄勒冈松木结构与拱形装饰，使它呈现出不同于石砌纪念物的面貌。参观广场外部时，可以比较钟楼、周边立面及当地居民日常使用公共空间的方式。",
     "visitGuide": {
       "title": "游览指南",
       "eyebrow": "实用规划",
@@ -136,7 +140,7 @@
     "alsoKnownAs": {
       "title": "亮点特色",
       "items": [
-        "1877 年地标，采用进口俄勒冈松木建造",
+        "普拉特广场的木制地标，连接伊基克的公共生活与硝石时代城市遗产。",
         "摩尔风格，象征伊基克的硝石繁荣",
         "公共广场免费开放，免费入园",
         "位于历史老城核心，紧邻市政剧院"
@@ -211,7 +215,7 @@
   },
   "officialManagement": {
     "title": "关于这座钟楼",
-    "text": "钟楼是伊基克历史老城的遗产地标，与 19 世纪的硝石繁荣紧密相连。它建于 1877 年，采用海运而来的俄勒冈松木，是环绕阿图罗·普拉特广场的历史建筑群的一部分。如今作为免费对公众开放的公共空间，在伊基克市政府与塔拉帕卡大区各级机构的框架下，承载着城市身份与记忆。"
+    "text": "普拉特广场的外部游览位于市政公共空间内，所在历史建筑群受智利国家古迹委员会保护。这不代表钟楼内部开放。有关进入建筑、活动或许可的问题，应向市政府及建筑负责机构咨询。"
   },
   "knowledge": {
     "title": "钟楼的历史、寓意与传说",
@@ -219,12 +223,12 @@
       {
         "id": "history",
         "title": "起源（1877 年）",
-        "content": "钟楼建于 1877 年，正值硝石热潮。当时伊基克是智利最大的硝石出口港、南太平洋最富裕的城市之一。钟楼于 1879 年作为公共时钟与市民步道的装饰正式启用，并于 1884 年安置于阿图罗·普拉特广场（当时的普拉特广场）中央，即今日所在位置。在沙漠中木材稀缺，因此俄勒冈松木随满载硝石的船只进口而来。其摩尔风格折射出硝石精英那种异域而优雅的品味。"
+        "content": "历史研究记载，教堂时钟在 1873 年火灾中损毁，市政机构于 1877 年 12 月决定购买新钟并建塔。1987 年的保护法令则提到 1884 年的最初安置及其后的迁移。这些资料涉及不同阶段，不能合并成唯一的建造日期，也不宜把 1879 年写成毫无争议的落成日期。"
       },
       {
         "id": "meaning",
         "title": "为何选址于此？",
-        "content": "它立于阿图罗·普拉特广场中央，因为历史老城正是伊基克的社会与商业心脏。人们以钟楼上的公共时钟安排一天的节奏，广场也成为城市生活的舞台：散步、聚会与庆典。从象征意义上，这座木制钟楼恰是阿塔卡马沙漠与硝石港口那种世界主义野心之间完美的对照。"
+        "content": "在广场上，可以同时观察钟楼、公共空间及周边立面的关系。公共时钟具有城市生活的意义，外部参观还可延伸至巴克达诺街。具体安置与迁移年代应结合资料阅读，不应直接把 1884 年等同于今日广场中央的位置。"
       },
       {
         "id": "legend",
@@ -244,7 +248,7 @@
       {
         "id": "context",
         "title": "硝石时代的伊基克：1877 年的背景",
-        "content": "1877 年的伊基克远不只是一个港口：凭借硝石贸易，它是南太平洋最富裕的城市之一。硝石在内陆沙漠开采，经此装船外运，贸易吸引了来自欧洲、亚洲及美洲其他地区的商人、技术人员与移民家庭。城市以木材向上生长，出现了步道、剧院与社交俱乐部。主广场凝聚着这种自豪感：银行、商铺、公共建筑，以及位于正中央、为全城报时的钟楼。理解这一背景，就能理解为何一座 1877 年的木制钟楼至今仍是这座城市的象征。"
+        "content": "硝石贸易把港口与内陆生产场所连接起来。普拉特广场与巴克达诺街保留了这段历史的城市面貌，包括公共空间、文化建筑与木结构街区。老城步行参观和沙漠中的硝石工厂遗址，需要分别规划。"
       },
       {
         "id": "traditions",
@@ -265,10 +269,22 @@
     "timelineTitle": "关键时间轴",
     "timelineSource": "资料来源：智利国家古迹委员会（Consejo de Monumentos Nacionales）——Torre-reloj de Iquique。",
     "timeline": [
-      { "year": "1877 年", "text": "硝石繁荣高峰期，钟楼于伊基克建成，所用俄勒冈松木经海路运抵。" },
-      { "year": "1879 年", "text": "钟楼作为公共时钟与市民步道的装饰正式启用。" },
-      { "year": "1884 年", "text": "钟楼安置于阿图罗·普拉特广场（当时的普拉特广场）中央，即今日所在位置。" },
-      { "year": "1987 年", "text": "由智利国家古迹委员会（Consejo de Monumentos Nacionales）宣布为历史纪念物。" }
+      {
+        "year": "1877 年",
+        "text": "据历史研究，市政机构决定购买公共时钟并建塔。"
+      },
+      {
+        "year": "1879 年",
+        "text": "传统记述将其与开始运行联系起来，此处不作为无争议的落成日期。"
+      },
+      {
+        "year": "1884 年",
+        "text": "1987 年法令记载钟楼最初安置于广场一侧，之后才迁往中央。"
+      },
+      {
+        "year": "1987 年",
+        "text": "由智利国家古迹委员会（Consejo de Monumentos Nacionales）宣布为历史纪念物。"
+      }
     ]
   },
   "weather": {
@@ -366,18 +382,78 @@
     "neutral": "中立目录：我们仅介绍区域内可用的服务类型，不宣传、不推荐、也不列举任何具体商户。",
     "note": "距离以阿图罗·普拉特广场为起点步行估算，仅供参考；开放情况与营业时间可能随季节调整。",
     "items": [
-      { "icon": "🚻", "title": "公共卫生间", "detail": "广场本身没有独立公厕。市中心设有公共卫生间，餐饮与住宿场所通常为顾客提供洗手间。建议随身携带纸巾或免洗洗手液。", "distance": "市中心，步行数十米" },
-      { "icon": "🅿️", "title": "停车", "detail": "老城区有咪表路边停车位与收费停车场。夏季与周末车位紧张，早到或步行前往通常更省时。", "distance": "广场周边街道" },
-      { "icon": "🍽️", "title": "餐厅与咖啡馆", "detail": "提供本地风味、海产与快餐等多种选择，另有咖啡馆、面包房与冰淇淋店，可满足不同预算与饮食需求。", "distance": "步行街与邻近街道" },
-      { "icon": "🛏️", "title": "住宿", "detail": "涵盖不同档次：酒店、客栈、家庭旅馆与旅游公寓；滨海一带与卡万查海滩附近也有住宿供应。", "distance": "市中心与滨海区" },
-      { "icon": "🛒", "title": "超市与日常购物", "detail": "有超市、便利店、药店与社区商铺，可满足基本采购需求；自由贸易区商圈驱车数分钟可达。", "distance": "市中心街道" },
-      { "icon": "⛽", "title": "加油与充电", "detail": "市内分布有加油站（提供液体燃料）与电动汽车充电点。抵达时建议确认营业状态与充电接口类型。", "distance": "市中心外围，需驾车" },
-      { "icon": "🏧", "title": "取现与银行", "detail": "市中心设有自动取款机与银行网点，周末营业时间较短。建议备少量现金以便小店消费。", "distance": "市中心" },
-      { "icon": "🏥", "title": "医疗与药店", "detail": "设有基层医疗中心、私立诊所与药店，并有急诊轮值。遇紧急情况请拨打当地公共急救电话。", "distance": "市中心及周边" },
-      { "icon": "🚰", "title": "饮用水与遮阴", "detail": "自来水可安全饮用。公共饮水点与遮阴区域有限，建议自带可重复灌装的水瓶并做好防晒。", "distance": "广场及周边" },
-      { "icon": "📶", "title": "网络与手机信号", "detail": "全市有移动网络覆盖，餐饮住宿场所多提供 Wi‑Fi；空旷处与老旧建筑内部信号可能不稳定。", "distance": "整个区域" },
-      { "icon": "♿", "title": "无障碍通行", "detail": "广场平坦铺装，轮椅与婴儿车均可通行，周边街道设无障碍过街口；木制步道板缝可能略有起伏。", "distance": "广场与步行街" },
-      { "icon": "🚌", "title": "公共交通与出租车", "detail": "邻近主干道设有公交站点，并可搭乘出租车与网约车；老城区紧凑，步行游览体验最佳。", "distance": "邻近主干道" }
+      {
+        "icon": "🚻",
+        "title": "公共卫生间",
+        "detail": "广场本身没有独立公厕。市中心设有公共卫生间，餐饮与住宿场所通常为顾客提供洗手间。建议随身携带纸巾或免洗洗手液。",
+        "distance": "市中心，步行数十米"
+      },
+      {
+        "icon": "🅿️",
+        "title": "停车",
+        "detail": "老城区有咪表路边停车位与收费停车场。夏季与周末车位紧张，早到或步行前往通常更省时。",
+        "distance": "广场周边街道"
+      },
+      {
+        "icon": "🍽️",
+        "title": "餐厅与咖啡馆",
+        "detail": "提供本地风味、海产与快餐等多种选择，另有咖啡馆、面包房与冰淇淋店，可满足不同预算与饮食需求。",
+        "distance": "步行街与邻近街道"
+      },
+      {
+        "icon": "🛏️",
+        "title": "住宿",
+        "detail": "涵盖不同档次：酒店、客栈、家庭旅馆与旅游公寓；滨海一带与卡万查海滩附近也有住宿供应。",
+        "distance": "市中心与滨海区"
+      },
+      {
+        "icon": "🛒",
+        "title": "超市与日常购物",
+        "detail": "有超市、便利店、药店与社区商铺，可满足基本采购需求；自由贸易区商圈驱车数分钟可达。",
+        "distance": "市中心街道"
+      },
+      {
+        "icon": "⛽",
+        "title": "加油与充电",
+        "detail": "市内分布有加油站（提供液体燃料）与电动汽车充电点。抵达时建议确认营业状态与充电接口类型。",
+        "distance": "市中心外围，需驾车"
+      },
+      {
+        "icon": "🏧",
+        "title": "取现与银行",
+        "detail": "市中心设有自动取款机与银行网点，周末营业时间较短。建议备少量现金以便小店消费。",
+        "distance": "市中心"
+      },
+      {
+        "icon": "🏥",
+        "title": "医疗与药店",
+        "detail": "设有基层医疗中心、私立诊所与药店，并有急诊轮值。遇紧急情况请拨打当地公共急救电话。",
+        "distance": "市中心及周边"
+      },
+      {
+        "icon": "🚰",
+        "title": "饮用水与遮阴",
+        "detail": "自来水可安全饮用。公共饮水点与遮阴区域有限，建议自带可重复灌装的水瓶并做好防晒。",
+        "distance": "广场及周边"
+      },
+      {
+        "icon": "📶",
+        "title": "网络与手机信号",
+        "detail": "全市有移动网络覆盖，餐饮住宿场所多提供 Wi‑Fi；空旷处与老旧建筑内部信号可能不稳定。",
+        "distance": "整个区域"
+      },
+      {
+        "icon": "♿",
+        "title": "无障碍通行",
+        "detail": "广场平坦铺装，轮椅与婴儿车均可通行，周边街道设无障碍过街口；木制步道板缝可能略有起伏。",
+        "distance": "广场与步行街"
+      },
+      {
+        "icon": "🚌",
+        "title": "公共交通与出租车",
+        "detail": "邻近主干道设有公交站点，并可搭乘出租车与网约车；老城区紧凑，步行游览体验最佳。",
+        "distance": "邻近主干道"
+      }
     ],
     "practicalTitle": "出发前的实用提示",
     "practical": [
@@ -444,10 +520,22 @@
     "mapsLabel": "Google 地图 →",
     "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
     "officialLinksList": [
-      { "name": "伊基克市政府 (Municipalidad de Iquique)", "url": "http://www.municipioiquique.cl/" },
-      { "name": "智利国家旅游局 (SERNATUR Chile Travel)", "url": "https://www.chile.travel" },
-      { "name": "塔拉帕卡大区政府", "url": "https://www.goretarapaca.cl" },
-      { "name": "智利旅游部 (Subsecretaría de Turismo)", "url": "https://www.subturismo.gob.cl" }
+      {
+        "name": "伊基克市政府 (Municipalidad de Iquique)",
+        "url": "http://www.municipioiquique.cl/"
+      },
+      {
+        "name": "智利国家旅游局 (SERNATUR Chile Travel)",
+        "url": "https://www.chile.travel"
+      },
+      {
+        "name": "塔拉帕卡大区政府",
+        "url": "https://www.goretarapaca.cl"
+      },
+      {
+        "name": "智利旅游部 (Subsecretaría de Turismo)",
+        "url": "https://www.subturismo.gob.cl"
+      }
     ],
     "disclaimer": "本网站是一个独立的非营利游客信息项目。我们与任何政府机构或官方组织均无隶属关系。",
     "napTitle": "官方全称与地址",
@@ -525,16 +613,56 @@
     "amenities": {
       "title": "周边服务设施",
       "items": [
-        { "icon": "🚻", "label": "洗手间", "value": "市中心公共卫生间及餐饮住宿场所洗手间" },
-        { "icon": "🅿️", "label": "停车", "value": "市中心咪表路边车位与收费停车场" },
-        { "icon": "🍽️", "label": "餐饮", "value": "邻近街道的餐厅、咖啡馆与快餐" },
-        { "icon": "🛏️", "label": "住宿", "value": "市中心与滨海一带的酒店、客栈与家庭旅馆" },
-        { "icon": "🛒", "label": "商超购物", "value": "超市、便利店与社区药店" },
-        { "icon": "⛽", "label": "加油/充电", "value": "市内加油站与电动汽车充电点" },
-        { "icon": "🏧", "label": "取现与银行", "value": "市中心的自动取款机与银行网点" },
-        { "icon": "🏥", "label": "医疗与药店", "value": "医疗中心与药店，设有急诊轮值" },
-        { "icon": "♿", "label": "无障碍", "value": "广场平坦、步行街无台阶" },
-        { "icon": "📶", "label": "网络信号", "value": "移动网络覆盖，场所提供 Wi-Fi" }
+        {
+          "icon": "🚻",
+          "label": "洗手间",
+          "value": "市中心公共卫生间及餐饮住宿场所洗手间"
+        },
+        {
+          "icon": "🅿️",
+          "label": "停车",
+          "value": "市中心咪表路边车位与收费停车场"
+        },
+        {
+          "icon": "🍽️",
+          "label": "餐饮",
+          "value": "邻近街道的餐厅、咖啡馆与快餐"
+        },
+        {
+          "icon": "🛏️",
+          "label": "住宿",
+          "value": "市中心与滨海一带的酒店、客栈与家庭旅馆"
+        },
+        {
+          "icon": "🛒",
+          "label": "商超购物",
+          "value": "超市、便利店与社区药店"
+        },
+        {
+          "icon": "⛽",
+          "label": "加油/充电",
+          "value": "市内加油站与电动汽车充电点"
+        },
+        {
+          "icon": "🏧",
+          "label": "取现与银行",
+          "value": "市中心的自动取款机与银行网点"
+        },
+        {
+          "icon": "🏥",
+          "label": "医疗与药店",
+          "value": "医疗中心与药店，设有急诊轮值"
+        },
+        {
+          "icon": "♿",
+          "label": "无障碍",
+          "value": "广场平坦、步行街无台阶"
+        },
+        {
+          "icon": "📶",
+          "label": "网络信号",
+          "value": "移动网络覆盖，场所提供 Wi-Fi"
+        }
       ]
     },
     "categories": [
@@ -562,7 +690,7 @@
         "items": [
           {
             "q": "钟楼是用什么材料建造的？为何特别？",
-            "a": "钟楼采用硝石繁荣时期海运而来的俄勒冈松木建造。沙漠中木材稀缺、价值珍贵，因此这座 1877 年的钟楼是木结构而非石砌。其摩尔风格与时钟让它在广场上独一无二。"
+            "a": "钟楼采用俄勒冈松木结构。可从广场观察它的拱形装饰与塔身体量；周边公共空间可以通行，不等于塔内开放。"
           },
           {
             "q": "为何建在广场正中央？",
@@ -605,44 +733,102 @@
     "attractionsTitle": "附近景点",
     "toursTitle": "推荐游览与活动",
     "attractions": [
-      { "name": "巴克达诺步行街", "url": "http://www.municipioiquique.cl/" },
-      { "name": "伊基克市政剧院", "url": "https://www.chile.travel" },
-      { "name": "阿图罗·普拉特广场", "url": "http://www.municipioiquique.cl/" },
-      { "name": "卡万查海滩", "url": "https://www.chile.travel" },
-      { "name": "伊基克自由贸易区（Zofri）", "url": "https://www.goretarapaca.cl" }
+      {
+        "name": "巴克达诺步行街",
+        "url": "http://www.municipioiquique.cl/"
+      },
+      {
+        "name": "伊基克市政剧院",
+        "url": "https://www.chile.travel"
+      },
+      {
+        "name": "阿图罗·普拉特广场",
+        "url": "http://www.municipioiquique.cl/"
+      },
+      {
+        "name": "卡万查海滩",
+        "url": "https://www.chile.travel"
+      },
+      {
+        "name": "伊基克自由贸易区（Zofri）",
+        "url": "https://www.goretarapaca.cl"
+      }
     ],
     "tours": [
-      { "name": "历史老城遗产漫游", "url": "https://www.chile.travel" },
-      { "name": "滨海步道徒步至卡万查海滩", "url": "http://www.municipioiquique.cl/" },
-      { "name": "自由贸易区（Zofri）购物之旅", "url": "https://www.goretarapaca.cl" }
+      {
+        "name": "历史老城遗产漫游",
+        "url": "https://www.chile.travel"
+      },
+      {
+        "name": "滨海步道徒步至卡万查海滩",
+        "url": "http://www.municipioiquique.cl/"
+      },
+      {
+        "name": "自由贸易区（Zofri）购物之旅",
+        "url": "https://www.goretarapaca.cl"
+      }
     ]
   },
   "entity": {
-    "breadcrumb": ["Torre del Reloj", "伊基克", "塔拉帕卡大区", "智利"],
+    "breadcrumb": [
+      "Torre del Reloj",
+      "伊基克",
+      "塔拉帕卡大区",
+      "智利"
+    ],
     "schemaDescription": "智利塔拉帕卡大区伊基克 Torre del Reloj 的完整游客指南。",
     "welcome": "欢迎来到 Torre del Reloj，即广为人知的伊基克钟楼。它位于智利塔拉帕卡大区伊基克市中心，是到访该地区游客的主要目的地之一。",
     "nearby": "参观 Torre del Reloj 时，游客可轻松探索周边的历史地标与景点，包括巴克达诺步行街与伊基克市政剧院。",
     "aboutTitle": "关于 Torre del Reloj",
-    "aboutText": "Torre del Reloj 是伊基克最具辨识度的木制地标，也是阿图罗·普拉特广场的象征核心。它建于 1877 年，采用海运而来的俄勒冈松木建造，钟声至今仍为老城定义节奏，横跨阿塔卡马沙漠与旧日硝石港口。",
+    "aboutText": "伊基克钟楼是普拉特广场上的木制纪念物，也是老城历史建筑群的一部分。它的价值同时涉及建筑、公共时钟以及与广场的空间关系。",
     "locationTitle": "伊基克钟楼的位置与参观方式",
     "locationText": "伊基克钟楼位于智利塔拉帕卡大区伊基克历史城区的阿图罗·普拉特广场（Plaza Arturo Prat）中央。巴克达诺步行街从广场旁延伸，可步行前往，并通过本页专属 Google 地图链接确认具体位置。广场是免费进入的公共空间，但不代表钟楼内部向游客开放。",
     "landmarksTitle": "伊基克钟楼周边的地标与景点",
     "landmarksText": "钟楼周边有巴克达诺步行街、伊基克市政剧院以及硝石时代的俄勒冈松木豪宅。步行数分钟即达卡万查海滩与自由贸易区（Zofri）。",
     "historyTitle": "Torre del Reloj 的历史与意义",
-    "historyText": "伊基克钟楼建于 1877 年，并于 1879 年启用，见证了当地硝石贸易兴盛的年代。钟表机芯于 1878 年从伦敦进口，钟楼于 1987 年被列为智利历史古迹。官方遗产文件记载，塔身高约 25 米，采用俄勒冈松木建造，饰有尖拱及穆德哈尔式元素。钟楼最初位于广场一侧，后来迁至广场中央。"
+    "historyText": "历史研究记载，教堂时钟在 1873 年火灾中损毁，市政机构于 1877 年 12 月决定购买新钟并建塔。1987 年的保护法令则提到 1884 年的最初安置及其后的迁移。这些资料涉及不同阶段，不能合并成唯一的建造日期，也不宜把 1879 年写成毫无争议的落成日期。"
   },
   "sources": {
     "title": "资料来源与官方参考",
     "intro": "本独立项目汇总了与官方及权威公开来源交叉核对的信息。请通过以下链接获取最新资讯。",
     "officialPortal": "智利 / 塔拉帕卡官方旅游门户",
     "items": [
-      { "name": "伊基克市政府 (Municipalidad de Iquique)", "url": "http://www.municipioiquique.cl/" },
-      { "name": "智利国家旅游局 (SERNATUR – Chile Travel)", "url": "https://www.chile.travel" },
-      { "name": "塔拉帕卡大区政府", "url": "https://www.goretarapaca.cl" },
-      { "name": "智利旅游部 (Subsecretaría de Turismo)", "url": "https://www.subturismo.gob.cl" },
-      { "name": "智利国家纪念物委员会", "url": "https://www.monumentos.gob.cl/sites/default/files/decretos/decreto_9_del_23-02-2024.pdf" },
-      { "name": "Google 地图 – Clock Tower, Iquique", "url": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A" },
-      { "name": "Open-Meteo – 开放天气数据", "url": "https://open-meteo.com/" }
+      {
+        "name": "伊基克市政府 (Municipalidad de Iquique)",
+        "url": "http://www.municipioiquique.cl/"
+      },
+      {
+        "name": "智利国家旅游局 (SERNATUR – Chile Travel)",
+        "url": "https://www.chile.travel"
+      },
+      {
+        "name": "塔拉帕卡大区政府",
+        "url": "https://www.goretarapaca.cl"
+      },
+      {
+        "name": "智利旅游部 (Subsecretaría de Turismo)",
+        "url": "https://www.subturismo.gob.cl"
+      },
+      {
+        "name": "智利国家纪念物委员会",
+        "url": "https://www.monumentos.gob.cl/sites/default/files/decretos/decreto_9_del_23-02-2024.pdf"
+      },
+      {
+        "name": "Google 地图 – Clock Tower, Iquique",
+        "url": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A"
+      },
+      {
+        "name": "Open-Meteo – 开放天气数据",
+        "url": "https://open-meteo.com/"
+      },
+      {
+        "name": "Historia — Iquique bajo administración peruana",
+        "url": "https://www.scielo.cl/scielo.php?pid=S0717-71942003003600005&script=sci_arttext"
+      },
+      {
+        "name": "Decreto 433 (1987)",
+        "url": "https://www.bcn.cl/leychile/navegar?idNorma=172342"
+      }
     ]
   }
 }

@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Torre del Reloj de Iquique (Plaza Prat): Historia y Cómo Llegar",
-    "description": "Visita la Torre del Reloj de Plaza Arturo Prat en Iquique: ubicación, historia de 1877, fotografías del monumento y ruta a pie por el casco histórico.",
+    "description": "Visita la Torre del Reloj de Plaza Arturo Prat en Iquique: ubicación, historia con fuentes, fotografías y recorrido por el casco histórico.",
     "ogTitle": "Torre del Reloj de Iquique (Plaza Prat): Historia y Cómo Llegar",
     "ogDescription": "Ubicación, historia de la Torre del Reloj, fotografías y consejos para recorrer Plaza Arturo Prat y Paseo Baquedano."
   },
   "drawings": {
     "title": "Dibujos e Ilustraciones de la Torre del Reloj",
     "subtitle": "Una ilustración lineal de la torre para reconocer su silueta antes de la visita.",
-    "intro": "Este dibujo resume la anatomía de la Torre del Reloj de Iquique: el cuerpo de madera de pino de Oregón, la esfera del reloj que marca las horas desde 1877 y la cúpula del remate con su cruz. Es una ilustración de línea, útil para reconocer la torre desde cualquier punto de la Plaza Arturo Prat o de la costanera.",
+    "intro": "Ilustración de línea de la Torre del Reloj, con su cuerpo de madera, el reloj y el remate superior. Es un recurso de interpretación del monumento, no una fotografía ni un plano arquitectónico.",
     "alt": "Dibujo de la Torre del Reloj de Iquique",
     "caption": "Dibujo de la Torre del Reloj de Iquique en la Plaza Arturo Prat, Región de Tarapacá.",
     "anatomyTitle": "Partes de la torre que aparecen en el dibujo",
@@ -19,7 +19,7 @@
       },
       {
         "name": "Esfera del reloj",
-        "text": "El reloj público que desde 1877 ordenaba la vida del puerto salitrero."
+        "text": "El reloj público es un elemento central de la función cívica del monumento."
       },
       {
         "name": "Cuerpo de madera",
@@ -103,13 +103,17 @@
   "hero": {
     "title": "Torre del Reloj de Iquique",
     "descriptor": "Historia, ubicación y paseo por Plaza Arturo Prat",
-    "subtitle": "Un hito urbano de 1877 en el corazón de la Plaza Arturo Prat: la Torre del Reloj, símbolo de madera del auge salitrero de Iquique.",
+    "subtitle": "Un hito de madera en Plaza Arturo Prat, ligado a la vida pública y al patrimonio salitrero de Iquique.",
     "rating": "4.5 (11.588)",
     "reviewCount": "11.588 opiniones",
     "hours": "Plaza: acceso libre",
     "openMaps": "Ver ubicación en Google Maps",
     "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
-    "tags": ["Entrada libre", "Centro histórico de Iquique", "Símbolo patrimonial"],
+    "tags": [
+      "Entrada libre",
+      "Centro histórico de Iquique",
+      "Símbolo patrimonial"
+    ],
     "routeCta": {
       "label": "Planificar la ruta",
       "href": "#transport"
@@ -121,7 +125,7 @@
   },
   "intro": {
     "title": "Descubre la Torre del Reloj",
-    "description": "La Torre del Reloj de Iquique es una de las imágenes más reconocibles de la ciudad. Levantada en 1877 en plena fiebre del salitre, cuando Iquique era uno de los puertos salitreros más ricos del mundo, la torre se alza en la Plaza Arturo Prat, frente al paseo peatonal de Baquedano. No está hecha de piedra ni ladrillo: fue construida con pino de Oregón traído en barco desde el norte, una madera preciada en la costa desértica. Con su estilo morisco y su reloj que sigue marcando las horas, es un testimonio vivo de la época dorada del salitre y el paseo obligado de quienes recorren el casco histórico de Iquique.",
+    "description": "La Torre del Reloj es un referente del centro de Iquique, en Plaza Arturo Prat, junto al eje de Baquedano. Su estructura de pino oregón y sus arcos permiten observar de cerca una arquitectura distinta de los monumentos de piedra. La visita exterior se entiende mejor al comparar el reloj con las fachadas y los usos cotidianos de la plaza.",
     "visitGuide": {
       "title": "Guía de visita",
       "eyebrow": "Planificación útil",
@@ -136,7 +140,7 @@
     "alsoKnownAs": {
       "title": "Destacados",
       "items": [
-        "Hito urbano de 1877 construido en pino de Oregón importado",
+        "Un hito de madera en Plaza Arturo Prat, ligado a la vida pública y al patrimonio salitrero de Iquique.",
         "Símbolo del auge salitrero de Iquique en estilo morisco",
         "Plaza pública de acceso libre, entrada gratuita",
         "En el corazón del casco histórico, junto al Teatro Municipal"
@@ -211,7 +215,7 @@
   },
   "officialManagement": {
     "title": "Acerca de la Torre",
-    "text": "La Torre del Reloj es un hito patrimonial del casco histórico de Iquique, ligado al auge salitrero del siglo XIX. Construida en 1877 con pino de Oregón traído por mar, forma parte del conjunto de edificaciones históricas que rodean la Plaza Arturo Prat. Hoy es un espacio público de libre acceso, mantenido en el marco de la identidad y la memoria de la ciudad, junto a la Municipalidad de Iquique y los organismos regionales de Tarapacá."
+    "text": "El recorrido exterior por Plaza Prat se desarrolla en espacio público municipal, dentro de un conjunto protegido por el Consejo de Monumentos Nacionales. Esa condición no garantiza entrada al interior de la Torre del Reloj. Para autorizaciones o condiciones de visita, consulta al municipio y al responsable del inmueble."
   },
   "knowledge": {
     "title": "Historia, significado y leyenda de la Torre",
@@ -219,12 +223,12 @@
       {
         "id": "history",
         "title": "Orígenes (1877)",
-        "content": "La Torre del Reloj se construyó en 1877, en plena fiebre del salitre, cuando Iquique era el principal puerto de exportación de nitrato de Chile y una de las ciudades más prósperas del Pacífico sur. Se inauguró en 1879 como reloj público y ornamento del paseo cívico, y en 1884 fue instalada en el centro de la Plaza Arturo Prat (entonces Plaza Prat), donde hoy se levanta. En el desierto la madera escaseaba; por eso se importó pino de Oregón (Oregon pine) en los barcos que venían cargados de salitre. Su estilo morisco reflejaba la moda exótica y elegante de la élite salitrera."
+        "content": "La investigación histórica documenta una decisión municipal de diciembre de 1877 para comprar un reloj y levantar una torre tras perderse el reloj de la iglesia en el incendio de 1873. El decreto de 1987 menciona una instalación original en 1884 y un traslado posterior. Son referencias a etapas diferentes y no permiten afirmar una fecha única de construcción o una inauguración indiscutida en 1879."
       },
       {
         "id": "meaning",
         "title": "¿Por qué aquí?",
-        "content": "En 1884 la torre se instaló en el centro de la Plaza Arturo Prat porque el casco histórico era el corazón social y comercial de Iquique. Desde allí, la gente regulaba su día con el reloj público y la plaza se convertía en el escenario de la vida ciudadana: paseos, encuentros y celebraciones. Simbólicamente, la torre de madera es el contraste perfecto entre el desierto de Atacama y la ambición cosmopolita del puerto salitrero."
+        "content": "La plaza permite observar la torre en relación con el espacio público y las fachadas del centro. El reloj sirve como referencia cívica y la visita exterior puede continuar hacia Baquedano. La cronología de sus instalaciones debe leerse con las fuentes, sin identificar automáticamente 1884 con su ubicación central actual."
       },
       {
         "id": "legend",
@@ -244,7 +248,7 @@
       {
         "id": "context",
         "title": "El Iquique salitrero: el contexto de 1877",
-        "content": "En 1877 Iquique era mucho más que un puerto: era una de las ciudades más ricas del Pacífico sur gracias al nitrato. El salitre se extraía en el interior del desierto y se embarcaba aquí, y ese comercio atrajo a comerciantes, técnicos y familias inmigrantes de Europa, Asia y el resto de América. La ciudad creció en madera, con paseos, teatros y clubes sociales. La plaza principal concentraba ese orgullo: bancos, comercios, edificios públicos y, en el centro, la torre que daba la hora a todos. Entender ese contexto es entender por qué una torre de madera de 1877 sigue siendo el símbolo de la ciudad."
+        "content": "El comercio del salitre vinculó el puerto con las oficinas productivas del interior. El conjunto de Plaza Prat y Baquedano conserva una dimensión urbana de esa historia: espacios cívicos, edificios culturales y arquitectura de madera. Las oficinas salitreras y el centro histórico son visitas distintas."
       },
       {
         "id": "traditions",
@@ -265,10 +269,22 @@
     "timelineTitle": "Cronología esencial",
     "timelineSource": "Fuente: Consejo de Monumentos Nacionales de Chile — Torre-reloj de Iquique.",
     "timeline": [
-      { "year": "1877", "text": "Se construye la Torre del Reloj en Iquique, durante el auge del salitre, con pino de Oregón traído por mar." },
-      { "year": "1879", "text": "La torre se inaugura como reloj público y ornamento del paseo cívico." },
-      { "year": "1884", "text": "Se instala en el centro de la Plaza Arturo Prat (entonces Plaza Prat), su ubicación actual." },
-      { "year": "1987", "text": "Es declarada Monumento Histórico de Chile por el Consejo de Monumentos Nacionales." }
+      {
+        "year": "1877",
+        "text": "Decisión municipal de adquirir un reloj y construir una torre, según la investigación histórica."
+      },
+      {
+        "year": "1879",
+        "text": "Referencia tradicional al inicio de funcionamiento; no se presenta aquí como inauguración indiscutida."
+      },
+      {
+        "year": "1884",
+        "text": "El decreto de 1987 menciona una instalación original en un costado de la plaza; el traslado central fue posterior."
+      },
+      {
+        "year": "1987",
+        "text": "Es declarada Monumento Histórico de Chile por el Consejo de Monumentos Nacionales."
+      }
     ]
   },
   "weather": {
@@ -366,18 +382,78 @@
     "neutral": "Directorio neutral: describimos únicamente tipos de servicio disponibles en la zona. No promocionamos, recomendamos ni enumeramos comercios concretos.",
     "note": "Las distancias son orientativas y se miden a pie desde la Plaza Arturo Prat. La disponibilidad y los horarios pueden variar según la temporada.",
     "items": [
-      { "icon": "🚻", "title": "Aseos y servicios higiénicos", "detail": "La plaza no dispone de aseos propios. En el sector céntrico hay aseos públicos y servicios higiénicos en locales de hostelería para sus clientes. Conviene llevar papel o gel desinfectante.", "distance": "Sector céntrico, a pocos metros" },
-      { "icon": "🅿️", "title": "Estacionamiento", "detail": "Estacionamiento en vía pública con parquímetros y playas de pago en el casco histórico. En verano y fines de semana la demanda es alta; llegar temprano o venir a pie suele ser más rápido.", "distance": "Calles aledañas a la plaza" },
-      { "icon": "🍽️", "title": "Restaurantes y cafeterías", "detail": "Oferta variada de tipo local, marina y de cocina rápida, además de cafeterías, panaderías y heladerías. Hay opciones para distintos presupuestos y dietas.", "distance": "Paseo peatonal y calles próximas" },
-      { "icon": "🛏️", "title": "Alojamiento", "detail": "Alojamientos de distintas categorías: hoteles, hostales, residenciales y departamentos turísticos. También hay oferta junto a la costanera y cerca de Playa Cavancha.", "distance": "Centro y frente costero" },
-      { "icon": "🛒", "title": "Supermercados y comercio básico", "detail": "Supermercados, minimercados, farmacias y comercio de barrio para compras esenciales. La zona franca comercial está a pocos minutos en vehículo.", "distance": "Calles céntricas" },
-      { "icon": "⛽", "title": "Combustible y carga eléctrica", "detail": "Estaciones de servicio con combustible líquido y puntos de carga para vehículos eléctricos distribuidos por la ciudad. Conviene verificar la disponibilidad y el tipo de conector al llegar.", "distance": "Periferia del centro, en vehículo" },
-      { "icon": "🏧", "title": "Cajeros automáticos y banca", "detail": "Cajeros automáticos y sucursales bancarias en el sector céntrico, con horario comercial reducido los fines de semana. Se recomienda llevar algo de efectivo para pequeños comercios.", "distance": "Sector céntrico" },
-      { "icon": "🏥", "title": "Salud y farmacias", "detail": "Centros de atención primaria, clínicas privadas y farmacias, con turnos de urgencia. Ante una emergencia, contacta con los servicios públicos de emergencia del país.", "distance": "Centro y alrededores" },
-      { "icon": "🚰", "title": "Agua potable y sombra", "detail": "El agua de red es potable. Las fuentes públicas y las zonas de sombra son limitadas, así que se recomienda llevar una botella reutilizable y protegerse del sol.", "distance": "En la plaza y alrededores" },
-      { "icon": "📶", "title": "Conectividad y señal móvil", "detail": "Cobertura de telefonía móvil en toda la ciudad y redes wifi en establecimientos de hostelería. La señal al aire libre y en interiores antiguos puede ser irregular.", "distance": "Todo el sector" },
-      { "icon": "♿", "title": "Accesibilidad", "detail": "La plaza es plana y pavimentada, transitable con sillas de ruedas y coches de bebé, con cruces adaptados en las calles aledañas. El paseo de madera puede presentar juntas leves.", "distance": "Plaza y paseo peatonal" },
-      { "icon": "🚌", "title": "Transporte público y taxis", "detail": "Paradas de bus urbano, taxis y aplicaciones de movilidad en las avenidas próximas. El casco histórico es compacto y se recorre mejor a pie.", "distance": "Avenidas cercanas" }
+      {
+        "icon": "🚻",
+        "title": "Aseos y servicios higiénicos",
+        "detail": "La plaza no dispone de aseos propios. En el sector céntrico hay aseos públicos y servicios higiénicos en locales de hostelería para sus clientes. Conviene llevar papel o gel desinfectante.",
+        "distance": "Sector céntrico, a pocos metros"
+      },
+      {
+        "icon": "🅿️",
+        "title": "Estacionamiento",
+        "detail": "Estacionamiento en vía pública con parquímetros y playas de pago en el casco histórico. En verano y fines de semana la demanda es alta; llegar temprano o venir a pie suele ser más rápido.",
+        "distance": "Calles aledañas a la plaza"
+      },
+      {
+        "icon": "🍽️",
+        "title": "Restaurantes y cafeterías",
+        "detail": "Oferta variada de tipo local, marina y de cocina rápida, además de cafeterías, panaderías y heladerías. Hay opciones para distintos presupuestos y dietas.",
+        "distance": "Paseo peatonal y calles próximas"
+      },
+      {
+        "icon": "🛏️",
+        "title": "Alojamiento",
+        "detail": "Alojamientos de distintas categorías: hoteles, hostales, residenciales y departamentos turísticos. También hay oferta junto a la costanera y cerca de Playa Cavancha.",
+        "distance": "Centro y frente costero"
+      },
+      {
+        "icon": "🛒",
+        "title": "Supermercados y comercio básico",
+        "detail": "Supermercados, minimercados, farmacias y comercio de barrio para compras esenciales. La zona franca comercial está a pocos minutos en vehículo.",
+        "distance": "Calles céntricas"
+      },
+      {
+        "icon": "⛽",
+        "title": "Combustible y carga eléctrica",
+        "detail": "Estaciones de servicio con combustible líquido y puntos de carga para vehículos eléctricos distribuidos por la ciudad. Conviene verificar la disponibilidad y el tipo de conector al llegar.",
+        "distance": "Periferia del centro, en vehículo"
+      },
+      {
+        "icon": "🏧",
+        "title": "Cajeros automáticos y banca",
+        "detail": "Cajeros automáticos y sucursales bancarias en el sector céntrico, con horario comercial reducido los fines de semana. Se recomienda llevar algo de efectivo para pequeños comercios.",
+        "distance": "Sector céntrico"
+      },
+      {
+        "icon": "🏥",
+        "title": "Salud y farmacias",
+        "detail": "Centros de atención primaria, clínicas privadas y farmacias, con turnos de urgencia. Ante una emergencia, contacta con los servicios públicos de emergencia del país.",
+        "distance": "Centro y alrededores"
+      },
+      {
+        "icon": "🚰",
+        "title": "Agua potable y sombra",
+        "detail": "El agua de red es potable. Las fuentes públicas y las zonas de sombra son limitadas, así que se recomienda llevar una botella reutilizable y protegerse del sol.",
+        "distance": "En la plaza y alrededores"
+      },
+      {
+        "icon": "📶",
+        "title": "Conectividad y señal móvil",
+        "detail": "Cobertura de telefonía móvil en toda la ciudad y redes wifi en establecimientos de hostelería. La señal al aire libre y en interiores antiguos puede ser irregular.",
+        "distance": "Todo el sector"
+      },
+      {
+        "icon": "♿",
+        "title": "Accesibilidad",
+        "detail": "La plaza es plana y pavimentada, transitable con sillas de ruedas y coches de bebé, con cruces adaptados en las calles aledañas. El paseo de madera puede presentar juntas leves.",
+        "distance": "Plaza y paseo peatonal"
+      },
+      {
+        "icon": "🚌",
+        "title": "Transporte público y taxis",
+        "detail": "Paradas de bus urbano, taxis y aplicaciones de movilidad en las avenidas próximas. El casco histórico es compacto y se recorre mejor a pie.",
+        "distance": "Avenidas cercanas"
+      }
     ],
     "practicalTitle": "Información práctica antes de salir",
     "practical": [
@@ -444,10 +520,22 @@
     "mapsLabel": "Google Maps →",
     "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
     "officialLinksList": [
-      { "name": "Ilustre Municipalidad de Iquique", "url": "http://www.municipioiquique.cl/" },
-      { "name": "SERNATUR Chile Travel", "url": "https://www.chile.travel" },
-      { "name": "Gobierno Regional de Tarapacá", "url": "https://www.goretarapaca.cl" },
-      { "name": "Subsecretaría de Turismo de Chile", "url": "https://www.subturismo.gob.cl" }
+      {
+        "name": "Ilustre Municipalidad de Iquique",
+        "url": "http://www.municipioiquique.cl/"
+      },
+      {
+        "name": "SERNATUR Chile Travel",
+        "url": "https://www.chile.travel"
+      },
+      {
+        "name": "Gobierno Regional de Tarapacá",
+        "url": "https://www.goretarapaca.cl"
+      },
+      {
+        "name": "Subsecretaría de Turismo de Chile",
+        "url": "https://www.subturismo.gob.cl"
+      }
     ],
     "disclaimer": "Este es un proyecto independiente y sin fines de lucro de información para visitantes. No estamos afiliados con ningún organismo gubernamental ni institución oficial.",
     "napTitle": "Nombre oficial y dirección",
@@ -525,16 +613,56 @@
     "amenities": {
       "title": "Servicios en la zona",
       "items": [
-        { "icon": "🚻", "label": "Aseos", "value": "Baños públicos y de hostelería en el sector céntrico" },
-        { "icon": "🅿️", "label": "Estacionamiento", "value": "Calles tarifadas y playas de pago del centro" },
-        { "icon": "🍽️", "label": "Alimentación", "value": "Restaurantes, cafeterías y comida rápida en las calles próximas" },
-        { "icon": "🛏️", "label": "Alojamiento", "value": "Hoteles, hostales y residenciales del centro y la costanera" },
-        { "icon": "🛒", "label": "Comercio y supermercados", "value": "Supermercados, minimercados y farmacias de barrio" },
-        { "icon": "⛽", "label": "Combustible y carga", "value": "Estaciones de servicio y puntos de carga eléctrica en la ciudad" },
-        { "icon": "🏧", "label": "Cajeros y banca", "value": "Cajeros automáticos y sucursales en el sector céntrico" },
-        { "icon": "🏥", "label": "Salud y farmacias", "value": "Centros de salud y farmacias con turnos de urgencia" },
-        { "icon": "♿", "label": "Accesibilidad", "value": "Plaza plana y paseo peatonal sin escalones" },
-        { "icon": "📶", "label": "Conectividad", "value": "Cobertura móvil y wifi en establecimientos" }
+        {
+          "icon": "🚻",
+          "label": "Aseos",
+          "value": "Baños públicos y de hostelería en el sector céntrico"
+        },
+        {
+          "icon": "🅿️",
+          "label": "Estacionamiento",
+          "value": "Calles tarifadas y playas de pago del centro"
+        },
+        {
+          "icon": "🍽️",
+          "label": "Alimentación",
+          "value": "Restaurantes, cafeterías y comida rápida en las calles próximas"
+        },
+        {
+          "icon": "🛏️",
+          "label": "Alojamiento",
+          "value": "Hoteles, hostales y residenciales del centro y la costanera"
+        },
+        {
+          "icon": "🛒",
+          "label": "Comercio y supermercados",
+          "value": "Supermercados, minimercados y farmacias de barrio"
+        },
+        {
+          "icon": "⛽",
+          "label": "Combustible y carga",
+          "value": "Estaciones de servicio y puntos de carga eléctrica en la ciudad"
+        },
+        {
+          "icon": "🏧",
+          "label": "Cajeros y banca",
+          "value": "Cajeros automáticos y sucursales en el sector céntrico"
+        },
+        {
+          "icon": "🏥",
+          "label": "Salud y farmacias",
+          "value": "Centros de salud y farmacias con turnos de urgencia"
+        },
+        {
+          "icon": "♿",
+          "label": "Accesibilidad",
+          "value": "Plaza plana y paseo peatonal sin escalones"
+        },
+        {
+          "icon": "📶",
+          "label": "Conectividad",
+          "value": "Cobertura móvil y wifi en establecimientos"
+        }
       ]
     },
     "categories": [
@@ -562,7 +690,7 @@
         "items": [
           {
             "q": "¿De qué material está hecha la torre y por qué es especial?",
-            "a": "Está construida con pino de Oregón (Oregon pine) traído por mar durante el auge del salitre. En el desierto la madera escaseaba y era un material preciado, por eso la torre de 1877 es de madera en lugar de piedra. Su estilo morisco y su reloj la hacen única en la plaza."
+            "a": "La torre está construida en madera de pino oregón. Observa sus arcos y la composición de los cuerpos desde la plaza; el acceso público al entorno no acredita acceso interior."
           },
           {
             "q": "¿Por qué se construyó en medio de la plaza?",
@@ -605,44 +733,102 @@
     "attractionsTitle": "Atracciones cercanas",
     "toursTitle": "Tours y actividades recomendados",
     "attractions": [
-      { "name": "Paseo Baquedano", "url": "http://www.municipioiquique.cl/" },
-      { "name": "Teatro Municipal de Iquique", "url": "https://www.chile.travel" },
-      { "name": "Plaza Arturo Prat", "url": "http://www.municipioiquique.cl/" },
-      { "name": "Playa Cavancha", "url": "https://www.chile.travel" },
-      { "name": "Zona Franca de Iquique (Zofri)", "url": "https://www.goretarapaca.cl" }
+      {
+        "name": "Paseo Baquedano",
+        "url": "http://www.municipioiquique.cl/"
+      },
+      {
+        "name": "Teatro Municipal de Iquique",
+        "url": "https://www.chile.travel"
+      },
+      {
+        "name": "Plaza Arturo Prat",
+        "url": "http://www.municipioiquique.cl/"
+      },
+      {
+        "name": "Playa Cavancha",
+        "url": "https://www.chile.travel"
+      },
+      {
+        "name": "Zona Franca de Iquique (Zofri)",
+        "url": "https://www.goretarapaca.cl"
+      }
     ],
     "tours": [
-      { "name": "Tour patrimonial del casco histórico", "url": "https://www.chile.travel" },
-      { "name": "Caminata costanera a Playa Cavancha", "url": "http://www.municipioiquique.cl/" },
-      { "name": "Visita a la Zona Franca (Zofri)", "url": "https://www.goretarapaca.cl" }
+      {
+        "name": "Tour patrimonial del casco histórico",
+        "url": "https://www.chile.travel"
+      },
+      {
+        "name": "Caminata costanera a Playa Cavancha",
+        "url": "http://www.municipioiquique.cl/"
+      },
+      {
+        "name": "Visita a la Zona Franca (Zofri)",
+        "url": "https://www.goretarapaca.cl"
+      }
     ]
   },
   "entity": {
-    "breadcrumb": ["Torre del Reloj", "Iquique", "Tarapacá", "Chile"],
+    "breadcrumb": [
+      "Torre del Reloj",
+      "Iquique",
+      "Tarapacá",
+      "Chile"
+    ],
     "schemaDescription": "Guía completa para visitantes de Torre del Reloj en Iquique, Tarapacá, Chile.",
     "welcome": "Bienvenido a Torre del Reloj, reconocido popularmente como el Reloj de Iquique. Ubicado en el corazón de Iquique, región de Tarapacá, Chile, este destino es un punto de referencia principal para los viajeros que visitan la zona.",
     "nearby": "Al visitar Torre del Reloj, los viajeros pueden explorar fácilmente los hitos históricos y puntos de interés de los alrededores, como el Paseo Baquedano y el Teatro Municipal de Iquique.",
     "aboutTitle": "Acerca de Torre del Reloj",
-    "aboutText": "Torre del Reloj es el hito de madera más reconocible de Iquique y el centro simbólico de la Plaza Arturo Prat. Construida en 1877 con pino de Oregón traído por mar, su reloj sigue marcando la vida del casco histórico entre el desierto de Atacama y el antiguo puerto salitrero.",
+    "aboutText": "La Torre del Reloj es un monumento de madera en Plaza Arturo Prat, dentro del conjunto histórico de Iquique. Su interés combina arquitectura, reloj público y relación con el espacio cívico.",
     "locationTitle": "Ubicación y cómo visitar el Reloj de Iquique",
     "locationText": "La Torre del Reloj se encuentra en el centro de Plaza Arturo Prat, en el casco histórico de Iquique, región de Tarapacá, Chile. El Paseo Baquedano comienza junto a la plaza: puedes llegar caminando y consultar la ubicación exacta en Google Maps. La plaza es un espacio público de acceso libre; la visita exterior no implica acceso al interior de la torre.",
     "landmarksTitle": "Hitos y atracciones alrededor del Reloj de Iquique",
     "landmarksText": "Alrededor de Torre del Reloj el visitante encuentra el Paseo Baquedano, el Teatro Municipal de Iquique y las casonas de pino de Oregón de la época salitrera. A pocos minutos están Playa Cavancha y la Zona Franca (Zofri).",
     "historyTitle": "Historia y significado de Torre del Reloj",
-    "historyText": "La Torre del Reloj se construyó en 1877 y se inauguró en 1879, durante la época salitrera de Iquique. Su reloj fue importado desde Londres en 1878 y la torre fue declarada Monumento Histórico en 1987. El registro patrimonial describe una estructura de aproximadamente 25 metros, construida con pino de Oregón y decorada con arcos ojivales y elementos de estilo mudéjar. La torre se instaló inicialmente a un lado de la plaza y posteriormente se trasladó al centro."
+    "historyText": "La investigación histórica documenta una decisión municipal de diciembre de 1877 para comprar un reloj y levantar una torre tras perderse el reloj de la iglesia en el incendio de 1873. El decreto de 1987 menciona una instalación original en 1884 y un traslado posterior. Son referencias a etapas diferentes y no permiten afirmar una fecha única de construcción o una inauguración indiscutida en 1879."
   },
   "sources": {
     "title": "Fuentes y referencias oficiales",
     "intro": "Este proyecto independiente reúne información contrastada con fuentes públicas oficiales y de referencia. Consulta los enlaces para obtener datos actualizados.",
     "officialPortal": "Portal oficial de turismo de Chile / Tarapacá",
     "items": [
-      { "name": "Ilustre Municipalidad de Iquique", "url": "http://www.municipioiquique.cl/" },
-      { "name": "SERNATUR – Chile Travel (turismo oficial)", "url": "https://www.chile.travel" },
-      { "name": "Gobierno Regional de Tarapacá", "url": "https://www.goretarapaca.cl" },
-      { "name": "Subsecretaría de Turismo de Chile", "url": "https://www.subturismo.gob.cl" },
-      { "name": "Consejo de Monumentos Nacionales de Chile", "url": "https://www.monumentos.gob.cl/sites/default/files/decretos/decreto_9_del_23-02-2024.pdf" },
-      { "name": "Google Maps – Clock Tower, Iquique", "url": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A" },
-      { "name": "Open-Meteo – datos meteorológicos abiertos", "url": "https://open-meteo.com/" }
+      {
+        "name": "Ilustre Municipalidad de Iquique",
+        "url": "http://www.municipioiquique.cl/"
+      },
+      {
+        "name": "SERNATUR – Chile Travel (turismo oficial)",
+        "url": "https://www.chile.travel"
+      },
+      {
+        "name": "Gobierno Regional de Tarapacá",
+        "url": "https://www.goretarapaca.cl"
+      },
+      {
+        "name": "Subsecretaría de Turismo de Chile",
+        "url": "https://www.subturismo.gob.cl"
+      },
+      {
+        "name": "Consejo de Monumentos Nacionales de Chile",
+        "url": "https://www.monumentos.gob.cl/sites/default/files/decretos/decreto_9_del_23-02-2024.pdf"
+      },
+      {
+        "name": "Google Maps – Clock Tower, Iquique",
+        "url": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A"
+      },
+      {
+        "name": "Open-Meteo – datos meteorológicos abiertos",
+        "url": "https://open-meteo.com/"
+      },
+      {
+        "name": "Historia — Iquique bajo administración peruana",
+        "url": "https://www.scielo.cl/scielo.php?pid=S0717-71942003003600005&script=sci_arttext"
+      },
+      {
+        "name": "Decreto 433 (1987)",
+        "url": "https://www.bcn.cl/leychile/navegar?idNorma=172342"
+      }
     ]
   }
 }

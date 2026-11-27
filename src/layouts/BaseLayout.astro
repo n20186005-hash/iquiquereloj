@@ -11,18 +11,20 @@ interface Props {
   description: string;
   path?: string;
   noIndex?: boolean;
+  alternates?: Record<string, string>;
+  homeEntity?: boolean;
 }
 
-const { title, description, path = '', noIndex = false } = Astro.props;
+const { title, description, path = '', noIndex = false, alternates, homeEntity = path === '' } = Astro.props;
 const lang = getLangFromUrl(Astro.url);
 const htmlLang = htmlLangAttr(lang);
 const { messages } = getI18n(Astro.url);
 const entity = messages.entity ?? {};
-const alts = buildAlternates(path);
+const alts = alternates ?? buildAlternates(path);
 const canonical = alts[lang] ?? alts.es;
 
-const ogTitle = messages.meta?.ogTitle ?? title;
-const ogDescription = messages.meta?.ogDescription ?? description;
+const ogTitle = title;
+const ogDescription = description;
 
 // -------- Structured data (Schema.org / JSON-LD) --------
 // 线稿插画作为独立 ImageObject 参与实体识别（见 Drawings.astro），这里双向关联
@@ -40,8 +42,6 @@ const attractionSchema = {
   url: canonical,
   image: [absoluteImage, drawingImage],
   hasPart: { '@id': drawingId },
-  isAccessibleForFree: attraction.isAccessibleForFree,
-  publicAccess: true,
   touristType: ['Cultural tourism', 'Heritage tourism'],
   address: {
     '@type': 'PostalAddress',
@@ -63,12 +63,7 @@ const attractionSchema = {
     { '@type': 'AdministrativeArea', name: attraction.state },
     { '@type': 'Country', name: attraction.country },
   ],
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: attraction.rating,
-    reviewCount: attraction.reviewCount,
-    bestRating: 5,
-  },
+
 };
 
 const breadcrumbSchema = {
@@ -103,7 +98,6 @@ const websiteSchema = {
   url: attraction.baseUrl,
   name: `${attraction.fullName} (${attraction.city})`,
   inLanguage: htmlLang,
-  publisher: { '@id': `${attraction.baseUrl}/#attraction` },
 };
 ---
 
@@ -120,11 +114,9 @@ const websiteSchema = {
     <!-- Google Search Console 域名验证：将同一 Google 账号生成的验证码填入下方 content 即可（GBP 网站字段审核的关键信号） -->
     <!-- <meta name="google-site-verification" content="REPLACE_WITH_SEARCH_CONSOLE_TOKEN" /> -->
     <link rel="canonical" href={canonical} />
-    <link rel="alternate" hreflang="es" href={alts.es} />
-    <link rel="alternate" hreflang="en" href={alts.en} />
-    <link rel="alternate" hreflang="zh" href={alts.zh} />
-    <link rel="alternate" hreflang="arn" href={alts.arn} />
-    <link rel="alternate" hreflang="x-default" href={alts.xDefault} />
+    {Object.entries(alts).map(([locale, href]) => (
+      <link rel="alternate" hreflang={locale === 'xDefault' ? 'x-default' : locale} href={href} />
+    ))}
 
     <meta property="og:title" content={ogTitle} />
     <meta property="og:description" content={ogDescription} />
@@ -132,17 +124,19 @@ const websiteSchema = {
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content={`${attraction.fullName} (${attraction.city})`} />
     <meta property="og:locale" content={ogLocale[lang] ?? lang} />
+    {homeEntity && <>
     <meta property="og:image" content={absoluteOgImage} />
     <meta property="og:image:alt" content={attraction.imageAlt} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta name="twitter:card" content="summary_large_image" />
+    </>}
+    <meta name="twitter:card" content={homeEntity ? "summary_large_image" : "summary"} />
     <meta name="twitter:title" content={ogTitle} />
     <meta name="twitter:description" content={ogDescription} />
-    <meta name="twitter:image" content={absoluteOgImage} />
+    {homeEntity && <meta name="twitter:image" content={absoluteOgImage} />}
 
     <!-- 主视觉图预加载（LCP 优化） -->
-    <link rel="preload" as="image" href={galleryImage(1, 'webp')} type="image/webp" fetchpriority="high" />
+    {homeEntity && <link rel="preload" as="image" href={galleryImage(1, 'webp')} type="image/webp" fetchpriority="high" />}
 
     <!-- PWA -->
     <meta name="theme-color" content="#2d5a3d" />
@@ -175,14 +169,14 @@ const websiteSchema = {
     </script>
 
     <!-- Structured data: TouristAttraction / BreadcrumbList / WebSite -->
-    <script type="application/ld+json" is:inline set:html={JSON.stringify(attractionSchema)}></script>
-    <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbSchema)}></script>
+    {homeEntity && !noIndex && <script type="application/ld+json" is:inline set:html={JSON.stringify(attractionSchema)}></script>}
+    {homeEntity && !noIndex && <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbSchema)}></script>}
     <script type="application/ld+json" is:inline set:html={JSON.stringify(websiteSchema)}></script>
 
     <slot name="head" />
   </head>
   <body class="min-h-screen">
-    <Header />
+    <Header alternates={alternates} />
     <main>
       <slot />
     </main>

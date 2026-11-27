@@ -1,0 +1,587 @@
+{
+  "sources": {
+    "heritage": {
+      "name": "CMN — Decreto 9 (2024), límites y valores patrimoniales",
+      "url": "https://www.monumentos.gob.cl/sites/default/files/decretos/decreto_9_del_23-02-2024.pdf"
+    },
+    "urban": {
+      "name": "CMN — Acta de sesión, 25 noviembre 2020",
+      "url": "https://www.monumentos.gob.cl/sites/default/files/20201125_acta_env_def_f.pdf"
+    },
+    "care": {
+      "name": "CMN — Acta de sesión, 17 diciembre 2025",
+      "url": "https://www.monumentos.gob.cl/sites/default/files/2025-12/20251217%20Acta%20Sesi%C3%B3n%20ORD%20ENV.pdf"
+    },
+    "airport": {
+      "name": "Aeropuerto Diego Aracena — Transporte",
+      "url": "https://aeropuertodiegoaracena.cl/Servicios/Transporte.aspx"
+    },
+    "city": {
+      "name": "SERNATUR / Chile Travel — Iquique",
+      "url": "https://chile.travel/destinos/iquique/"
+    },
+    "theatre": {
+      "name": "Ministerio de Obras Públicas — Teatro Municipal, 27 mayo 2025",
+      "url": "https://www.mop.gob.cl/tras-17-anos-de-cierre-subsecretario-de-obras-publicas-participa-en-apertura-oficial-del-teatro-municipal-de-iquique/"
+    },
+    "palace": {
+      "name": "Registro de Museos — Centro de Extensión Cultural Palacio Astoreca",
+      "url": "https://www.registromuseoschile.cl/663/w3-article-50717.html"
+    },
+    "history": {
+      "name": "Historia (investigación) — El puerto de Iquique en tiempos de administración peruana",
+      "url": "https://www.scielo.cl/scielo.php?pid=S0717-71942003003600005&script=sci_arttext"
+    },
+    "decree": {
+      "name": "Biblioteca del Congreso Nacional — Decreto 433 (1987)",
+      "url": "https://www.bcn.cl/leychile/navegar?idNorma=172342"
+    }
+  },
+  "topics": [
+    {
+      "id": "plaza",
+      "slugs": {
+        "es": "plaza-arturo-prat",
+        "en": "plaza-arturo-prat"
+      },
+      "mapQuery": "Plaza Arturo Prat Iquique Chile",
+      "es": {
+        "title": "Plaza Arturo Prat de Iquique: qué ver y cómo recorrerla",
+        "description": "Guía de Plaza Prat: diferencia la plaza, la Torre del Reloj y el Teatro Municipal; encuentra una ruta a pie, consejos de fotografía y mapas.",
+        "intro": "La Plaza Arturo Prat es un buen punto de partida para entender el centro histórico de Iquique. En lugar de limitar la visita a una foto de la Torre del Reloj, recorre el perímetro y compara la escala del monumento con las fachadas que enmarcan el espacio público.",
+        "facts": [
+          "Ubicación: Plaza Arturo Prat, centro de Iquique.",
+          "Espacio público: recorrido exterior; la plaza no es un museo con entrada conjunta.",
+          "Gestión del espacio público: Municipalidad de Iquique; protección patrimonial: Consejo de Monumentos Nacionales."
+        ],
+        "sections": [
+          {
+            "title": "Tres visitas distintas",
+            "text": "La plaza, la torre y el Teatro Municipal son lugares relacionados, pero no comparten necesariamente acceso ni horario. Puedes organizar un paseo exterior sin dar por supuesto que podrás subir a la torre o entrar al teatro. Para una función o una visita interior, consulta la programación municipal del edificio concreto."
+          },
+          {
+            "title": "Qué mirar desde el perímetro",
+            "text": "Busca un encuadre que incluya la torre y el espacio que la rodea. Después acércate lo suficiente para comparar los arcos de la estructura con la composición de las fachadas del entorno. El Teatro Municipal y el edificio de la Sociedad Protectora de Empleados de Tarapacá figuran entre los monumentos del conjunto histórico; no todos los edificios de la plaza tienen la misma función."
+          },
+          {
+            "title": "La plaza dentro de la ciudad salitrera",
+            "text": "El decreto patrimonial de 2024 trata la Plaza Prat y la calle Baquedano como un conjunto urbano. Esta lectura ayuda a entender por qué conviene continuar por la calle y observar la relación entre edificios, aceras y espacio abierto, en vez de recorrer cada monumento como una pieza aislada."
+          },
+          {
+            "title": "Consejos y cuidado del lugar",
+            "text": "Lleva agua y protección solar. Mantén libres los accesos a edificios y comercios; el centro es un lugar de uso cotidiano. Si hay vallados, trabajos o actividades, adapta el recorrido por las áreas habilitadas. Para una persona con movilidad reducida, comprueba los cruces y la continuidad del pavimento antes de elegir dónde bajar del vehículo."
+          }
+        ],
+        "route": "Empieza en un borde de la plaza, rodea el espacio público y vuelve hacia la Torre del Reloj. Continúa hacia Paseo Baquedano si quieres ampliar la visita. Es una propuesta editorial de recorrido exterior, sin duración obligatoria. En taxi, indica Plaza Arturo Prat, Iquique, y acuerda un punto permitido de bajada.",
+        "photo": "Desde el borde de la plaza puedes buscar una vista general de la torre con su contexto urbano. Evita colocar el trípode en pasos peatonales y no entres en zonas delimitadas para lograr un encuadre.",
+        "faqs": [
+          {
+            "q": "¿Plaza Prat y Plaza Arturo Prat son el mismo lugar?",
+            "a": "Sí. En esta guía ambos nombres se refieren a la plaza del centro de Iquique."
+          },
+          {
+            "q": "¿Visitar la plaza incluye entrar a la torre?",
+            "a": "No. El paseo por el espacio público no acredita acceso al interior ni a la parte alta de la torre."
+          },
+          {
+            "q": "¿El Teatro Municipal tiene el mismo horario que la plaza?",
+            "a": "No. Es un edificio con programación y condiciones de entrada propias; consúltalas con el municipio."
+          },
+          {
+            "q": "¿Qué recorrido puedo hacer después?",
+            "a": "Continúa por Paseo Baquedano para comparar la arquitectura del eje histórico; consulta su guía enlazada más abajo."
+          }
+        ]
+      },
+      "en": {
+        "title": "Plaza Arturo Prat, Iquique: square, landmarks and walking guide",
+        "description": "Explore Plaza Prat independently: distinguish the square from the Clock Tower and Municipal Theatre, with a walking plan, photo tips and maps.",
+        "intro": "Plaza Arturo Prat is a useful starting point for understanding historic Iquique. Give the square more than a quick Clock Tower photograph: walk around its edges and compare the landmark with the buildings that frame this public space.",
+        "facts": [
+          "Location: Plaza Arturo Prat, central Iquique.",
+          "Public space: an outdoor walk, with no combined museum admission.",
+          "Public-space administration: Municipality of Iquique; heritage protection: Council of National Monuments."
+        ],
+        "sections": [
+          {
+            "title": "Three different visits",
+            "text": "The square, tower and Municipal Theatre are connected places, but they do not necessarily share opening arrangements. Plan an outdoor walk without assuming you can climb the tower or enter the theatre. Check the municipality’s programme for the particular building if you want an indoor visit or performance."
+          },
+          {
+            "title": "What to look for around the edges",
+            "text": "Find a view that includes both the tower and the space around it. Then move closer to compare its arches with the composition of surrounding facades. The Municipal Theatre and the Sociedad Protectora de Empleados de Tarapacá building are listed monuments within the historic ensemble; the buildings around the square serve different purposes."
+          },
+          {
+            "title": "Reading the nitrate-era city",
+            "text": "The 2024 heritage decree treats Plaza Prat and Baquedano Street as an urban ensemble. This makes the walk along the street especially worthwhile: notice how buildings, pavements and open space work together rather than treating each monument as an isolated object."
+          },
+          {
+            "title": "Practical care and access",
+            "text": "Bring water and sun protection. Keep building entrances and shop access clear: this is a working city centre. Follow barriers and adapt your walk around events or maintenance. For a visitor with reduced mobility, check crossings and pavement continuity before choosing a vehicle drop-off point."
+          }
+        ],
+        "route": "Start at an edge of the square, walk around the public space and return towards the Clock Tower. Continue to Paseo Baquedano for a longer visit. This is an editorial suggestion for an outdoor walk, with no fixed duration. Ask a taxi for Plaza Arturo Prat, Iquique, and agree on a permitted drop-off location.",
+        "photo": "Look for an overall view of the tower from the edge of the square so the urban setting remains visible. Keep tripods out of pedestrian routes and stay outside any restricted areas.",
+        "faqs": [
+          {
+            "q": "Are Plaza Prat and Plaza Arturo Prat the same place?",
+            "a": "Yes. Both names in this guide refer to the square in central Iquique."
+          },
+          {
+            "q": "Does a square visit include entering the tower?",
+            "a": "No. Access to public space does not establish access inside the tower or to its upper levels."
+          },
+          {
+            "q": "Does the Municipal Theatre share the square’s hours?",
+            "a": "No. The building has its own programme and admission arrangements; ask the municipality."
+          },
+          {
+            "q": "Where can I walk afterwards?",
+            "a": "Continue along Paseo Baquedano to compare the architecture of the historic street; see the linked guide below."
+          }
+        ]
+      },
+      "sources": [
+        "heritage",
+        "care",
+        "theatre"
+      ]
+    },
+    {
+      "id": "baquedano",
+      "slugs": {
+        "es": "paseo-baquedano",
+        "en": "paseo-baquedano"
+      },
+      "mapQuery": "Paseo Baquedano Iquique Chile",
+      "es": {
+        "title": "Paseo Baquedano: arquitectura de madera y paseo por Iquique",
+        "description": "Qué observar en Paseo Baquedano: fachadas, veredas de madera, patrimonio urbano y un recorrido desde Plaza Prat sin depender de entradas.",
+        "intro": "Paseo Baquedano permite cambiar la vista monumental de Plaza Prat por una lectura a escala de calle. El interés está en comparar las fachadas, el ritmo de puertas y ventanas y los espacios de sombra, sin necesidad de entrar en cada edificio.",
+        "facts": [
+          "Ubicación: eje de calle Baquedano, Iquique.",
+          "Visita propuesta: paseo exterior desde Plaza Prat.",
+          "Espacio público municipal dentro de una Zona Típica protegida por el CMN."
+        ],
+        "sections": [
+          {
+            "title": "Madera, sombra y continuidad",
+            "text": "Las actas patrimoniales identifican la madera, habitualmente pino oregón, y los sistemas de entramado como claves de la arquitectura iquiqueña. Durante el paseo busca fachadas continuas, verandas, miradores y lucarnas. Son pistas para comparar edificios; no supongas que todas las casas conservan los mismos elementos ni que una fachada pintada revela su material estructural."
+          },
+          {
+            "title": "Cómo observar sin invadir",
+            "text": "Detente frente a un tramo, mira primero la composición completa y después los detalles de carpintería visibles desde la calle. Mantén distancia de puertas y ventanas privadas. La condición patrimonial de un inmueble no lo convierte en un museo abierto. Las viviendas, locales y espacios culturales pueden tener usos y horarios diferentes."
+          },
+          {
+            "title": "Veredas y conservación",
+            "text": "El CMN ha señalado el valor de la continuidad del pavimento de madera y los problemas de intervenciones que lo alteran. Mira dónde cambia el material del suelo y presta atención a desniveles, obstáculos y cruces. Si utilizas silla de ruedas o coche infantil, elige cada tramo según las condiciones presentes, sin asumir accesibilidad uniforme."
+          },
+          {
+            "title": "Una pausa con propósito",
+            "text": "Elige una fachada con balcón o sombra marcada y compárala con otra del mismo tramo. Esa observación suele resultar más útil que intentar identificar cada casa de memoria. Lleva agua, evita bloquear el paso y respeta las áreas cerradas por conservación."
+          }
+        ],
+        "route": "Desde Plaza Arturo Prat, toma el eje de Baquedano y decide cuánto avanzar según el calor y la movilidad del grupo. Si quieres ver Palacio Astoreca, localízalo por separado en O’Higgins 350 y confirma su situación antes de contar con una visita interior. No basamos el recorrido en un servicio de tranvía: su operación no está verificada.",
+        "photo": "Busca un punto en la acera que muestre la sucesión de fachadas y la profundidad de sus sombras. Para detalles, usa el zoom desde el espacio público; no subas a barandas ni te apoyes en carpinterías antiguas.",
+        "faqs": [
+          {
+            "q": "¿Es lo mismo que la Torre del Reloj?",
+            "a": "No. Es un eje urbano; la torre es un monumento en Plaza Prat."
+          },
+          {
+            "q": "¿Todas las casas se pueden visitar?",
+            "a": "No. Muchas tienen usos privados o comerciales; solicita información al responsable de cada edificio."
+          },
+          {
+            "q": "¿Hay tranvía garantizado?",
+            "a": "No se ha verificado una operación regular. Organiza el paseo a pie o con transporte que hayas confirmado."
+          },
+          {
+            "q": "¿Hay que reservar para recorrer el exterior?",
+            "a": "La propuesta es un paseo por espacio público. Las actividades o interiores tienen condiciones independientes."
+          }
+        ]
+      },
+      "en": {
+        "title": "Paseo Baquedano: wooden architecture and an Iquique street walk",
+        "description": "What to notice on Paseo Baquedano: facades, wooden pavements and urban heritage, with a walking plan from Plaza Prat and practical access advice.",
+        "intro": "Paseo Baquedano takes you from the landmark view of Plaza Prat to a closer reading of the street. Compare facades, door and window rhythms and shaded spaces without needing to enter every building.",
+        "facts": [
+          "Location: Baquedano Street, Iquique.",
+          "Suggested visit: an outdoor walk from Plaza Prat.",
+          "Municipal public space within a heritage zone protected by the CMN."
+        ],
+        "sections": [
+          {
+            "title": "Timber, shade and continuity",
+            "text": "Heritage records identify timber, often Oregon pine, and framed construction as important to Iquique’s architecture. Look for continuous street fronts, verandas, rooftop lookouts and skylights. These are clues for comparing buildings: individual houses retain different features, and a painted facade alone does not reveal the structural material."
+          },
+          {
+            "title": "Looking without intruding",
+            "text": "Pause opposite a stretch of street, take in the overall composition and then examine joinery visible from the pavement. Keep a respectful distance from private doors and windows. Heritage designation does not make a building an open museum. Homes, businesses and cultural venues have their own uses and visiting arrangements."
+          },
+          {
+            "title": "Pavements and conservation",
+            "text": "The CMN has highlighted the continuity of wooden paving and the impact of alterations. Notice changes in ground material and watch for uneven sections, obstacles and crossings. Wheelchair users and people with pushchairs should assess the conditions of each stretch rather than assume uniform accessibility."
+          },
+          {
+            "title": "A useful pause",
+            "text": "Choose a facade with a balcony or strong shade and compare it with another on the same stretch. This can be more rewarding than trying to name every house. Bring water, leave room for pedestrians and respect areas closed for conservation."
+          }
+        ],
+        "route": "From Plaza Arturo Prat, follow Baquedano Street and choose your turning point according to heat and your group’s mobility. If you want to see Palacio Astoreca, locate it separately at O’Higgins 350 and confirm its status before relying on an indoor visit. This walk does not depend on a tram: regular operation has not been verified.",
+        "photo": "From the pavement, look for a view along successive facades and their shadows. Use a zoom for details visible from public space; do not climb railings or lean against historic joinery.",
+        "faqs": [
+          {
+            "q": "Is this the Clock Tower?",
+            "a": "No. Baquedano is an urban street; the tower is a monument in Plaza Prat."
+          },
+          {
+            "q": "Can I visit every house?",
+            "a": "No. Many buildings have private or commercial uses; ask each building’s operator about access."
+          },
+          {
+            "q": "Is a tram ride guaranteed?",
+            "a": "Regular service has not been verified. Plan to walk or use transport you have confirmed."
+          },
+          {
+            "q": "Do I need a reservation for the outdoor walk?",
+            "a": "This suggested route uses public space. Indoor visits and organised activities have separate arrangements."
+          }
+        ]
+      },
+      "sources": [
+        "urban",
+        "care",
+        "palace"
+      ]
+    },
+    {
+      "id": "city",
+      "slugs": {
+        "es": "que-hacer-en-iquique",
+        "en": "things-to-do-in-iquique"
+      },
+      "mapQuery": "Iquique Chile",
+      "es": {
+        "title": "Qué hacer en Iquique: centro histórico, arquitectura y costa",
+        "description": "Elige qué ver en Iquique: Plaza Prat, Paseo Baquedano, Teatro Municipal, Palacio Astoreca y Cavancha, con un itinerario editorial flexible.",
+        "intro": "Para una primera visita a Iquique conviene elegir entre dos intereses: el patrimonio urbano del centro y el paisaje de la costa. Esta selección reúne lugares concretos; la ruta es una propuesta editorial, no el relato de una visita personal ni un circuito organizado.",
+        "facts": [
+          "Ciudad: Iquique, Región de Tarapacá, Chile.",
+          "Punto de partida para patrimonio: Plaza Arturo Prat.",
+          "Gestión: espacio público municipal; cada edificio y actividad tiene su propio responsable."
+        ],
+        "sections": [
+          {
+            "title": "Plaza Prat y Torre del Reloj",
+            "text": "Empieza por una vista general de la plaza y luego observa la torre desde distintos lados. Reserva la decisión de entrar en edificios para después de comprobar sus condiciones. La guía específica de Plaza Prat explica cómo separar la visita al espacio público de la del teatro y la torre."
+          },
+          {
+            "title": "Paseo Baquedano y Palacio Astoreca",
+            "text": "Continúa por Baquedano si te interesan los detalles de madera y las fachadas. Palacio Astoreca es otra referencia cultural: el Registro de Museos lo sitúa en Libertador Bernardo O’Higgins 350 y lo vincula a la Universidad Arturo Prat. La ficha fue actualizada en 2022; úsala para localizar el edificio, pero confirma directamente la disponibilidad actual de acceso."
+          },
+          {
+            "title": "Teatro Municipal",
+            "text": "El Ministerio de Obras Públicas documentó su reapertura oficial en mayo de 2025. Eso no equivale a un horario diario de visitas turísticas. Si tu interés es el interior, busca la programación vigente del municipio y ajusta el resto del paseo a esa actividad, en vez de suponer que encontrarás entrada libre al llegar."
+          },
+          {
+            "title": "Cavancha y una salida al desierto",
+            "text": "Cavancha permite orientar otra parte del día hacia la costa. Consulta la señalización y las condiciones locales antes de cualquier actividad acuática. Humberstone y Santa Laura pertenecen a otra escala de excursión: son oficinas salitreras fuera del paseo urbano, reconocidas por la UNESCO. No las añadas como una breve parada a pie desde Plaza Prat."
+          }
+        ],
+        "route": "Una opción es recorrer Plaza Prat y Baquedano, hacer una pausa y después decidir si continúas hacia la costa con el transporte adecuado. Otra es centrar la jornada en una actividad cultural confirmada. Para navegar, abre el mapa de cada lugar; un mapa general de Iquique no sustituye el destino exacto.",
+        "photo": "En el centro busca relaciones entre edificios y espacio público; junto a la costa, elige un lugar permitido de la costanera sin acercarte a zonas de riesgo por una foto. Comprueba la luz antes de decidir qué parada dejar para más tarde.",
+        "faqs": [
+          {
+            "q": "¿Puedo combinar todo en una caminata corta?",
+            "a": "No es recomendable darlo por hecho. El centro, Cavancha y las oficinas salitreras requieren planes y desplazamientos diferentes."
+          },
+          {
+            "q": "¿Qué elijo si solo quiero patrimonio urbano?",
+            "a": "Prioriza Plaza Prat y Paseo Baquedano; añade un interior únicamente si has confirmado acceso."
+          },
+          {
+            "q": "¿Palacio Astoreca tiene acceso garantizado?",
+            "a": "No. Su ficha pública sirve de referencia, pero debes confirmar la disponibilidad actual con la institución."
+          },
+          {
+            "q": "¿La ruta es una visita guiada?",
+            "a": "No. Es una propuesta editorial para ayudarte a elegir lugares; no incluye servicios ni reservas."
+          }
+        ]
+      },
+      "en": {
+        "title": "Things to do in Iquique: historic centre, architecture and coast",
+        "description": "Choose between Plaza Prat, Paseo Baquedano, the Municipal Theatre, Palacio Astoreca and Cavancha with a flexible editorial itinerary.",
+        "intro": "For a first visit to Iquique, choose how much time to give to the historic centre and how much to the coast. This selection identifies real places. Its route is an editorial suggestion, not a personal trip report or an organised tour.",
+        "facts": [
+          "City: Iquique, Tarapacá Region, Chile.",
+          "Starting point for urban heritage: Plaza Arturo Prat.",
+          "Administration: municipal public space; individual venues and activities have their own operators."
+        ],
+        "sections": [
+          {
+            "title": "Plaza Prat and the Clock Tower",
+            "text": "Begin with an overall view of the square and then examine the tower from different sides. Decide on indoor visits after checking access arrangements. The dedicated Plaza Prat guide distinguishes the public square from the theatre and tower."
+          },
+          {
+            "title": "Paseo Baquedano and Palacio Astoreca",
+            "text": "Continue along Baquedano for timber details and street facades. Palacio Astoreca is another cultural landmark: the Museum Register locates it at Libertador Bernardo O’Higgins 350 and connects it with Universidad Arturo Prat. The record was updated in 2022; use it to locate the building and confirm current access directly with the institution."
+          },
+          {
+            "title": "Municipal Theatre",
+            "text": "The Ministry of Public Works documented the official reopening in May 2025. This does not establish daily tourist visiting hours. If you want to see inside, find the municipality’s current programme and organise your walk around a confirmed activity rather than assuming walk-in admission."
+          },
+          {
+            "title": "Cavancha and a desert excursion",
+            "text": "Cavancha offers a coastal focus for another part of your day. Check signs and local conditions before any water activity. Humberstone and Santa Laura are a different kind of excursion: these UNESCO-listed nitrate works lie outside the urban walk. Do not treat them as a quick stop on foot from Plaza Prat."
+          }
+        ],
+        "route": "One option is to walk around Plaza Prat and Baquedano, take a break, then decide whether to continue towards the coast using suitable transport. Another is to build the day around a confirmed cultural activity. Open each destination’s own map: a general city map does not identify an exact meeting point.",
+        "photo": "In the centre, look for relationships between buildings and public space. On the coast, choose a permitted viewpoint along the waterfront and stay away from hazardous areas. Check the direction of light before deciding which stop to leave until later.",
+        "faqs": [
+          {
+            "q": "Can I combine everything in a short walk?",
+            "a": "Do not assume so. The centre, Cavancha and the nitrate works need different plans and transfers."
+          },
+          {
+            "q": "What should I choose for urban heritage?",
+            "a": "Prioritise Plaza Prat and Paseo Baquedano; add an interior only after confirming admission."
+          },
+          {
+            "q": "Is access to Palacio Astoreca guaranteed?",
+            "a": "No. Its public record is a reference, but current visiting arrangements need confirmation from the institution."
+          },
+          {
+            "q": "Is this a guided tour?",
+            "a": "No. It is an editorial suggestion to help you choose places, without services or reservations."
+          }
+        ]
+      },
+      "sources": [
+        "city",
+        "theatre",
+        "palace"
+      ]
+    },
+    {
+      "id": "transport",
+      "slugs": {
+        "es": "como-llegar-centro-iquique",
+        "en": "how-to-get-to-iquique-center"
+      },
+      "mapQuery": "Aeropuerto Internacional Diego Aracena Iquique Chile",
+      "es": {
+        "title": "Cómo llegar al centro de Iquique y Plaza Prat desde el aeropuerto",
+        "description": "Planifica el traslado desde Diego Aracena al centro de Iquique: taxi, transfer, destino exacto, equipaje y regreso sin tarifas ni horarios inventados.",
+        "intro": "Para llegar a Plaza Prat desde el aeropuerto Diego Aracena, separa dos decisiones: el servicio que te lleva a Iquique y el punto exacto donde quieres terminar. Pedir simplemente «centro» puede ser insuficiente si llevas equipaje o necesitas una bajada próxima a tu alojamiento.",
+        "facts": [
+          "Origen aéreo: Aeropuerto Internacional Diego Aracena (IIQ).",
+          "Destino de esta guía: centro de Iquique / Plaza Arturo Prat.",
+          "Traslado: operadores de transporte; la administración de la plaza no organiza tu viaje desde el aeropuerto."
+        ],
+        "sections": [
+          {
+            "title": "Taxi o transfer",
+            "text": "La web del aeropuerto publica empresas de transporte y contactos para coordinar el servicio. Utiliza ese directorio como punto de partida y pregunta por disponibilidad para tu vuelo. Compara servicio privado o compartido, destino incluido, equipaje admitido y condiciones de cancelación. Esta guía no vende ni reserva traslados."
+          },
+          {
+            "title": "Qué confirmar antes de salir",
+            "text": "Acuerda el precio total y la forma de pago con el operador. Pregunta si el servicio llega a tu dirección o a un punto común, cómo identificar al conductor y qué ocurre si se retrasa el vuelo. Si necesitas una silla infantil o vehículo adaptado, solicita confirmación expresa: la existencia de un servicio de transporte no acredita esas prestaciones."
+          },
+          {
+            "title": "Del centro a Plaza Prat",
+            "text": "Usa el nombre completo Plaza Arturo Prat, Iquique, y muestra el mapa de la plaza. Si el vehículo no puede entrar al tramo que has elegido, acuerda un punto permitido y seguro para bajar. Con maletas, evita planear un recorrido patrimonial antes de resolver dónde guardarlas. Desde otra zona de la ciudad, comprueba tu ruta actual en el mapa."
+          },
+          {
+            "title": "Regreso y márgenes",
+            "text": "Organiza el regreso según la hora de presentación exigida por tu aerolínea y añade margen para recoger equipaje y llegar al punto de encuentro. Confirma dónde te recoge el operador y si debes reservar el trayecto de vuelta. No publicamos una frecuencia de autobús ni una tarifa fija porque no se han verificado para este recorrido."
+          }
+        ],
+        "route": "Para llegada en avión: aeropuerto → servicio confirmado hacia Iquique → dirección acordada en el centro. Para una visita posterior: alojamiento → Plaza Arturo Prat → paseo exterior a pie. El mapa principal de esta página identifica el aeropuerto; el enlace de Plaza Prat identifica el destino final.",
+        "photo": "En el aeropuerto, respeta las indicaciones de seguridad y mantén el equipo fotográfico guardado durante la recogida. La foto de recuerdo del centro puede hacerse después desde un borde de Plaza Prat, sin bloquear la bajada de pasajeros.",
+        "faqs": [
+          {
+            "q": "¿El aeropuerto está en Plaza Prat?",
+            "a": "No. Necesitas un traslado entre el aeropuerto Diego Aracena y la ciudad."
+          },
+          {
+            "q": "¿Dónde encuentro operadores?",
+            "a": "Consulta el directorio de transporte del aeropuerto enlazado en las fuentes y confirma el servicio directamente."
+          },
+          {
+            "q": "¿Cuánto cuesta y cuánto tarda?",
+            "a": "Solicita una cotización y estimación actuales para tu dirección. No se fija aquí una tarifa ni duración garantizada."
+          },
+          {
+            "q": "¿Hay un autobús con horario garantizado?",
+            "a": "Esta guía no ha verificado un horario regular de autobús para el trayecto; no bases tu llegada en una frecuencia no confirmada."
+          }
+        ]
+      },
+      "en": {
+        "title": "How to get to Iquique centre and Plaza Prat from the airport",
+        "description": "Plan a Diego Aracena airport transfer to central Iquique: taxis, transfers, exact drop-off points, luggage and the return trip, without invented timetables.",
+        "intro": "To reach Plaza Prat from Diego Aracena Airport, make two decisions: which service will take you to Iquique and exactly where the journey should end. Asking only for the “centre” may be insufficient when travelling with luggage or needing a drop-off close to your accommodation.",
+        "facts": [
+          "Air arrival: Diego Aracena International Airport (IIQ).",
+          "Destination in this guide: central Iquique / Plaza Arturo Prat.",
+          "Transport: individual operators; the square’s administration does not arrange your airport journey."
+        ],
+        "sections": [
+          {
+            "title": "Taxi or transfer",
+            "text": "The airport website lists transport companies and contacts for advance arrangements. Start with that directory and ask about availability for your flight. Compare private and shared travel, the destination included, luggage allowance and cancellation terms. This guide does not sell or book transfers."
+          },
+          {
+            "title": "What to confirm before departure",
+            "text": "Agree on the total price and payment method with the operator. Ask whether you will reach your address or a shared drop-off, how to identify your driver and what happens if your flight is delayed. Request explicit confirmation of a child seat or adapted vehicle if needed: listing a transport service does not establish those facilities."
+          },
+          {
+            "title": "From the centre to Plaza Prat",
+            "text": "Use the full name Plaza Arturo Prat, Iquique, and show the square’s map. If a vehicle cannot enter your chosen stretch, agree on a safe and permitted drop-off. With suitcases, resolve luggage storage before planning a heritage walk. From another city district, check a current route on the map."
+          },
+          {
+            "title": "Return trip and time margins",
+            "text": "Plan around your airline’s required airport reporting time and allow for collecting luggage and reaching the meeting point. Confirm where the operator will collect you and whether the return needs a reservation. No bus frequency or fixed fare is published here because neither has been verified for this journey."
+          }
+        ],
+        "route": "For an air arrival: airport → confirmed service to Iquique → agreed address in the centre. For a later visit: accommodation → Plaza Arturo Prat → outdoor walk. This page’s main map identifies the airport; the Plaza Prat link identifies the final sightseeing destination.",
+        "photo": "Follow airport security instructions and keep camera equipment packed during pickup. Take a city souvenir photograph later from an edge of Plaza Prat, away from passenger drop-off space.",
+        "faqs": [
+          {
+            "q": "Is the airport at Plaza Prat?",
+            "a": "No. You need transport between Diego Aracena Airport and the city."
+          },
+          {
+            "q": "Where can I find operators?",
+            "a": "Use the airport’s transport directory linked in the sources and confirm the service directly."
+          },
+          {
+            "q": "How much does it cost and how long does it take?",
+            "a": "Request a current quotation and estimate for your address. No fixed price or guaranteed duration is stated here."
+          },
+          {
+            "q": "Is there a guaranteed bus timetable?",
+            "a": "A regular bus timetable for this journey has not been verified for this guide; do not rely on an unconfirmed frequency."
+          }
+        ]
+      },
+      "sources": [
+        "airport",
+        "city"
+      ]
+    },
+    {
+      "id": "history",
+      "slugs": {
+        "es": "historia-salitrera-iquique",
+        "en": "nitrate-era-history-iquique"
+      },
+      "mapQuery": "Calle Baquedano Plaza Prat Iquique Chile",
+      "es": {
+        "title": "Historia salitrera de Iquique: cómo leer su patrimonio urbano",
+        "description": "Relaciona la Torre del Reloj, Plaza Prat, Baquedano y el Teatro Municipal con la ciudad salitrera; fuentes oficiales y cautela con las fechas.",
+        "intro": "El patrimonio salitrero de Iquique se puede leer como una relación entre puerto, ciudad y vida pública. La visita al centro permite comparar un reloj público, un teatro y edificios residenciales y comerciales; las oficinas productivas del desierto requieren otra excursión.",
+        "facts": [
+          "Ámbito: centro histórico de Iquique.",
+          "Referencia territorial: Zona Típica Calle Baquedano y Plaza Prat.",
+          "Protección patrimonial: CMN; uso y acceso: municipio y responsables de cada inmueble."
+        ],
+        "sections": [
+          {
+            "title": "La ciudad y las oficinas no son lo mismo",
+            "text": "Las oficinas salitreras remiten a los espacios de producción; el centro de Iquique permite observar la dimensión urbana de esa economía. Para preparar la visita, separa la lectura de fachadas y edificios públicos de una salida a Humberstone y Santa Laura. El parecido temático no significa proximidad peatonal."
+          },
+          {
+            "title": "Un reloj para la vida pública",
+            "text": "La investigación histórica sobre el Iquique de administración peruana documenta la pérdida del reloj de la iglesia en el incendio de 1873 y la decisión municipal de adquirir otro reloj y levantar una torre en diciembre de 1877. Esto ofrece un contexto cívico más preciso que describir el monumento solo como decoración."
+          },
+          {
+            "title": "Por qué conviene matizar la cronología",
+            "text": "No todas las fuentes cuentan de la misma manera la construcción y los traslados de la torre. El decreto de 1987 menciona una instalación original en 1884; la investigación sitúa la decisión en 1877. Separa acuerdo, construcción, funcionamiento y traslado. No conviertas una sola fecha en explicación de todo el proceso ni presentes 1879 como una inauguración indiscutible."
+          },
+          {
+            "title": "Comparar edificios durante el paseo",
+            "text": "Frente a la torre, piensa en el reloj como servicio urbano; frente al Teatro Municipal, en el papel de la vida cultural. En Baquedano compara la relación de las fachadas con la calle. Son preguntas editoriales para orientar la mirada, no una atribución de fecha, autor o uso original a cada casa."
+          }
+        ],
+        "route": "Propuesta de lectura exterior: Plaza Prat → Torre del Reloj → fachada del Teatro Municipal → eje de Baquedano. Si quieres visitar interiores, consulta antes las condiciones de cada institución. Para las oficinas salitreras, prepara un traslado independiente fuera del centro urbano.",
+        "photo": "Prueba una serie de imágenes: el monumento en su plaza, una fachada completa y un detalle de sombra o carpintería. Desde el espacio público, mantén el contexto visible y no identifiques un edificio solo por un detalle que podría repetirse en otra calle.",
+        "faqs": [
+          {
+            "q": "¿Todo lo antiguo del centro pertenece a la misma fecha?",
+            "a": "No. No debe atribuirse una cronología única al conjunto por su apariencia o por su relación con el salitre."
+          },
+          {
+            "q": "¿Qué fecha tiene la torre?",
+            "a": "Las fuentes distinguen o discrepan sobre acuerdo, construcción e instalación. Esta guía explica la decisión de 1877 y la referencia de 1884 del decreto, sin fundirlas en una fecha única."
+          },
+          {
+            "q": "¿Puedo ver las oficinas salitreras desde Plaza Prat?",
+            "a": "No forman parte del paseo urbano; necesitas planificar una excursión aparte."
+          },
+          {
+            "q": "¿Qué fuente oficial define el conjunto?",
+            "a": "El decreto patrimonial de 2024 fija límites y valores de la Zona Típica y de varios monumentos históricos de Iquique."
+          }
+        ]
+      },
+      "en": {
+        "title": "Iquique’s nitrate-era history: reading the city’s heritage",
+        "description": "Connect the Clock Tower, Plaza Prat, Baquedano and Municipal Theatre with nitrate-era urban life, using official records and careful chronology.",
+        "intro": "Iquique’s nitrate heritage can be read through the relationship between port, city and public life. In the centre you can compare a public clock, a theatre and residential and commercial buildings. The production sites in the desert require a separate excursion.",
+        "facts": [
+          "Area: historic central Iquique.",
+          "Territorial reference: Calle Baquedano and Plaza Prat heritage zone.",
+          "Heritage protection: CMN; use and admission: the municipality and individual building operators."
+        ],
+        "sections": [
+          {
+            "title": "The city and the nitrate works are different places",
+            "text": "Nitrate works concern production sites; central Iquique reveals the urban dimension of that economy. Separate your walk past facades and civic buildings from an excursion to Humberstone and Santa Laura. A shared historical theme does not mean they are within walking distance."
+          },
+          {
+            "title": "A clock for public life",
+            "text": "Historical research on Iquique under Peruvian administration documents the loss of the church clock in the 1873 fire and a municipal decision to acquire a replacement and build a tower in December 1877. This offers a more specific civic context than describing the monument only as an ornament."
+          },
+          {
+            "title": "Why the chronology needs care",
+            "text": "Sources do not all describe construction and relocation in the same way. The 1987 decree refers to an original installation in 1884; historical research places the municipal decision in 1877. Distinguish approval, construction, operation and relocation. A single date cannot explain the whole process, and 1879 should not be presented as an uncontested inauguration."
+          },
+          {
+            "title": "Comparing buildings on the walk",
+            "text": "At the tower, consider the clock as an urban service; at the Municipal Theatre, think about cultural life. On Baquedano, compare how facades relate to the street. These are editorial questions to guide your attention, rather than claims about the date, designer or original use of every house."
+          }
+        ],
+        "route": "Suggested outdoor reading route: Plaza Prat → Clock Tower → Municipal Theatre facade → Baquedano Street. Check each institution’s arrangements before planning an interior. For the nitrate works, organise a separate journey outside the urban centre.",
+        "photo": "Try a sequence of images: the monument in its square, a complete facade and a detail of shade or joinery. Keep the setting visible from public space. A detail repeated on another street is insufficient to identify a particular building.",
+        "faqs": [
+          {
+            "q": "Does every old building date from the same period?",
+            "a": "No. Appearance or a connection with nitrate history is insufficient to assign one date to the whole ensemble."
+          },
+          {
+            "q": "When was the tower built?",
+            "a": "Sources distinguish or disagree about approval, construction and installation. This guide explains the 1877 decision and the decree’s 1884 reference without collapsing them into one date."
+          },
+          {
+            "q": "Are the nitrate works part of the Plaza Prat walk?",
+            "a": "No. Plan them as a separate excursion outside the urban centre."
+          },
+          {
+            "q": "Which official record defines the heritage ensemble?",
+            "a": "The 2024 decree sets boundaries and heritage values for the protected zone and several historic monuments in Iquique."
+          }
+        ]
+      },
+      "sources": [
+        "heritage",
+        "history",
+        "decree",
+        "city"
+      ]
+    }
+  ]
+}

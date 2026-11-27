@@ -5,35 +5,37 @@ import attraction from '../config/attraction';
 const { lang, t, messages } = getI18n(Astro.url);
 const h = messages.header;
 const common = messages.common;
-const currentPath = Astro.url.pathname;
-
-// keep the same page route (e.g. /es/privacy-policy) when switching language
+const { alternates } = Astro.props;
 const pageSeg = Astro.url.pathname.split('/').filter(Boolean).slice(1).join('/');
-const switchTo = (l: string) => (pageSeg ? `/${l}/${pageSeg}` : `/${l}`);
+const switchLanguages = alternates ? languagesList.filter(l => alternates[l]) : languagesList;
+const switchTo = (l: string) => alternates?.[l] ? new URL(alternates[l]).pathname : `/${l}/${pageSeg ? pageSeg + '/' : ''}`;
+const extra = {
+  es: { nearby: 'Cerca', explore: 'Explorar', guide: 'Guía' },
+  en: { nearby: 'Nearby', explore: 'Explore', guide: 'Guide' },
+  zh: { nearby: '周边', explore: '探索', guide: '指南' },
+  arn: null,
+}[lang];
+const explorePath = lang === 'en' ? '/en/explore/' : '/es/explorar/';
 ---
 
 <header class="sticky top-0 z-50 backdrop-blur" style="background: color-mix(in srgb, var(--bg-primary) 85%, transparent); border-bottom: 1px solid var(--border-color);">
   <div class="max-w-6xl mx-auto px-4 min-h-16 py-3 flex items-center justify-between gap-3 md:gap-4">
-    <a href={`/${lang}`} class="flex flex-col leading-tight max-w-[12rem] sm:max-w-none" style="color: var(--text-primary);">
+    <a href={`/${lang}/`} class="flex flex-col leading-tight max-w-[12rem] sm:max-w-none" style="color: var(--text-primary);">
       <span class="font-display text-base sm:text-lg font-semibold" set:html={h.siteName}></span>
       <span class="text-[10px] sm:text-xs uppercase tracking-[0.16em] truncate" style="color: var(--text-muted);">{attraction.fullName} · {attraction.city}, {attraction.country}</span>
     </a>
 
-    <nav class="hidden lg:flex items-center gap-3 text-sm xl:gap-4" style="color: var(--text-secondary);">
-      <a href={`/${lang}`} class="hover:opacity-70" set:html={h.home}></a>
-      <a href={`/${lang}#visit`} class="hover:opacity-70" set:html={h.visit}></a>
-      <a href={`/${lang}#weather`} class="hover:opacity-70" set:html={h.weather}></a>
-      <a href={`/${lang}#transport`} class="hover:opacity-70" set:html={h.transport}></a>
-      <a href={`/${lang}#facilities`} class="hover:opacity-70" set:html={h.facilities}></a>
-      <a href={`/${lang}#history`} class="hover:opacity-70" set:html={h.history}></a>
-      <a href={`/${lang}#gallery`} class="hover:opacity-70" set:html={h.gallery}></a>
-      <a href={`/${lang}#reviews`} class="hover:opacity-70" set:html={h.reviews}></a>
-      <a href={`/${lang}#faq`} class="hover:opacity-70" set:html={h.faq}></a>
-      <a href={`/${lang}#map`} class="hover:opacity-70" set:html={h.map}></a>
+    <nav aria-label={h.home} class="hidden xl:flex items-center gap-4 text-sm whitespace-nowrap" style="color: var(--text-secondary);">
+      <a href={`/${lang}/#gallery`}>{h.gallery}</a>
+      <a href={`/${lang}/#reviews`}>{h.reviews}</a>
+      <a href={`/${lang}/#map`}>{h.map}</a>
+      {extra && <a href={`/${lang}/#plaza`}>{extra.nearby}</a>}
+      {extra && <a href={explorePath} lang={lang === 'zh' ? 'es' : undefined}>{extra.explore}{lang === 'zh' ? ' (ES)' : ''}</a>}
+      <a href={`/${lang}/#visit`}>{extra?.guide ?? h.visit}</a>
     </nav>
 
     <div class="flex items-center gap-2 sm:gap-3">
-      <button type="button" id="mobile-menu-toggle" class="lg:hidden w-9 h-9 rounded-lg border flex items-center justify-center text-lg" style="border-color: var(--border-color); color: var(--text-primary);" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+      <button type="button" id="mobile-menu-toggle" class="xl:hidden w-9 h-9 rounded-lg border flex items-center justify-center text-lg" style="border-color: var(--border-color); color: var(--text-primary);" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
         ☰
       </button>
 
@@ -43,7 +45,7 @@ const switchTo = (l: string) => (pageSeg ? `/${l}/${pageSeg}` : `/${l}`);
           <span set:html={languages[lang]}></span> ▾
         </button>
         <div class="hidden absolute right-0 mt-2 w-40 rounded-xl border bg-[var(--card-bg)] shadow-lg overflow-hidden" style="border-color: var(--border-color);" data-lang-dropdown>
-          {languagesList.map((l) => (
+          {switchLanguages.map((l) => (
             <a href={switchTo(l)} class="block px-4 py-2 text-sm hover:bg-white/10" style="color: var(--text-primary);">
               {languages[l]}
             </a>
@@ -58,24 +60,25 @@ const switchTo = (l: string) => (pageSeg ? `/${l}/${pageSeg}` : `/${l}`);
     </div>
   </div>
 
-  <div id="mobile-menu" class="lg:hidden hidden border-t px-4 py-4" style="border-color: var(--border-color); background: color-mix(in srgb, var(--bg-primary) 96%, transparent);">
+  <div id="mobile-menu" class="xl:hidden hidden border-t px-4 py-4" style="border-color: var(--border-color); background: color-mix(in srgb, var(--bg-primary) 96%, transparent);">
     <nav class="grid grid-cols-2 gap-2 text-sm" style="color: var(--text-secondary);">
-      <a href={`/${lang}`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);" set:html={h.home}></a>
-      <a href={`/${lang}#visit`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);" set:html={h.visit}></a>
-      <a href={`/${lang}#weather`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);" set:html={h.weather}></a>
-      <a href={`/${lang}#transport`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);" set:html={h.transport}></a>
-      <a href={`/${lang}#facilities`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);" set:html={h.facilities}></a>
-      <a href={`/${lang}#history`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);" set:html={h.history}></a>
-      <a href={`/${lang}#gallery`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);" set:html={h.gallery}></a>
-      <a href={`/${lang}#reviews`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);" set:html={h.reviews}></a>
-      <a href={`/${lang}#faq`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);" set:html={h.faq}></a>
-      <a href={`/${lang}#map`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);" set:html={h.map}></a>
+      <a href={`/${lang}/`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);" set:html={h.home}></a>
+      <a href={`/${lang}/#visit`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);" set:html={h.visit}></a>
+      <a href={`/${lang}/#weather`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);" set:html={h.weather}></a>
+      <a href={`/${lang}/#transport`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);" set:html={h.transport}></a>
+      <a href={`/${lang}/#facilities`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);" set:html={h.facilities}></a>
+      <a href={`/${lang}/#history`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);" set:html={h.history}></a>
+      <a href={`/${lang}/#gallery`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);" set:html={h.gallery}></a>
+      <a href={`/${lang}/#reviews`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);" set:html={h.reviews}></a>
+      <a href={`/${lang}/#faq`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);" set:html={h.faq}></a>
+      <a href={`/${lang}/#map`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);" set:html={h.map}></a>
+      {extra && <a class="rounded-lg px-3 py-2" href={explorePath} lang={lang === 'zh' ? 'es' : undefined}>{extra.explore}{lang === 'zh' ? ' (ES)' : ''}</a>}
     </nav>
 
     <div class="mt-4 pt-4 border-t" style="border-color: var(--border-color);">
       <p class="text-xs uppercase tracking-[0.18em] mb-3" style="color: var(--text-muted);">{common.changeLanguage}</p>
       <div class="grid grid-cols-2 gap-2">
-        {languagesList.map((l) => (
+        {switchLanguages.map((l) => (
           <a href={switchTo(l)} class="rounded-lg px-3 py-2 text-sm border hover:opacity-80" style="border-color: var(--border-color); color: var(--text-primary);">
             {languages[l]}
           </a>
