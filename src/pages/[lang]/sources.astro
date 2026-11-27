@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SourcesSection from '../../components/SourcesSection.astro';
+import { getI18n, languagesList } from '../../i18n/ui';
+export function getStaticPaths() { return languagesList.map(lang => ({params:{lang}})); }
+const { messages, lang } = getI18n(Astro.url);
+---
+<BaseLayout title={messages.sources.title} description={messages.sources.intro} path="sources" homeEntity={false}>
+  <div class="max-w-4xl mx-auto px-4 pt-12"><h1 class="text-4xl">{messages.sources.title}</h1></div>
+  <SourcesSection />
+  {(lang === 'es' || lang === 'en') && <p class="max-w-4xl mx-auto px-4 pb-12"><a href={lang === 'es' ? '/es/explorar/' : '/en/explore/'}>{lang === 'es' ? 'Fuentes específicas en cada guía de Iquique' : 'Find topic-specific sources in each Iquique guide'}</a></p>}
+</BaseLayout>

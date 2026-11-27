@@ -15,20 +15,23 @@ import VisitGuide from '../../components/VisitGuide.astro';
 import Reviews from '../../components/Reviews.astro';
 import MapEmbed from '../../components/MapEmbed.astro';
 import FAQ from '../../components/FAQ.astro';
-import SourcesSection from '../../components/SourcesSection.astro';
 import { getI18n, languagesList } from '../../i18n/ui';
 
 export function getStaticPaths() {
   return languagesList.map((lang) => ({ params: { lang } }));
 }
 
-const { messages } = getI18n(Astro.url);
+const { lang, messages } = getI18n(Astro.url);
 ---
 
 <BaseLayout title={messages.meta.title} description={messages.meta.description} path="">
   <Hero />
   <EntitySeo />
   <Intro />
+  <div class="max-w-6xl mx-auto px-4 pb-8 flex flex-wrap gap-5" style="color: var(--accent);">
+    <a href={`/${lang}/sources/`}>{messages.footer.sourcesLink}</a>
+    {(lang === 'es' || lang === 'en') && <a href={lang === 'es' ? '/es/explorar/' : '/en/explore/'}>{lang === 'es' ? 'Explorar Iquique' : 'Explore Iquique'}</a>}
+  </div>
   <PlazaPrat />
   <Transport />
   <Facilities />
@@ -41,5 +44,5 @@ const { messages } = getI18n(Astro.url);
   <Reviews />
   <MapEmbed />
   <FAQ />
-  <SourcesSection />
+
 </BaseLayout>

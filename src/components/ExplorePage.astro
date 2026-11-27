@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import data from '../data/topics.json';
+const {lang} = Astro.props;
+const en = lang === 'en';
+const title = en ? 'Explore Iquique: five guides for planning your visit' : 'Explorar Iquique: cinco guías para preparar la visita';
+const description = en ? 'Choose a guide to Plaza Prat, Baquedano, Iquique sights, airport transport or nitrate-era history.' : 'Elige una guía de Plaza Prat, Baquedano, lugares de Iquique, transporte desde el aeropuerto o historia salitrera.';
+const alts = {es:'https://iquiquereloj.com/es/explorar/',en:'https://iquiquereloj.com/en/explore/',xDefault:'https://iquiquereloj.com/es/explorar/'};
+---
+<BaseLayout title={title} description={description} path={en ? 'explore' : 'explorar'} alternates={alts} homeEntity={false}>
+  <section class="topic-page topic-body max-w-6xl mx-auto px-4">
+    <h1>{title}</h1><p class="topic-intro">{description}</p>
+    <div class="topic-related">{data.topics.map(t => <a class="topic-card" href={`/${lang}/${t.slugs[lang]}/`}><h2>{t[lang].title}</h2><p>{t[lang].description}</p></a>)}</div>
+  </section>
+</BaseLayout>

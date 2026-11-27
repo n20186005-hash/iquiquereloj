@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://iquiquereloj.com/es/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://iquiquereloj.com/es/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://iquiquereloj.com/en/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://iquiquereloj.com/zh/" />
@@ -12,8 +10,6 @@
   </url>
   <url>
     <loc>https://iquiquereloj.com/en/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://iquiquereloj.com/es/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://iquiquereloj.com/en/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://iquiquereloj.com/zh/" />
@@ -22,8 +18,6 @@
   </url>
   <url>
     <loc>https://iquiquereloj.com/zh/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://iquiquereloj.com/es/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://iquiquereloj.com/en/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://iquiquereloj.com/zh/" />
@@ -32,12 +26,114 @@
   </url>
   <url>
     <loc>https://iquiquereloj.com/arn/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://iquiquereloj.com/es/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://iquiquereloj.com/en/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://iquiquereloj.com/zh/" />
     <xhtml:link rel="alternate" hreflang="arn" href="https://iquiquereloj.com/arn/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://iquiquereloj.com/es/" />
+  </url>
+  <url>
+    <loc>https://iquiquereloj.com/es/sources/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://iquiquereloj.com/es/sources/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iquiquereloj.com/en/sources/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iquiquereloj.com/zh/sources/" />
+    <xhtml:link rel="alternate" hreflang="arn" href="https://iquiquereloj.com/arn/sources/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iquiquereloj.com/es/sources/" />
+  </url>
+  <url>
+    <loc>https://iquiquereloj.com/en/sources/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://iquiquereloj.com/es/sources/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iquiquereloj.com/en/sources/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iquiquereloj.com/zh/sources/" />
+    <xhtml:link rel="alternate" hreflang="arn" href="https://iquiquereloj.com/arn/sources/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iquiquereloj.com/es/sources/" />
+  </url>
+  <url>
+    <loc>https://iquiquereloj.com/zh/sources/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://iquiquereloj.com/es/sources/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iquiquereloj.com/en/sources/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iquiquereloj.com/zh/sources/" />
+    <xhtml:link rel="alternate" hreflang="arn" href="https://iquiquereloj.com/arn/sources/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iquiquereloj.com/es/sources/" />
+  </url>
+  <url>
+    <loc>https://iquiquereloj.com/arn/sources/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://iquiquereloj.com/es/sources/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iquiquereloj.com/en/sources/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iquiquereloj.com/zh/sources/" />
+    <xhtml:link rel="alternate" hreflang="arn" href="https://iquiquereloj.com/arn/sources/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iquiquereloj.com/es/sources/" />
+  </url>
+  <url>
+    <loc>https://iquiquereloj.com/es/plaza-arturo-prat/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://iquiquereloj.com/es/plaza-arturo-prat/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iquiquereloj.com/en/plaza-arturo-prat/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iquiquereloj.com/es/plaza-arturo-prat/" />
+  </url>
+  <url>
+    <loc>https://iquiquereloj.com/en/plaza-arturo-prat/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://iquiquereloj.com/es/plaza-arturo-prat/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iquiquereloj.com/en/plaza-arturo-prat/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iquiquereloj.com/es/plaza-arturo-prat/" />
+  </url>
+  <url>
+    <loc>https://iquiquereloj.com/es/paseo-baquedano/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://iquiquereloj.com/es/paseo-baquedano/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iquiquereloj.com/en/paseo-baquedano/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iquiquereloj.com/es/paseo-baquedano/" />
+  </url>
+  <url>
+    <loc>https://iquiquereloj.com/en/paseo-baquedano/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://iquiquereloj.com/es/paseo-baquedano/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iquiquereloj.com/en/paseo-baquedano/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iquiquereloj.com/es/paseo-baquedano/" />
+  </url>
+  <url>
+    <loc>https://iquiquereloj.com/es/que-hacer-en-iquique/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://iquiquereloj.com/es/que-hacer-en-iquique/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iquiquereloj.com/en/things-to-do-in-iquique/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iquiquereloj.com/es/que-hacer-en-iquique/" />
+  </url>
+  <url>
+    <loc>https://iquiquereloj.com/en/things-to-do-in-iquique/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://iquiquereloj.com/es/que-hacer-en-iquique/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iquiquereloj.com/en/things-to-do-in-iquique/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iquiquereloj.com/es/que-hacer-en-iquique/" />
+  </url>
+  <url>
+    <loc>https://iquiquereloj.com/es/como-llegar-centro-iquique/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://iquiquereloj.com/es/como-llegar-centro-iquique/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iquiquereloj.com/en/how-to-get-to-iquique-center/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iquiquereloj.com/es/como-llegar-centro-iquique/" />
+  </url>
+  <url>
+    <loc>https://iquiquereloj.com/en/how-to-get-to-iquique-center/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://iquiquereloj.com/es/como-llegar-centro-iquique/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iquiquereloj.com/en/how-to-get-to-iquique-center/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iquiquereloj.com/es/como-llegar-centro-iquique/" />
+  </url>
+  <url>
+    <loc>https://iquiquereloj.com/es/historia-salitrera-iquique/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://iquiquereloj.com/es/historia-salitrera-iquique/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iquiquereloj.com/en/nitrate-era-history-iquique/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iquiquereloj.com/es/historia-salitrera-iquique/" />
+  </url>
+  <url>
+    <loc>https://iquiquereloj.com/en/nitrate-era-history-iquique/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://iquiquereloj.com/es/historia-salitrera-iquique/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iquiquereloj.com/en/nitrate-era-history-iquique/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iquiquereloj.com/es/historia-salitrera-iquique/" />
+  </url>
+  <url>
+    <loc>https://iquiquereloj.com/es/explorar/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://iquiquereloj.com/es/explorar/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iquiquereloj.com/en/explore/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iquiquereloj.com/es/explorar/" />
+  </url>
+  <url>
+    <loc>https://iquiquereloj.com/en/explore/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://iquiquereloj.com/es/explorar/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iquiquereloj.com/en/explore/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iquiquereloj.com/es/explorar/" />
   </url>
 </urlset>

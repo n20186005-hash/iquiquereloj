@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import data from '../../data/topics.json';
+export function getStaticPaths() {
+  return data.topics.flatMap(topic => ['es', 'en'].map(lang => ({ params: { lang, topic: topic.slugs[lang] }, props: { topic, lang } })));
+}
+const { topic, lang } = Astro.props;
+const en = lang === 'en';
+const page = topic[lang];
+const alts = {es: `https://iquiquereloj.com/es/${topic.slugs.es}/`, en: `https://iquiquereloj.com/en/${topic.slugs.en}/`, xDefault: `https://iquiquereloj.com/es/${topic.slugs.es}/`};
+const maps = query => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+const labels = en ? {basics:'Before you visit', route:'Route and transport', photo:'Photography and viewpoints', faq:'Practical questions', nearby:'Continue exploring', sources:'Sources and further reading', map:'Open destination map', checked:'Sources reviewed: 27 November 2026. Routes and photo suggestions are editorial guidance.', home:'Clock Tower guide', image:'Location photograph unavailable', imageNote:'No photograph is shown here: a Clock Tower image would not illustrate this destination accurately.'} : {basics:'Antes de la visita', route:'Ruta y transporte', photo:'Fotografía y puntos de vista', faq:'Preguntas prácticas', nearby:'Sigue explorando', sources:'Fuentes y lecturas', map:'Abrir mapa del destino', checked:'Fuentes revisadas: 27 de noviembre de 2026. Las rutas y sugerencias fotográficas son propuestas editoriales.', home:'Guía de la Torre del Reloj', image:'Fotografía del lugar no disponible', imageNote:'No se muestra una fotografía: una imagen de la Torre del Reloj no representaría correctamente este destino.'};
+const schema = {'@context':'https://schema.org','@type':'Article', headline:page.title, description:page.description, inLanguage:lang, mainEntityOfPage:alts[lang], about:topic.mapQuery};
+---
+<BaseLayout title={page.title} description={page.description} path={topic.slugs[lang]} alternates={alts} homeEntity={false}>
+  <script slot="head" type="application/ld+json" is:inline set:html={JSON.stringify(schema)} />
+  <article class="topic-page">
+    <header class="topic-hero">
+      <div class="max-w-6xl mx-auto px-4">
+        <a class="topic-home" href={`/${lang}/`}>{labels.home}</a>
+        <p class="topic-eyebrow">Iquique · Tarapacá · Chile</p>
+        <h1>{page.title}</h1>
+        <p class="topic-intro">{page.intro}</p>
+        <a class="topic-button" href={maps(topic.mapQuery)} target="_blank" rel="noopener noreferrer">{labels.map}</a>
+      </div>
+    </header>
+    <div class="topic-body max-w-6xl mx-auto px-4">
+      <section class="topic-basics" aria-labelledby="basics">
+        <h2 id="basics">{labels.basics}</h2>
+        <ul>{page.facts.map(fact => <li>{fact}</li>)}</ul>
+      </section>
+      <div class="topic-columns">
+        <div>
+          {page.sections.map(section => <section class="topic-section"><h2>{section.title}</h2><p>{section.text}</p></section>)}
+          <section class="topic-section"><h2>{labels.route}</h2><p>{page.route}</p></section>
+          <section class="topic-section"><h2>{labels.photo}</h2><p>{page.photo}</p></section>
+        </div>
+        <aside class="topic-aside">
+          <figure class="topic-card">
+            {(topic.id === 'plaza' || topic.id === 'history') ? <>
+              <img src="/gallery/torre-del-reloj-iquique-1.webp" width="1600" height="2844" loading="lazy" alt={en ? 'Clock Tower in Plaza Prat, from the existing site gallery' : 'Torre del Reloj en Plaza Prat, de la galería existente del sitio'} />
+              <figcaption>{en ? 'Clock Tower: a landmark in the historic ensemble. Photograph retained from the existing gallery; rights remain with its original photographer.' : 'Torre del Reloj: referencia del conjunto histórico. Fotografía conservada de la galería existente; derechos del fotógrafo original.'}</figcaption>
+            </> : <div class="topic-placeholder"><strong>{labels.image}</strong><p>{labels.imageNote}</p></div>}
+          </figure>
+          <nav class="topic-card topic-map-links" aria-label={labels.map}>
+            <a href={maps(topic.mapQuery)} target="_blank" rel="noopener noreferrer">{topic.mapQuery}</a>
+            {topic.id !== 'plaza' && <a href={maps('Plaza Arturo Prat Iquique Chile')}>Plaza Arturo Prat · Iquique</a>}
+            {topic.id === 'city' && <><a href={maps('Playa Cavancha Iquique Chile')}>Playa Cavancha · Iquique</a><a href={maps('Palacio Astoreca O Higgins 350 Iquique Chile')}>Palacio Astoreca · Iquique</a><a href={maps('Teatro Municipal Iquique Chile')}>Teatro Municipal · Iquique</a></>}
+          </nav>
+        </aside>
+      </div>
+      <section class="topic-section" id="faq"><h2>{labels.faq}</h2><div class="topic-faq">{page.faqs.map(faq => <details><summary>{faq.q}</summary><p>{faq.a}</p></details>)}</div></section>
+      <section class="topic-section"><h2>{labels.nearby}</h2><div class="topic-related">{data.topics.filter(t => t.id !== topic.id).map(t => <a class="topic-card" href={`/${lang}/${t.slugs[lang]}/`}>{t[lang].title}</a>)}</div></section>
+      <section class="topic-section" id="sources"><h2>{labels.sources}</h2><p class="topic-date">{labels.checked}</p><ul class="topic-source-list">{topic.sources.map(key => <li><a href={data.sources[key].url} target="_blank" rel="noopener noreferrer">{data.sources[key].name}</a></li>)}</ul></section>
+    </div>
+  </article>
+</BaseLayout>

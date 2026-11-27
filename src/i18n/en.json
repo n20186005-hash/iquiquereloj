@@ -8,7 +8,7 @@
   "drawings": {
     "title": "Drawings and Illustrations of the Clock Tower",
     "subtitle": "A line illustration of the tower so you can recognise its silhouette before you visit.",
-    "intro": "This drawing sums up the anatomy of the Iquique Clock Tower: the Oregon pine body, the clock face that has marked the hours since 1877, and the domed top with its cross. It is a line illustration, useful for recognising the tower from anywhere in Plaza Arturo Prat or along the seafront.",
+    "intro": "A line illustration of the Clock Tower, showing its timber body, clock and upper structure. This is an interpretive resource, not a photograph or architectural plan.",
     "alt": "Drawing of the Clock Tower of Iquique",
     "caption": "Drawing of the Clock Tower of Iquique in Plaza Arturo Prat, Tarapacá Region.",
     "anatomyTitle": "Parts of the tower shown in the drawing",
@@ -19,7 +19,7 @@
       },
       {
         "name": "Clock face",
-        "text": "The public clock that has ordered life in the nitrate port since 1877."
+        "text": "The public clock is central to the monument’s civic function."
       },
       {
         "name": "Wooden body",
@@ -103,13 +103,17 @@
   "hero": {
     "title": "Clock Tower of Iquique",
     "descriptor": "Location, history and a walk around Plaza Prat",
-    "subtitle": "An 1877 urban landmark at the heart of Plaza Arturo Prat: the Clock Tower, a wooden symbol of Iquique's nitrate-boom glory.",
+    "subtitle": "A wooden landmark in Plaza Arturo Prat, connected with public life and Iquique’s nitrate heritage.",
     "rating": "4.5 (11,588)",
     "reviewCount": "11,588 reviews",
     "hours": "Plaza: free access",
     "openMaps": "View on Google Maps",
     "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
-    "tags": ["Free entry", "Iquique historic centre", "Heritage symbol"],
+    "tags": [
+      "Free entry",
+      "Iquique historic centre",
+      "Heritage symbol"
+    ],
     "routeCta": {
       "label": "Plan Your Route",
       "href": "#transport"
@@ -121,7 +125,7 @@
   },
   "intro": {
     "title": "Discover the Clock Tower",
-    "description": "The Iquique Clock Tower is one of the city's most recognisable images. Raised in 1877 at the height of the nitrate boom, when Iquique was among the richest saltpetre ports in the world, the tower stands in Plaza Arturo Prat, facing the Baquedano pedestrian promenade. It is not built of stone or brick: it was made with Oregon pine shipped in from the north, a precious timber on the desert coast. With its Moorish style and a clock that still keeps the hours, it is a living witness to the golden age of saltpetre and a must for anyone walking the historic centre of Iquique.",
+    "description": "The Clock Tower is a central Iquique landmark in Plaza Arturo Prat, beside the Baquedano street axis. Its Oregon-pine structure and arches offer a close look at an architecture different from stone monuments. Compare the public clock with surrounding facades and the everyday use of the square during an outdoor visit.",
     "visitGuide": {
       "title": "Visitor Guide",
       "eyebrow": "Practical Planning",
@@ -136,7 +140,7 @@
     "alsoKnownAs": {
       "title": "Highlights",
       "items": [
-        "1877 landmark built with imported Oregon pine",
+        "A wooden landmark in Plaza Arturo Prat, connected with public life and Iquique’s nitrate heritage.",
         "A symbol of Iquique's nitrate boom in Moorish style",
         "Public square with free access, free entry",
         "In the heart of the historic centre, beside the Municipal Theatre"
@@ -211,7 +215,7 @@
   },
   "officialManagement": {
     "title": "About the Tower",
-    "text": "The Clock Tower is a heritage landmark of Iquique's historic centre, tied to the nitrate boom of the 19th century. Built in 1877 with Oregon pine brought by sea, it is part of the historic ensemble surrounding Plaza Arturo Prat. Today it is a publicly accessible space of free entry, maintained within the framework of the city's identity and memory, together with the Municipality of Iquique and the regional agencies of Tarapacá."
+    "text": "The outdoor walk around Plaza Prat uses municipal public space within an ensemble protected by the Council of National Monuments. This does not guarantee admission inside the Clock Tower. Ask the municipality and the building’s responsible institution about permissions and visiting arrangements."
   },
   "knowledge": {
     "title": "History, Meaning & Legend of the Tower",
@@ -219,12 +223,12 @@
       {
         "id": "history",
         "title": "Origins (1877)",
-        "content": "The Clock Tower was built in 1877, during the nitrate fever, when Iquique was the main nitrate-export port of Chile and one of the wealthiest cities of the South Pacific. It was inaugurated in 1879 as a public clock and ornament of the civic promenade, and in 1884 it was installed in the centre of Plaza Arturo Prat (then Plaza Prat), where it stands today. In the desert, timber was scarce; that is why Oregon pine was imported on the ships that left loaded with saltpetre. Its Moorish style reflected the exotic, elegant taste of the nitrate elite."
+        "content": "Historical research documents a municipal decision in December 1877 to buy a clock and build a tower after the church clock was lost in the 1873 fire. The 1987 decree refers to an original installation in 1884 and a later relocation. These concern different stages and do not establish a single construction date or an uncontested inauguration in 1879."
       },
       {
         "id": "meaning",
         "title": "Why Here?",
-        "content": "In 1884 the tower was installed in the centre of Plaza Arturo Prat because the historic centre was the social and commercial heart of Iquique. From there, people set their day by the public clock and the plaza became the stage of city life: strolls, meetings and celebrations. Symbolically, the wooden tower is the perfect contrast between the Atacama desert and the cosmopolitan ambition of the saltpetre port."
+        "content": "The square lets you examine the tower in relation to public space and surrounding facades. The clock is a civic reference, and an outdoor visit can continue towards Baquedano. Read the chronology alongside its sources rather than automatically equating 1884 with the present central position."
       },
       {
         "id": "legend",
@@ -244,7 +248,7 @@
       {
         "id": "context",
         "title": "Nitrate Iquique: The Context of 1877",
-        "content": "In 1877 Iquique was far more than a port: it was one of the wealthiest cities on the South Pacific, thanks to nitrate. Saltpetre was mined inland and shipped from here, and that trade attracted merchants, technicians and immigrant families from Europe, Asia and the rest of the Americas. The city grew in timber, with promenades, theatres and social clubs. The main square concentrated that pride: banks, shops, public buildings and, at its centre, the tower that kept time for everyone. Understanding that context is understanding why a wooden tower from 1877 is still the symbol of the city."
+        "content": "The nitrate trade connected the port with inland production sites. The Plaza Prat and Baquedano ensemble preserves an urban dimension of that history: civic spaces, cultural buildings and timber architecture. The nitrate works and historic city centre are different visits."
       },
       {
         "id": "traditions",
@@ -265,10 +269,22 @@
     "timelineTitle": "Essential Timeline",
     "timelineSource": "Source: Consejo de Monumentos Nacionales de Chile — Torre-reloj de Iquique.",
     "timeline": [
-      { "year": "1877", "text": "The Clock Tower is built in Iquique during the nitrate boom, using Oregon pine brought in by sea." },
-      { "year": "1879", "text": "The tower is inaugurated as a public clock and ornament of the civic promenade." },
-      { "year": "1884", "text": "It is installed in the centre of Plaza Arturo Prat (then Plaza Prat), its current location." },
-      { "year": "1987", "text": "It is declared a Historic Monument of Chile by the Consejo de Monumentos Nacionales." }
+      {
+        "year": "1877",
+        "text": "Municipal decision to acquire a clock and build a tower, documented by historical research."
+      },
+      {
+        "year": "1879",
+        "text": "Traditionally associated with the start of operation; not presented here as an uncontested inauguration."
+      },
+      {
+        "year": "1884",
+        "text": "The 1987 decree refers to an original installation at one side of the square; relocation to the centre came later."
+      },
+      {
+        "year": "1987",
+        "text": "It is declared a Historic Monument of Chile by the Consejo de Monumentos Nacionales."
+      }
     ]
   },
   "weather": {
@@ -366,18 +382,78 @@
     "neutral": "Neutral directory: we only describe the types of service available in the area. We do not promote, recommend or list any specific business.",
     "note": "Distances are indicative and measured on foot from Plaza Arturo Prat. Availability and opening hours may vary by season.",
     "items": [
-      { "icon": "🚻", "title": "Restrooms and public conveniences", "detail": "The square has no restrooms of its own. In the city centre there are public toilets and hospitality venues offer facilities to their customers. Carrying tissue or hand gel is a good idea.", "distance": "City centre, a few metres" },
-      { "icon": "🅿️", "title": "Parking", "detail": "On-street parking with meters and paid car parks in the historic centre. Demand is high in summer and at weekends; arriving early or walking in is usually quicker.", "distance": "Streets around the square" },
-      { "icon": "🍽️", "title": "Restaurants and cafés", "detail": "A varied offer of local, seafood and fast-food options, plus cafés, bakeries and ice-cream shops. Choices exist for different budgets and diets.", "distance": "Pedestrian promenade and nearby streets" },
-      { "icon": "🛏️", "title": "Accommodation", "detail": "Accommodation in several categories: hotels, guesthouses, residential hostels and tourist apartments. There is also supply along the seafront and near Cavancha Beach.", "distance": "City centre and seafront" },
-      { "icon": "🛒", "title": "Supermarkets and everyday shops", "detail": "Supermarkets, convenience stores, pharmacies and neighbourhood shops for essentials. The duty-free commercial zone is a few minutes away by vehicle.", "distance": "Central streets" },
-      { "icon": "⛽", "title": "Fuel and EV charging", "detail": "Petrol stations with liquid fuel and electric-vehicle charging points across the city. It is wise to check availability and connector type on arrival.", "distance": "City outskirts, by vehicle" },
-      { "icon": "🏧", "title": "ATMs and banking", "detail": "ATMs and bank branches in the city centre, with reduced hours at weekends. Carrying some cash is useful for small shops.", "distance": "City centre" },
-      { "icon": "🏥", "title": "Health and pharmacies", "detail": "Primary-care centres, private clinics and pharmacies, with on-call emergency rotas. In an emergency, contact the country's public emergency services.", "distance": "Centre and surroundings" },
-      { "icon": "🚰", "title": "Drinking water and shade", "detail": "Tap water is drinkable. Public fountains and shaded areas are limited, so carrying a refillable bottle and protecting yourself from the sun is recommended.", "distance": "In and around the square" },
-      { "icon": "📶", "title": "Connectivity and mobile signal", "detail": "Mobile coverage across the city and wifi in hospitality venues. Outdoor signal and reception inside older buildings can be irregular.", "distance": "Throughout the area" },
-      { "icon": "♿", "title": "Accessibility", "detail": "The square is flat and paved, navigable with wheelchairs and strollers, with adapted crossings on the surrounding streets. The wooden promenade may have slight gaps between boards.", "distance": "Square and pedestrian promenade" },
-      { "icon": "🚌", "title": "Public transport and taxis", "detail": "Urban bus stops, taxis and ride-hailing services on the nearby avenues. The historic centre is compact and best explored on foot.", "distance": "Nearby avenues" }
+      {
+        "icon": "🚻",
+        "title": "Restrooms and public conveniences",
+        "detail": "The square has no restrooms of its own. In the city centre there are public toilets and hospitality venues offer facilities to their customers. Carrying tissue or hand gel is a good idea.",
+        "distance": "City centre, a few metres"
+      },
+      {
+        "icon": "🅿️",
+        "title": "Parking",
+        "detail": "On-street parking with meters and paid car parks in the historic centre. Demand is high in summer and at weekends; arriving early or walking in is usually quicker.",
+        "distance": "Streets around the square"
+      },
+      {
+        "icon": "🍽️",
+        "title": "Restaurants and cafés",
+        "detail": "A varied offer of local, seafood and fast-food options, plus cafés, bakeries and ice-cream shops. Choices exist for different budgets and diets.",
+        "distance": "Pedestrian promenade and nearby streets"
+      },
+      {
+        "icon": "🛏️",
+        "title": "Accommodation",
+        "detail": "Accommodation in several categories: hotels, guesthouses, residential hostels and tourist apartments. There is also supply along the seafront and near Cavancha Beach.",
+        "distance": "City centre and seafront"
+      },
+      {
+        "icon": "🛒",
+        "title": "Supermarkets and everyday shops",
+        "detail": "Supermarkets, convenience stores, pharmacies and neighbourhood shops for essentials. The duty-free commercial zone is a few minutes away by vehicle.",
+        "distance": "Central streets"
+      },
+      {
+        "icon": "⛽",
+        "title": "Fuel and EV charging",
+        "detail": "Petrol stations with liquid fuel and electric-vehicle charging points across the city. It is wise to check availability and connector type on arrival.",
+        "distance": "City outskirts, by vehicle"
+      },
+      {
+        "icon": "🏧",
+        "title": "ATMs and banking",
+        "detail": "ATMs and bank branches in the city centre, with reduced hours at weekends. Carrying some cash is useful for small shops.",
+        "distance": "City centre"
+      },
+      {
+        "icon": "🏥",
+        "title": "Health and pharmacies",
+        "detail": "Primary-care centres, private clinics and pharmacies, with on-call emergency rotas. In an emergency, contact the country's public emergency services.",
+        "distance": "Centre and surroundings"
+      },
+      {
+        "icon": "🚰",
+        "title": "Drinking water and shade",
+        "detail": "Tap water is drinkable. Public fountains and shaded areas are limited, so carrying a refillable bottle and protecting yourself from the sun is recommended.",
+        "distance": "In and around the square"
+      },
+      {
+        "icon": "📶",
+        "title": "Connectivity and mobile signal",
+        "detail": "Mobile coverage across the city and wifi in hospitality venues. Outdoor signal and reception inside older buildings can be irregular.",
+        "distance": "Throughout the area"
+      },
+      {
+        "icon": "♿",
+        "title": "Accessibility",
+        "detail": "The square is flat and paved, navigable with wheelchairs and strollers, with adapted crossings on the surrounding streets. The wooden promenade may have slight gaps between boards.",
+        "distance": "Square and pedestrian promenade"
+      },
+      {
+        "icon": "🚌",
+        "title": "Public transport and taxis",
+        "detail": "Urban bus stops, taxis and ride-hailing services on the nearby avenues. The historic centre is compact and best explored on foot.",
+        "distance": "Nearby avenues"
+      }
     ],
     "practicalTitle": "Practical Notes Before You Set Off",
     "practical": [
@@ -444,10 +520,22 @@
     "mapsLabel": "Google Maps →",
     "mapsUrl": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A",
     "officialLinksList": [
-      { "name": "Municipality of Iquique", "url": "http://www.municipioiquique.cl/" },
-      { "name": "SERNATUR Chile Travel", "url": "https://www.chile.travel" },
-      { "name": "Regional Government of Tarapacá", "url": "https://www.goretarapaca.cl" },
-      { "name": "Undersecretary of Tourism of Chile", "url": "https://www.subturismo.gob.cl" }
+      {
+        "name": "Municipality of Iquique",
+        "url": "http://www.municipioiquique.cl/"
+      },
+      {
+        "name": "SERNATUR Chile Travel",
+        "url": "https://www.chile.travel"
+      },
+      {
+        "name": "Regional Government of Tarapacá",
+        "url": "https://www.goretarapaca.cl"
+      },
+      {
+        "name": "Undersecretary of Tourism of Chile",
+        "url": "https://www.subturismo.gob.cl"
+      }
     ],
     "disclaimer": "This is an independent, non-profit visitor information project. We are not affiliated with any government body or official institution.",
     "napTitle": "Official name & address",
@@ -525,16 +613,56 @@
     "amenities": {
       "title": "Facilities nearby",
       "items": [
-        { "icon": "🚻", "label": "Restrooms", "value": "Public and hospitality toilets in the city centre" },
-        { "icon": "🅿️", "label": "Parking", "value": "Metered streets and paid car parks downtown" },
-        { "icon": "🍽️", "label": "Food & drink", "value": "Restaurants, cafés and fast food on nearby streets" },
-        { "icon": "🛏️", "label": "Accommodation", "value": "Hotels, guesthouses and hostels in the centre and along the seafront" },
-        { "icon": "🛒", "label": "Shops & supermarkets", "value": "Supermarkets, convenience stores and local pharmacies" },
-        { "icon": "⛽", "label": "Fuel / EV", "value": "Fuel stations and EV charging points across the city" },
-        { "icon": "🏧", "label": "ATMs & banking", "value": "Cash machines and bank branches in the city centre" },
-        { "icon": "🏥", "label": "Health & pharmacies", "value": "Health centres and pharmacies with emergency rotas" },
-        { "icon": "♿", "label": "Accessibility", "value": "Level square and step-free promenade" },
-        { "icon": "📶", "label": "Connectivity", "value": "Mobile coverage and wifi in venues" }
+        {
+          "icon": "🚻",
+          "label": "Restrooms",
+          "value": "Public and hospitality toilets in the city centre"
+        },
+        {
+          "icon": "🅿️",
+          "label": "Parking",
+          "value": "Metered streets and paid car parks downtown"
+        },
+        {
+          "icon": "🍽️",
+          "label": "Food & drink",
+          "value": "Restaurants, cafés and fast food on nearby streets"
+        },
+        {
+          "icon": "🛏️",
+          "label": "Accommodation",
+          "value": "Hotels, guesthouses and hostels in the centre and along the seafront"
+        },
+        {
+          "icon": "🛒",
+          "label": "Shops & supermarkets",
+          "value": "Supermarkets, convenience stores and local pharmacies"
+        },
+        {
+          "icon": "⛽",
+          "label": "Fuel / EV",
+          "value": "Fuel stations and EV charging points across the city"
+        },
+        {
+          "icon": "🏧",
+          "label": "ATMs & banking",
+          "value": "Cash machines and bank branches in the city centre"
+        },
+        {
+          "icon": "🏥",
+          "label": "Health & pharmacies",
+          "value": "Health centres and pharmacies with emergency rotas"
+        },
+        {
+          "icon": "♿",
+          "label": "Accessibility",
+          "value": "Level square and step-free promenade"
+        },
+        {
+          "icon": "📶",
+          "label": "Connectivity",
+          "value": "Mobile coverage and wifi in venues"
+        }
       ]
     },
     "categories": [
@@ -562,7 +690,7 @@
         "items": [
           {
             "q": "What is the tower made of and why is it special?",
-            "a": "It is built with Oregon pine shipped by sea during the nitrate boom. Timber was scarce in the desert and was a precious material, which is why the 1877 tower is wooden rather than stone. Its Moorish style and clock make it unique in the plaza."
+            "a": "The tower is built with Oregon pine. Look at its arches and the arrangement of its volumes from the square; public access to the surroundings does not establish interior access."
           },
           {
             "q": "Why was it built in the middle of the plaza?",
@@ -605,44 +733,102 @@
     "attractionsTitle": "Nearby Attractions",
     "toursTitle": "Recommended Tours & Activities",
     "attractions": [
-      { "name": "Baquedano Promenade", "url": "http://www.municipioiquique.cl/" },
-      { "name": "Iquique Municipal Theatre", "url": "https://www.chile.travel" },
-      { "name": "Plaza Arturo Prat", "url": "http://www.municipioiquique.cl/" },
-      { "name": "Playa Cavancha", "url": "https://www.chile.travel" },
-      { "name": "Iquique Free Zone (Zofri)", "url": "https://www.goretarapaca.cl" }
+      {
+        "name": "Baquedano Promenade",
+        "url": "http://www.municipioiquique.cl/"
+      },
+      {
+        "name": "Iquique Municipal Theatre",
+        "url": "https://www.chile.travel"
+      },
+      {
+        "name": "Plaza Arturo Prat",
+        "url": "http://www.municipioiquique.cl/"
+      },
+      {
+        "name": "Playa Cavancha",
+        "url": "https://www.chile.travel"
+      },
+      {
+        "name": "Iquique Free Zone (Zofri)",
+        "url": "https://www.goretarapaca.cl"
+      }
     ],
     "tours": [
-      { "name": "Historic-centre heritage tour", "url": "https://www.chile.travel" },
-      { "name": "Seafront walk to Playa Cavancha", "url": "http://www.municipioiquique.cl/" },
-      { "name": "Visit to the Free Zone (Zofri)", "url": "https://www.goretarapaca.cl" }
+      {
+        "name": "Historic-centre heritage tour",
+        "url": "https://www.chile.travel"
+      },
+      {
+        "name": "Seafront walk to Playa Cavancha",
+        "url": "http://www.municipioiquique.cl/"
+      },
+      {
+        "name": "Visit to the Free Zone (Zofri)",
+        "url": "https://www.goretarapaca.cl"
+      }
     ]
   },
   "entity": {
-    "breadcrumb": ["Torre del Reloj", "Iquique", "Tarapacá", "Chile"],
+    "breadcrumb": [
+      "Torre del Reloj",
+      "Iquique",
+      "Tarapacá",
+      "Chile"
+    ],
     "schemaDescription": "Comprehensive visitor guide to Torre del Reloj in Iquique, Tarapacá, Chile.",
     "welcome": "Welcome to Torre del Reloj, widely recognized as the central Iquique Clock Tower. Located in the heart of Iquique, Tarapacá, Chile, this destination serves as a primary hub for travelers visiting the region.",
     "nearby": "When visiting Torre del Reloj, visitors can easily explore surrounding historical landmarks and points of interest, including Paseo Baquedano and Teatro Municipal de Iquique.",
     "aboutTitle": "About Torre del Reloj",
-    "aboutText": "Torre del Reloj is Iquique's most recognisable wooden landmark and the symbolic centre of Plaza Arturo Prat. Built in 1877 with Oregon pine shipped in by sea, its clock still sets the rhythm of the historic centre between the Atacama desert and the old nitrate port.",
+    "aboutText": "The Clock Tower is a wooden monument in Plaza Arturo Prat, within Iquique’s historic ensemble. Its interest combines architecture, a public clock and its relationship with civic space.",
     "locationTitle": "Location & How to Visit Iquique Clock Tower in Iquique",
     "locationText": "Torre del Reloj stands in the centre of Plaza Arturo Prat in Iquique's historic centre, Tarapacá, Chile. Paseo Baquedano begins beside the square, making the tower easy to find on foot. Use the dedicated Google Maps link for the exact location. Access to the public square is free, but this does not mean visitors can enter the tower itself.",
     "landmarksTitle": "Landmarks & Attractions Around Iquique Clock Tower",
     "landmarksText": "Around Torre del Reloj visitors find the Baquedano Promenade, the Iquique Municipal Theatre and the Oregon-pine mansions of the nitrate era. A few minutes away are Playa Cavancha and the Free Zone (Zofri).",
     "historyTitle": "History & Significance of Torre del Reloj",
-    "historyText": "The Clock Tower was built in 1877 and inaugurated in 1879 during Iquique's nitrate-era expansion. Its clock was imported from London in 1878; the landmark received Historic Monument status in 1987. Chile's heritage records describe a roughly 25-metre Oregon-pine structure decorated with pointed arches and Mudéjar-style details. Originally placed at one side of the square, it was later moved to the centre."
+    "historyText": "Historical research documents a municipal decision in December 1877 to buy a clock and build a tower after the church clock was lost in the 1873 fire. The 1987 decree refers to an original installation in 1884 and a later relocation. These concern different stages and do not establish a single construction date or an uncontested inauguration in 1879."
   },
   "sources": {
     "title": "Sources & Official References",
     "intro": "This independent project gathers information cross-checked against official and reference public sources. Follow the links for up-to-date details.",
     "officialPortal": "Chile / Tarapacá Official Tourism Portal",
     "items": [
-      { "name": "Municipality of Iquique", "url": "http://www.municipioiquique.cl/" },
-      { "name": "SERNATUR – Chile Travel (official tourism)", "url": "https://www.chile.travel" },
-      { "name": "Regional Government of Tarapacá", "url": "https://www.goretarapaca.cl" },
-      { "name": "Undersecretary of Tourism of Chile", "url": "https://www.subturismo.gob.cl" },
-      { "name": "Council of National Monuments of Chile", "url": "https://www.monumentos.gob.cl/sites/default/files/decretos/decreto_9_del_23-02-2024.pdf" },
-      { "name": "Google Maps – Clock Tower, Iquique", "url": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A" },
-      { "name": "Open-Meteo – open weather data", "url": "https://open-meteo.com/" }
+      {
+        "name": "Municipality of Iquique",
+        "url": "http://www.municipioiquique.cl/"
+      },
+      {
+        "name": "SERNATUR – Chile Travel (official tourism)",
+        "url": "https://www.chile.travel"
+      },
+      {
+        "name": "Regional Government of Tarapacá",
+        "url": "https://www.goretarapaca.cl"
+      },
+      {
+        "name": "Undersecretary of Tourism of Chile",
+        "url": "https://www.subturismo.gob.cl"
+      },
+      {
+        "name": "Council of National Monuments of Chile",
+        "url": "https://www.monumentos.gob.cl/sites/default/files/decretos/decreto_9_del_23-02-2024.pdf"
+      },
+      {
+        "name": "Google Maps – Clock Tower, Iquique",
+        "url": "https://maps.app.goo.gl/sVrMdFfi1sb1wGQ3A"
+      },
+      {
+        "name": "Open-Meteo – open weather data",
+        "url": "https://open-meteo.com/"
+      },
+      {
+        "name": "Historia — Iquique bajo administración peruana",
+        "url": "https://www.scielo.cl/scielo.php?pid=S0717-71942003003600005&script=sci_arttext"
+      },
+      {
+        "name": "Decreto 433 (1987)",
+        "url": "https://www.bcn.cl/leychile/navegar?idNorma=172342"
+      }
     ]
   }
 }
