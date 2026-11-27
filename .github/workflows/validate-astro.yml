@@ -1,0 +1,33 @@
+name: Validate Astro site
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Install locked dependencies
+        run: npm ci
+      - name: Build static pages
+        run: npm run build
+      - name: Check canonical sitemap and legal exclusions
+        run: |
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          root=ET.parse('dist/sitemap.xml').getroot()
+          urls=[v.text for v in root.findall('{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
+          assert len(urls)==4,urls
+          assert all(x.endswith('/') for x in urls),urls
+          assert all(not any(t in x for t in ('privacy-policy','terms-of-service','cookie-settings')) for x in urls)
+          print('Canonical sitemap URLs:',urls)
+          PY
+          test -f dist/_redirects
+          test -f dist/es/index.html
+          test -f dist/en/index.html
