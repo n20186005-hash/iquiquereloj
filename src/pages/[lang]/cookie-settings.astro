@@ -8,7 +8,7 @@ export function getStaticPaths() {
 
 const { messages } = getI18n(Astro.url);
 const c = messages.cookieSettings;
-const homeHref = `/${getI18n(Astro.url).lang}`;
+const homeHref = `/${getI18n(Astro.url).lang}/`;
 
 const toggles = [
   { id: 'essential', title: c.essential.title, desc: c.essential.description, badge: c.essential.badge, locked: true },
